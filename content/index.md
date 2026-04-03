@@ -1,0 +1,12 @@
+---
+title: Home
+---
+
+Hi there, I'm Kienan, a Penultimate Computing student at NUS. 
+Welcome to my [[Digital Garden]] - a collection of my notes, thoughts, and logs.
+
+## Sections
+
+- [[School]] — Course notes and materials
+- [[Work]] — Concepts and learning resources
+- [[Personal]] — Books, music, movies, and personal projects
