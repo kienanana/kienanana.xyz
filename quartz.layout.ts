@@ -42,7 +42,10 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.RecentNotes({ limit: 5, showTags: true }),
+    Component.ConditionalRender({
+      component: Component.RecentNotes({ limit: 5, showTags: true }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
     Component.Backlinks(),
   ],
 }
@@ -64,7 +67,5 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer(),
   ],
-  right: [
-    Component.RecentNotes({ limit: 5, showTags: true }),
-  ],
+  right: [],
 }

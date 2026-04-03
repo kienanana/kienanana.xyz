@@ -12,7 +12,7 @@ p, li {
 // ── Blockquote Accent ─────────────────────────────────────────────────────
 
 blockquote {
-  background-color: rgba(40, 75, 99, 0.04);
+  background-color: rgba(194, 81, 132, 0.04);
   border-radius: 0 4px 4px 0;
   padding: 0.1rem 1rem;
 }
@@ -23,7 +23,7 @@ blockquote {
   font-size: 0.78rem;
   padding: 0.1rem 0.4rem;
   border-radius: 3px;
-  background-color: rgba(40, 75, 99, 0.08);
+  background-color: rgba(194, 81, 132, 0.08);
   color: var(--secondary) !important;
   font-weight: 400;
 }
@@ -46,13 +46,28 @@ pre > code {
   font-size: 0.82rem;
 }
 
+// ── Headphones ASCII Art ──────────────────────────────────────────────────
+
+pre.headphones {
+  color: var(--secondary);
+  text-align: center;
+  font-size: clamp(0.3rem, 0.55vw, 0.55rem);
+  line-height: 1.1;
+  overflow-x: auto;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-bottom: 2rem;
+  font-family: var(--codeFont);
+}
+
 // ── Dark Mode ─────────────────────────────────────────────────────────────
 
 :root[saved-theme="dark"] {
   blockquote {
-    background-color: rgba(123, 151, 170, 0.06);
+    background-color: rgba(194, 81, 132, 0.06);
   }
   .tag-link {
-    background-color: rgba(123, 151, 170, 0.1);
+    background-color: rgba(194, 81, 132, 0.1);
   }
 }
