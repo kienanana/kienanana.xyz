@@ -1,7 +1,7 @@
 ---
 class: note
 tags:
-  - french/listening
+  - french/writing
 source:
 related:
 author:

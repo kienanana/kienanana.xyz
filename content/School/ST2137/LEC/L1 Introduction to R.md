@@ -28,4 +28,5 @@ eg. crab.txt has 174 lines, expect 173 rows (minus header), verify with nrow(dat
 - distance Q3 to max
 	- if unequal: skewed outside the middle 
 :LiLightbulb: if mean smaller than median -> skewed left
-
+---
+See also: [[R Glossary]] · [[Data Manipulation Guide]]

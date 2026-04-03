@@ -3,6 +3,8 @@ class:
 tags:
   - python
   - pandas
+  - python
+  - pandas
 source:
 related:
 author:
@@ -64,4 +66,5 @@ df.iloc[::-1]
 
 - `pd.to_datetime(df['date'])`
 - 
-
+---
+Full reference: [[Pandas Glossary]]

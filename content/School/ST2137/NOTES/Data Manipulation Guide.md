@@ -12,6 +12,7 @@ date: 2026-03-11
 updated: 2026-03-11 11:01:11
 aliases:
 ---
+> See also: [[Pandas Glossary]] · [[R Glossary]] · [[Numpy Glossary]]
 ## Python: Pandas + NumPy
 
 Pandas handles tabular data (DataFrames/Series). NumPy handles numerical arrays. They work together — pandas is built on top of NumPy.

@@ -39,3 +39,5 @@ df_liverpool_2223["pts"] = np.where(df_liverpool_2223.result == 'W', 3,
 - np`.quantile(a, q)`
 	- a: array, q: quantile
 	- useful for getting **IQR** 
+---
+Full reference: [[Numpy Glossary]]

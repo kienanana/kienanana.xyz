@@ -3,6 +3,7 @@ class: note
 tags:
   - numpy
   - pandas
+  - python
 source:
 related:
 author:
@@ -10,6 +11,7 @@ date: 2026-03-11
 updated: 2026-03-11 03:22:03
 aliases:
 ---
+> Quick reference: [[Pandas]]
 ## QUICK REFERENCE CARD
 
 ### Most Used Functions

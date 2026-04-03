@@ -1,6 +1,7 @@
 ---
 class:
 tags:
+  - french
 source:
 related:
 author:
@@ -48,6 +49,7 @@ aliases:
 - **froid:** cold
 - **content(e):** happy
 - **malade:** sick
+> See also: [[Vocab Bank]]
 
 ![[Screenshot 2026-03-05 at 8.52.47 PM.png]]
 

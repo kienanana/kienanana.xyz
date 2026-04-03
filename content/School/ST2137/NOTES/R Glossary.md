@@ -9,6 +9,7 @@ date: 2026-03-11
 updated: 2026-03-11 03:29:20
 aliases:
 ---
+> Quick reference: [[R]]
 ## QUICK REFERENCE CARD
 
 ### Most Used Functions (Memorize!)

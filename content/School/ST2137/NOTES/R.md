@@ -19,3 +19,5 @@ aliases:
 		- x: var you want to summarise
 		- y: grouping var 
 	- `summary` gives Min, Q1, Median, Mean, 3Q, Max
+---
+Full reference: [[R Glossary]]

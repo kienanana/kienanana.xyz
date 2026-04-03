@@ -1,6 +1,7 @@
 ---
 class:
 tags:
+  - french
 source:
 related:
 author:
@@ -10,7 +11,7 @@ aliases:
 ---
 [TUT 2](https://www.notion.so/TUT-2-2ff527e4369b80d29cb9e55df2dab9b8?pvs=21)
 
-| **ER** | **s’excuser**            |
+| **[[ER Verbs\|ER]]** | **s’excuser**            |
 | ------ | ------------------------ |
 | -e     | je m’excuse, il s’excuse |
 | -es    | tu t’excuses             |
@@ -18,6 +19,7 @@ aliases:
 | -ons   | nous nous excusons       |
 | -ez    | vous vous excusez        |
 | -ent   | ils s’excusent           |
+> See also: [[Reflexive Pronouns]]
 
 La polynésie francaise
 
@@ -43,7 +45,7 @@ c’est → ce sont
 
 ![Screenshot 2026-02-06 at 2.51.58 PM.png](Screenshot_2026-02-06_at_2.51.58_PM.png)
 
-months:
+months: (see [[Time]])
 
 - janvier
 - février

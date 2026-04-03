@@ -4,7 +4,8 @@ tags:
   - R
   - numpy
   - pandas
-class:
+  - statistics
+class: note
 source:
 related:
 author:

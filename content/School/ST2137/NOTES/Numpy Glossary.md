@@ -10,6 +10,7 @@ date: 2026-03-11
 updated: 2026-03-11 03:25:32
 aliases:
 ---
+> Quick reference: [[Numpy]]
 ## QUICK REFERENCE CARD
 
 ### Most Used Functions

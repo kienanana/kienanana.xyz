@@ -6,7 +6,7 @@ tags:
   - pandas
   - matplotlib
   - scipy
-class:
+class: note
 source:
 related:
 author:
@@ -313,7 +313,5 @@ note: after log transform, should RECOMPUTE Q1, Q3, IQR, boundaries
 	3. estimate density on extended data 
 	4. **discard** reflected portion
 	5. results in density that levels off nicely at boundary 
-
-
-
-
+---
+See also: [[Numpy Glossary]] · [[Pandas Glossary]] · [[Matplotlib Glossary]]

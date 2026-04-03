@@ -7,7 +7,7 @@ tags:
   - matplotlib
   - scipy
   - DescTools
-class:
+class: note
 source:
 related:
 author:
@@ -512,3 +512,5 @@ Fisher's      PLUS ↓
 | 2 nominal (small n) | Fisher's Exact         | Odds Ratio             |
 | 2 ordinal variables | Chi-square + Gamma/Tau | γ or τ_b               |
 | Compare 2 groups    | Fisher's or Chi-square | Relative Risk or OR    |
+---
+See also: [[Chi-Square & Fisher]] · [[Odds Ratio & Relative Risk]] · [[Pandas Glossary]] · [[Numpy Glossary]]

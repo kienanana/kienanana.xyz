@@ -1,6 +1,7 @@
 ---
 class: note
 tags:
+  - french
 source:
 related:
 author:

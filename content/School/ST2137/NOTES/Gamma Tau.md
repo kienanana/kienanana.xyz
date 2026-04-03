@@ -1,6 +1,9 @@
 ---
-class:
+class: note
 tags:
+  - R
+  - python
+  - statistics
 source:
 related:
 author:

@@ -1,6 +1,7 @@
 ---
 class:
 tags:
+  - french
 source:
 related:
 author:
@@ -15,7 +16,7 @@ misc:
 - il n’y a pas d’etudiants
 - 
 
-AIMER:
+AIMER: ([[ER Verbs|ER verb]])
 
 - j’aime
 - tu aimes
@@ -28,6 +29,7 @@ des sports:
 
 - quels sports aimez-vous? / aimes-tu?
 - j’aime le basket-ball **mais (but)** je n’aime pas la danse
+> See also: [[Vocab Bank]]
 
 DÉTESTER:
 
@@ -46,7 +48,7 @@ verbs:
     - je n’aime pas lire des BD
 - aller
 
-FAIRE: (do)
+FAIRE: (do) — used with [[Infinitives|infinitive]]
 
 - du
 - de la
