@@ -1,3 +1,58 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// ── Reading Experience ─────────────────────────────────────────────────────
+
+// Slightly looser line-height for Source Sans Pro
+p, li {
+  line-height: 1.75rem;
+}
+
+// ── Blockquote Accent ─────────────────────────────────────────────────────
+
+blockquote {
+  background-color: rgba(40, 75, 99, 0.04);
+  border-radius: 0 4px 4px 0;
+  padding: 0.1rem 1rem;
+}
+
+// ── Tag Chip Polish ───────────────────────────────────────────────────────
+
+.tag-link {
+  font-size: 0.78rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  background-color: rgba(40, 75, 99, 0.08);
+  color: var(--secondary) !important;
+  font-weight: 400;
+}
+
+// ── Explorer: active file accent ──────────────────────────────────────────
+
+.explorer-content ul li > a.active {
+  font-weight: 600;
+}
+
+.explorer-content ul li:has(> a.active) {
+  border-left: 2px solid var(--secondary);
+  padding-left: 0.4rem;
+  margin-left: -0.4rem;
+}
+
+// ── Code size tweak ───────────────────────────────────────────────────────
+
+pre > code {
+  font-size: 0.82rem;
+}
+
+// ── Dark Mode ─────────────────────────────────────────────────────────────
+
+:root[saved-theme="dark"] {
+  blockquote {
+    background-color: rgba(123, 151, 170, 0.06);
+  }
+  .tag-link {
+    background-color: rgba(123, 151, 170, 0.1);
+  }
+}
