@@ -210,7 +210,6 @@ sm.qqplot(heifer_lm.resid, line="q", ax=tmp);
 For SAS, we have to create a new column containing the residuals in a temporary dataset before creating these plots. 
 
 ## Comparing Specific Groups 
-[[About Myself|Kienan]]
 
 
 
