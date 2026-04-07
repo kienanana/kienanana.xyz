@@ -48,7 +48,7 @@ aliases:
 - 🟢 Fcukers - Ö
 - 🟢 By Storm - My Ghosts Go Ghost
 - 🟢 Slayyyter - WOR$T GIRL IN AMERICA
-- 🔴 Kanye West - Bully
+- 🔴 [[Kanye West - Bully (2026)]]
 - ⭐ [[Sufjan Stevens - Illinois (2005)]] 
 
 ### Relistens:
