@@ -12,13 +12,13 @@ kanban-plugin: board
 	- configure n8n 
 	- test
 - [ ] update adjutant docs
-- [ ] CLI Tool for Adjutant Testing
 - [ ] pgvector implementation
 	- claude code
 	- feature/pgvector branch
 - [ ] neo4j graphrag implementation
 	- after pgvector done
 - [ ] accoms website tracker for lizzo!
+- [ ] LAF1201 Oral
 
 
 ## In Progress
@@ -32,6 +32,7 @@ kanban-plugin: board
 	- hypothesis testing in R
 	- intermediate python
 - [ ] consolidate logs + finish langfuse dashboards for claritwo
+- [ ] CLI Tool for Adjutant Testing
 
 
 ## Done

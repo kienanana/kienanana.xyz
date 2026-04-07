@@ -9,6 +9,7 @@ author:
 date: 2026-03-08
 updated: 2026-03-08 22:01:27
 aliases:
+  - nvim
 ---
 Neovim is my terminal text editor. it's a fork of Vim with better plugin support, built-in LSP and Lua configuration. 
 
@@ -93,7 +94,13 @@ Taking CS2030 in my second semester of uni irreversibly changed my life and made
 - `<leader>sf` - Toggle scratch
 - `<leader>S` - Select scratch
 
-
+### Built-in Search & Jumps
+- **Search for a Specific Word:** Press `/` followed by the word and then `Enter`.
+    - Use `n` to jump to the next occurrence and `N` for the previous one.
+- **Jump to Word Under Cursor:** Place your cursor on a word and press `*` to search forward or `#` to search backward for the same word.
+- **Line-based Character Search:** Use `f` followed by a character (e.g., `ft`) to jump forward to the next instance of that character on the current line.
+    - Use `;` to repeat the jump forward and `,` to repeat it backward.
+    - Use `F` to jump backward on the line.
 
 
 

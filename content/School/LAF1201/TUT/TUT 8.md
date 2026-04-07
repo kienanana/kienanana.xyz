@@ -91,7 +91,7 @@ Q: Qu'est-ce que vous prenez pour votre petit-déjeuner
 A: Pour mon petit-déjeuner, je mange une pomme et de la banane.
 
 
-# Articles partitifs (du / de la / de l’)
+# [[Articles Partitifs]] (du / de la / de l’)
 Used for **uncountable things** (especially food, drink, etc.).
 ## Rules
 
@@ -130,7 +130,7 @@ b. 40% des Français ne grignotent jamais. 30% grignotent rarement. 15% grignote
 ![[Screenshot 2026-03-27 at 1.12.18 PM.png | 500]]
 🔑 Adverb after the verb 
 
-- See [[Vocab Bank#Frequency]]
+- See [[Vocab Bank#Frequency]] & [[Adverbes de fréquence]]
 	- toujours — always  
 	- habituellement — usually  
 	- souvent — often  

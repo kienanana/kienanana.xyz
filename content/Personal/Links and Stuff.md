@@ -20,3 +20,4 @@ so i don't forget
 | NBA Stat Bot Demo | https://youtu.be/ZJ63gAo-OoQ                                                                                         |
 | LinkedIn          | https://www.linkedin.com/in/kienan-yong                                                                              |
 | Github            | https://github.com/kienanana                                                                                         |
+| My Email          | kienan.yong@u.nus.edu                                                                                                |

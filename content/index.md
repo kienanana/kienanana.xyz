@@ -61,7 +61,7 @@ title: Home
                                                                                                     
 </pre>
 
-Hi there, I'm Kienan, a Penultimate Computing student at NUS. 
+Hi there, I'm [[About Myself|Kienan]], a Penultimate Computing student at NUS. 
 Welcome to my [[Digital Garden]] - a collection of my notes, thoughts, and logs.
 
 ## Sections
