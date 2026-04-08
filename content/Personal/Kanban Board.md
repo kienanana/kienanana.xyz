@@ -11,10 +11,6 @@ kanban-plugin: board
 	- rewrite skill in repo
 	- configure n8n 
 	- test
-- [ ] update adjutant docs
-- [ ] pgvector implementation
-	- claude code
-	- feature/pgvector branch
 - [ ] neo4j graphrag implementation
 	- after pgvector done
 - [ ] accoms website tracker for lizzo!
@@ -33,6 +29,10 @@ kanban-plugin: board
 	- intermediate python
 - [ ] consolidate logs + finish langfuse dashboards for claritwo
 - [ ] CLI Tool for Adjutant Testing
+- [ ] pgvector implementation
+	- claude code
+	- feature/pgvector branch
+- [ ] update adjutant docs
 
 
 ## Done
