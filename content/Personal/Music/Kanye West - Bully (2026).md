@@ -3,6 +3,7 @@ class: media
 tags:
   - hobbies/music
   - hip-hop
+  - album
 source:
 related:
 author:

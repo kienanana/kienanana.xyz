@@ -50,6 +50,9 @@ aliases:
 - 🟢 Slayyyter - WOR$T GIRL IN AMERICA
 - 🔴 [[Kanye West - Bully (2026)]]
 - ⭐ [[Sufjan Stevens - Illinois (2005)]] 
+- 🟢 slayr - Half Blood (BloodLuxe) 
+- 🟢 [[Grace Ives - Girlfriend (2026)]]
+- 🔵 Snail Mail - Ricochet 
 
 ### Relistens:
 - Lil Ugly Mane - volcanic bird enemy and the voiced concern
@@ -81,6 +84,7 @@ aliases:
 - Dijon - Baby 
 - Madeon - Good Faith
 - Kelly Lee Owens - Inner Song 
+- Snail Mail - Lush
 
 ### Singles:
 - Lucy Bedroque - 2010 Justin Bieber
@@ -103,9 +107,9 @@ aliases:
 - [x] Kiss Facility - KHAZNA
 - [ ] Wraith9
 - [x] Dylan Brady - Needle Guy EP 
-- [ ] slayr - Half Blood
-- [ ] Snail Mail - Ricochet
-- [ ] Grace Ives - Girlfriend
+- [x] slayr - Half Blood
+- [x] Snail Mail - Ricochet
+- [x] Grace Ives - Girlfriend
 - [ ] Petalbyte - <10><
 
 

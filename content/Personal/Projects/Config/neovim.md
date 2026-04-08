@@ -17,6 +17,8 @@ Taking CS2030 in my second semester of uni irreversibly changed my life and made
 
 ![[Screenshot 2026-03-08 at 10.21.22 PM.png]]
 
+edit (07/04/26): might try out new ascii art! 
+![[Screenshot 2026-04-07 at 10.42.21 PM.png]]
 ## Config Structure
 
 ```
