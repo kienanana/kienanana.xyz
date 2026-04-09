@@ -15,6 +15,7 @@ kanban-plugin: board
 	- after pgvector done
 - [ ] accoms website tracker for lizzo!
 - [ ] LAF1201 Oral
+- [ ] ST2137 Assignment 2
 
 
 ## In Progress
