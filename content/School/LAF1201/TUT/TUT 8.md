@@ -27,6 +27,7 @@ aliases:
 - un petit-déjeuner: breakfast
 	- no verb, use prendre with it 
 - un repas: a meal 
+- goûter: to taste, to have an afternoon snack (tea time)
 - semaine: week
 - mois: month 
 	- par semaine / mois: per week / month

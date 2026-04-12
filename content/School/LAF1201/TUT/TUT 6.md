@@ -55,6 +55,7 @@ b. Le restaurant La Petite Table est délicieux
 c. Le Louis'Burger est un restaurant de fast-food, L'Assiette du Marché est un restaurant gastronomique.
 
 ## [[Basic Prepositions]]
+Also see [[Les Directions|Directions]]
 
 ![[Screenshot 2026-03-13 at 1.13.58 PM.png]]
 

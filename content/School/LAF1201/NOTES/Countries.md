@@ -25,6 +25,7 @@ aliases:
 - **la Guinée** → guinéen / guinéenne
 - **le Mali** → malien / malienne
 - **l’Algérie** → algérien / algérienne
+- **la Malaisie** → malaisien / malaisienne
 - **le Vietnam** → vietnamien / vietnamienne
 - **la Norvège** → norvégien / norvégienne
 - **Singapour** → singapourien / singapourienne

@@ -16,6 +16,7 @@ kanban-plugin: board
 - [ ] accoms website tracker for lizzo!
 - [ ] LAF1201 Oral
 - [ ] ST2137 Assignment 2
+- [ ] LAF1201 REVISION
 
 
 ## In Progress
