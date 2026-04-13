@@ -396,7 +396,7 @@ Example:
 
 
 
-## Boire (To Drink)
+# Boire (To Drink)
 ⚠️ Irregular **-RE verb**
 ## Conjugation
 
@@ -423,42 +423,6 @@ Example sentences:
 - Je bois de l’eau.
 - Nous buvons du café.
 - Ils boivent du jus.
-
-
-
-# PRENDRE (to take)
-⚠️ Irregular **-RE verb**
-## Conjugation
-
-| Pronoun     | PRENDRE  |
-| ----------- | -------- |
-| je          | prends   |
-| tu          | prends   |
-| il / elle   | prend    |
-| nous        | prenons  |
-| vous        | prenez   |
-| ils / elles | prennent |
-⚠️ Stem changes:
-- **prend-** → je, tu, il / elle
-- **pren-** → nous, vous
-- **prenn-** → ils / elles
-
-## Uses of PRENDRE
-#### 1. Taking Something
-- Je prends un café.
-- Elle prend un livre.
-#### 2. Taking Transportation
-- Nous prenons le métro.
-- Ils prennent le bus.
-#### 3. Taking Food or Drink
-- Je prends un sandwich.
-- Elle prend du thé.
-
-Example sentences:
-- Je prends un café.
-- Nous prenons le métro.
-- Ils prennent un taxi.
-
 
 
 # POUVOIR (to be able to / can)
@@ -494,3 +458,36 @@ Example sentences:
 - Nous pouvons aller au café.
 - Ils peuvent prendre le métro.
 
+
+# DEVOIR (to have to / must)
+⚠️ Irregular [[IR Verbs|IR]] verb
+## Conjugation
+
+| Pronoun     | DEVOIR  |
+| ----------- | ------- |
+| je          | dois    |
+| tu          | dois    |
+| il / elle   | doit    |
+| nous        | devons  |
+| vous        | devez   |
+| ils / elles | doivent |
+⚠️ Stem changes:
+- **doi-** → je, tu
+- **doi- / doit** → il / elle
+- **dev-** → nous, vous
+- **doiv-** → ils / elles
+## Uses of DEVOIR
+#### 1. Obligation (must / have to)
+- Je dois étudier.
+- Elle doit travailler.
+#### 2. Advice / recommendation
+- Tu dois manger plus.
+- Vous devez partir tôt.
+#### 3. Probability (should / must be)
+- Il doit être chez lui.
+- Elle doit avoir faim.
+
+Example sentences:
+- Je dois finir mes devoirs.
+- Nous devons aller à l’université.
+- Ils doivent prendre le bus.
