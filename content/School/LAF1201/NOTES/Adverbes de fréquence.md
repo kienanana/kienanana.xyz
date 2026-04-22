@@ -8,6 +8,7 @@ author:
 date: 2026-04-06
 updated: 2026-04-06 17:25:26
 aliases:
+  - frequency
 ---
 These adverbs express how often the action of a verb occurs. 
 

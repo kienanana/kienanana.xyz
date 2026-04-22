@@ -30,7 +30,9 @@ aliases:
 
 ### General Directions
 - droite - right 
+	- à droite (de)
 - gauche - left 
+	- à gauche (de)
 - tout droit - straight (ahead) 
 - à côte de - next to 
 - devant - in front of 
@@ -39,5 +41,15 @@ aliases:
 - en bas - down 
 - près (de) - near (to) 
 - loin (de) - far (from)
+- dans - in 
+- sur - on 
+- sous - under 
+- en face (de) - opposite 
+- entre - between 
+
+
+![[Screenshot 2026-03-13 at 1.13.58 PM.png]]
+
+
 
 

@@ -24,8 +24,8 @@ The weather report and forecast is called [[L8#La météo]]
 - humide - humid
 - nuageux - cloudy 
 - orageux - stormy
-- bad weather - mauvais 
-- degrees - degrés 
+- mauvais - bad weather 
+- degrés - degrees
 
 ## il y a ...
 (avoir) 
@@ -37,14 +37,17 @@ The weather report and forecast is called [[L8#La météo]]
 - pleut (pleuvoir) - raining 
 - pleut à verse - pouring 
 - neige (neiger) - snowing 
-- gèle (geler) - freezing 
-- grêle (gréler) - hailing 
+- gèle (gèler) - freezing 
+- grêle (grêler) - hailing 
 
 
 ## Nouns 
-- un orage - storm 
+- le soleil - the sun 
+- le vent - the wind
+- un nuage - a cloud
+- un orage - a storm 
 	- une tempête 
-- la pluie - rain 
-- la neige - snow 
+- la pluie - the rain 
+- la neige - the snow 
 
 

@@ -210,7 +210,7 @@ Examples:
 - Nous venons de manger.
 - Ils viennent d’arriver.
 
-# Structure: Venir de ...
+## Structure: Venir de ...
 - Used to say **where someone comes from**.
 ## Rules
 
@@ -300,10 +300,6 @@ Formal vs informal:
 | nous        | partons |
 | vous        | partez  |
 | ils / elles | partent |
-
-⚠️ Stem change:
-- **partir → pars / part / partent** (drop **-ir**) in singular and **ils/elles**
-
 ## Uses of PARTIR
 #### 1. Leaving a Place
 - Je pars maintenant.

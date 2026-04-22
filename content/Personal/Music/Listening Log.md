@@ -53,6 +53,10 @@ aliases:
 - 🟢 slayr - Half Blood (BloodLuxe) 
 - 🟢 [[Grace Ives - Girlfriend (2026)]]
 - 🔵 Snail Mail - Ricochet 
+- ⭐ My New Band Believe - Self-Titled
+- 🟢 Nine Inch Nails, Boys Noize - Nine Inch Noize 
+- 🔵 Jessie Ware - Superbloom
+- 🔵 Laufey - A Matter of Time: The Final Hour
 
 ### Relistens:
 - Lil Ugly Mane - volcanic bird enemy and the voiced concern
@@ -85,11 +89,10 @@ aliases:
 - Madeon - Good Faith
 - Kelly Lee Owens - Inner Song 
 - Snail Mail - Lush
-
-### Singles:
-- Lucy Bedroque - 2010 Justin Bieber
-- Lana Del Rey - White Feather Hawk Tail Deer Hunter 
-- My New Band Believe - Love Story 
+- Jim Legxacy - black british music (2025) 
+- Cashmere Cat - 9
+- caroline - caroline 2
+- LCD Soundsystem - This Is Happening
 
 ### Artists:
 - Fcukers
