@@ -15,7 +15,6 @@ aliases:
 
 ### Most Used Functions
 
-python
 
 ```python
 # Creation
@@ -52,7 +51,6 @@ np.outer(), np.trace(), np.sum(w * matrix)
 ---
 ## IMPORTING
 
-python
 
 ```python
 import numpy as np
@@ -64,7 +62,6 @@ import numpy as np
 
 ### From Lists
 
-python
 
 ```python
 np.array([1, 2, 3])                    # 1D array
@@ -74,7 +71,6 @@ np.array([1, 2, 3], dtype=float)       # specify data type
 
 ### Sequences
 
-python
 
 ```python
 np.arange(start, stop, step)           # like range(), exclusive of stop
@@ -86,7 +82,6 @@ np.linspace(0, 1, 100)                 # 100 points from 0 to 1
 
 ### Special Arrays
 
-python
 
 ```python
 np.zeros(5)                            # [0, 0, 0, 0, 0]
@@ -101,7 +96,6 @@ np.full((2, 3), 7)                     # 2x3 array filled with 7
 
 ### Random Arrays
 
-python
 
 ```python
 np.random.rand(5)                      # 5 random values [0, 1)
@@ -115,7 +109,6 @@ np.random.uniform(0, 1, 5)             # 5 uniform random [0, 1)
 
 ## ARRAY PROPERTIES
 
-python
 
 ```python
 arr.shape                              # dimensions tuple (rows, cols, ...)
@@ -127,7 +120,6 @@ arr.itemsize                           # size of each element in bytes
 
 **Examples:**
 
-python
 
 ```python
 arr = np.array([[1, 2, 3], [4, 5, 6]])
@@ -143,7 +135,6 @@ arr.dtype       # dtype('int64')
 
 ### Basic Reshaping
 
-python
 
 ```python
 arr.reshape(rows, cols)                # reshape to new dimensions
@@ -157,7 +148,6 @@ arr.T                                  # transpose
 
 **The Rule:** `-1` means "calculate this dimension automatically based on the total number of elements and other dimensions"
 
-python
 
 ```python
 # Example: 6 elements
@@ -190,7 +180,6 @@ arr.reshape(-1)                        # [1, 2, 3, 4, 5, 6]
 
 **Common patterns:**
 
-python
 
 ```python
 arr.reshape(-1, 1)     # Column vector (for scikit-learn, plotting)
@@ -206,7 +195,6 @@ arr.reshape(-1)        # Flatten to 1D
 
 ### Basic Indexing (0-based!)
 
-python
 
 ```python
 arr[0]                                 # first element
@@ -218,7 +206,6 @@ arr[::-1]                              # reverse array
 
 ### 2D Indexing
 
-python
 
 ```python
 arr[row, col]                          # single element
@@ -230,7 +217,6 @@ arr[0]                                 # same as arr[0, :] (first row)
 
 ### Fancy Indexing
 
-python
 
 ```python
 arr[[0, 2, 4]]                         # elements at indices 0, 2, 4
@@ -239,7 +225,6 @@ arr[[0, 2], [1, 3]]                    # elements at (0,1) and (2,3)
 
 ### Boolean Indexing
 
-python
 
 ```python
 arr[arr > 5]                           # elements greater than 5
@@ -256,7 +241,6 @@ arr[~(arr > 5)]                        # NOT condition (use ~)
 
 ### Arithmetic Operations (Element-wise)
 
-python
 
 ```python
 arr + 5                                # add scalar to all elements
@@ -276,7 +260,6 @@ arr1 / arr2                            # element-wise division
 
 ### Mathematical Functions
 
-python
 
 ```python
 np.exp(arr)                            # e^x for each element
@@ -295,7 +278,6 @@ np.floor(arr), np.ceil(arr)            # floor and ceiling
 
 ### Matrix Multiplication
 
-python
 
 ```python
 arr1 @ arr2                            # matrix multiplication (Python 3.5+)
@@ -305,7 +287,6 @@ np.matmul(arr1, arr2)                  # matrix multiplication
 
 ### Linear Algebra
 
-python
 
 ```python
 np.linalg.inv(matrix)                  # matrix inverse
@@ -318,7 +299,6 @@ np.transpose(arr)                      # transpose (same as arr.T)
 
 **Additional matrix operations:**
 
-python
 
 ```python
 # Outer product (important for expected counts!)
@@ -340,7 +320,6 @@ np.trace(matrix)                       # 10 + 15 = 25
 
 **Example from Tutorial 1:**
 
-python
 
 ```python
 # Least squares: beta_hat = (X^T X)^-1 X^T y
@@ -355,7 +334,6 @@ beta_hat = np.linalg.inv(X.T @ X) @ X.T @ y
 
 ### Descriptive Statistics
 
-python
 
 ```python
 np.mean(arr)                           # mean (average)
@@ -374,7 +352,6 @@ np.sum(arr, axis=0)                    # sum of each column
 
 ### Quantiles
 
-python
 
 ```python
 np.quantile(arr, 0.5)                  # median (50th percentile)
@@ -384,7 +361,6 @@ np.percentile(arr, [25, 50, 75])       # same as quantile with %
 
 ### Finding Elements
 
-python
 
 ```python
 np.argmin(arr)                         # index of minimum
@@ -401,7 +377,6 @@ np.where(arr > 5)                      # indices where condition is True
 
 ### np.where() - THE WORKHORSE
 
-python
 
 ```python
 np.where(condition, value_if_true, value_if_false)
@@ -409,7 +384,6 @@ np.where(condition, value_if_true, value_if_false)
 
 **Basic example:**
 
-python
 
 ```python
 arr = np.array([1, 5, 10, 15, 20])
@@ -419,7 +393,6 @@ np.where(arr > 10, 'high', 'low')
 
 **Nested np.where() - Multiple conditions:**
 
-python
 
 ```python
 # From Tutorial 2: Classify game results
@@ -434,7 +407,6 @@ pts = np.where(result == 'W', 3,                # Win = 3 points
 
 **2D array example:**
 
-python
 
 ```python
 np.where([[True, False], [True, True]],
@@ -445,7 +417,6 @@ np.where([[True, False], [True, True]],
 
 **Get indices where condition is True:**
 
-python
 
 ```python
 indices = np.where(arr > 10)            # returns tuple of arrays
@@ -458,7 +429,6 @@ arr[indices]                            # extract those elements
 
 ### Stacking & Concatenation
 
-python
 
 ```python
 np.concatenate([arr1, arr2])           # concatenate along axis 0
@@ -471,7 +441,6 @@ np.column_stack([arr1, arr2])          # stack 1D arrays as columns
 
 **Example:**
 
-python
 
 ```python
 a = np.array([1, 2, 3])
@@ -483,7 +452,6 @@ np.column_stack([a, b])                # [[1,4], [2,5], [3,6]]
 
 **From Assignment:**
 
-python
 
 ```python
 # Concatenate arrays with different values
@@ -493,7 +461,6 @@ rater_A = np.concat([np.repeat(1, 120), np.repeat(2, 5)])
 
 ### Splitting
 
-python
 
 ```python
 np.split(arr, sections)                # split into equal sections
@@ -504,7 +471,6 @@ np.vsplit(arr, sections)               # split vertically (rows)
 
 ### Adding/Removing Elements
 
-python
 
 ```python
 np.append(arr, values)                 # append values to end
@@ -512,9 +478,36 @@ np.insert(arr, index, values)          # insert at index
 np.delete(arr, index)                  # delete at index
 ```
 
+### Applying Functions Along an Axis
+
+
+```python
+# np.apply_along_axis — apply a 1D function along a chosen axis
+np.apply_along_axis(func, axis, arr)
+
+# axis=0: apply func to each COLUMN (function receives one column at a time)
+# axis=1: apply func to each ROW (function receives one row at a time)
+
+# Examples:
+np.apply_along_axis(np.mean, axis=0, arr=matrix)      # column means
+np.apply_along_axis(np.mean, axis=1, arr=matrix)      # row means
+
+# With custom lambda (e.g. trimmed mean for each column)
+from scipy import stats
+np.apply_along_axis(lambda x: stats.trim_mean(x, 0.1), axis=0, arr=matrix)
+```
+
+### Creating Arrays Like Another
+
+
+```python
+np.zeros_like(arr)                     # zero array with same shape & dtype
+np.zeros_like(arr, dtype=float)        # same shape, force float dtype
+np.ones_like(arr)                      # ones array with same shape & dtype
+```
+
 ### Repeating
 
-python
 
 ```python
 np.repeat(arr, repeats)                # repeat each element
@@ -526,7 +519,6 @@ np.tile([1, 2], 3)                     # [1, 2, 1, 2, 1, 2]
 
 **From Tutorial 3:**
 
-python
 
 ```python
 # Repeat labels for reshaping data
@@ -536,7 +528,6 @@ grade_type = np.repeat(['first', 'second', 'final'], repeats=395)
 
 **From Assignment:**
 
-python
 
 ```python
 # Create repeated data for categorical analysis
@@ -550,7 +541,6 @@ rater_A = np.concat([np.repeat(1, 120), np.repeat(2, 5)])
 
 ### Sorting
 
-python
 
 ```python
 np.sort(arr)                           # return sorted copy
@@ -561,7 +551,6 @@ np.sort(arr)[::-1]                     # sort descending
 
 **Example:**
 
-python
 
 ```python
 arr = np.array([3, 1, 2])
@@ -571,7 +560,6 @@ np.argsort(arr)                        # [1, 2, 0] - indices for sorting
 
 ### Searching
 
-python
 
 ```python
 np.argmin(arr)                         # index of minimum
@@ -584,17 +572,37 @@ np.searchsorted(sorted_arr, value)     # index to insert value
 
 ## RANDOM NUMBER GENERATION
 
-### Setting Seed
+### New-Style RNG (Preferred)
 
-python
+**Use `np.random.default_rng()` instead of `np.random.seed()` in modern NumPy:**
+
 
 ```python
-np.random.seed(42)                     # set seed for reproducibility
+rng = np.random.default_rng(42)        # create RNG with seed
+
+# Generation methods (same distributions as legacy, new API)
+rng.normal(loc=0, scale=1, size=100)   # normal
+rng.uniform(low=0, high=1, size=100)   # uniform
+rng.integers(0, 10, size=5)            # integers [0, 10)
+rng.choice(arr, size=10)               # sample from array
+rng.choice(arr, size=10, replace=False) # without replacement
+
+# Passing rng to scipy functions
+from scipy.stats import bootstrap
+res = bootstrap((data,), np.mean, random_state=rng)
 ```
 
-### Random Sampling
+**Why prefer this?** Each `default_rng()` instance is independent — avoids shared global state; safer in loops and simulations.
 
-python
+### Legacy API (Still Works)
+
+
+```python
+np.random.seed(42)                     # set global seed for reproducibility
+```
+
+### Legacy Random Sampling
+
 
 ```python
 np.random.rand(5)                      # 5 uniform [0, 1)
@@ -608,7 +616,6 @@ np.random.choice(arr, size, replace=False)  # without replacement
 
 **Jittering (from Tutorial 3):**
 
-python
 
 ```python
 # Add small random noise to avoid overplotting
@@ -621,7 +628,6 @@ jittered = arr + np.random.uniform(-0.2, 0.2, size=len(arr))
 
 ### Logarithms & Exponentials
 
-python
 
 ```python
 np.exp(arr)                            # e^x
@@ -632,7 +638,6 @@ np.log2(arr)                           # log base 2
 
 ### Factorial (from Tutorial 3)
 
-python
 
 ```python
 from scipy.special import gammaln
@@ -654,7 +659,6 @@ gammaln(n + 1)                         # log(n!)
 
 **Examples:**
 
-python
 
 ```python
 # Scalar broadcasting
@@ -674,7 +678,6 @@ arr + col                              # col broadcasts to each column
 
 **From Tutorial 4 (important!):**
 
-python
 
 ```python
 # Dividing by row sums to get proportions
@@ -687,7 +690,6 @@ proportions = table / row_sums         # broadcasts correctly
 
 ## SAVING & LOADING
 
-python
 
 ```python
 np.save('array.npy', arr)              # save single array
@@ -706,7 +708,6 @@ arr = np.loadtxt('data.txt')           # load from text
 
 ## HISTOGRAM FUNCTIONS
 
-python
 
 ```python
 counts, bins = np.histogram(data, bins=10)
@@ -729,7 +730,6 @@ counts, bins = np.histogram(data, bins=[0, 10, 20, 30])  # custom bins
 
 ## MASKING & FILTERING
 
-python
 
 ```python
 # Create boolean mask
@@ -755,7 +755,6 @@ np.all(mask)                           # True if all True
 
 ### Negative Indexing Difference
 
-python
 
 ```python
 # Python: negative index means "from end"
@@ -771,7 +770,6 @@ arr[-2]                                # 40 (second to last)
 
 ### Slice Endpoint
 
-python
 
 ```python
 arr[1:4]                               # indices 1, 2, 3 (EXCLUDES 4)
@@ -787,7 +785,6 @@ arr[1:4]                               # indices 1, 2, 3 (EXCLUDES 4)
 
 ### Creating Design Matrix (for regression)
 
-python
 
 ```python
 # Add column of ones for intercept
@@ -798,7 +795,6 @@ X = np.c_[np.ones(n), x_values]
 
 ### Computing Pairwise Operations
 
-python
 
 ```python
 # From Tutorial 1: compute all pairwise slopes
@@ -810,7 +806,6 @@ robust_slope = np.median(slopes)
 
 ### Conditional Cumulative Sum
 
-python
 
 ```python
 # Cumulative sum
@@ -841,7 +836,6 @@ cumsum = np.cumsum(arr > threshold)
 
 ### Views vs Copies
 
-python
 
 ```python
 view = arr[1:5]                        # creates view (shares memory)
@@ -864,7 +858,6 @@ NumPy stores arrays in **row-major order (C-style)** by default
 
 ## DEBUGGING TIPS
 
-python
 
 ```python
 # Check array properties
@@ -888,7 +881,6 @@ np.set_printoptions(suppress=True)     # suppress scientific notation
 
 ❌ **Using wrong operators for arrays**
 
-python
 
 ```python
 # WRONG
@@ -902,7 +894,6 @@ arr1 | arr2                            # element-wise OR
 
 ❌ **Forgetting to reshape for broadcasting**
 
-python
 
 ```python
 # WRONG
@@ -914,7 +905,6 @@ arr / arr.sum(axis=1).reshape(-1, 1)   # reshapes to column
 
 ❌ **Confusing attributes and methods**
 
-python
 
 ```python
 # WRONG
@@ -927,7 +917,6 @@ arr.reshape(2, 3)                      # reshape is method
 
 ❌ **Modifying view unintentionally**
 
-python
 
 ```python
 # WRONG (if you want copy)
@@ -945,7 +934,6 @@ subset[0] = 999                        # safe
 
 ### Computing Pearson Residuals
 
-python
 
 ```python
 # From Assignment: Pearson residuals for contingency tables
@@ -974,7 +962,6 @@ r = (n_ij - mu_ij) / np.sqrt(mu_ij)
 
 ### Cohen's Kappa (Agreement Measure)
 
-python
 
 ```python
 # Measure of inter-rater agreement
@@ -1001,7 +988,6 @@ kappa = (observed_agreement - expected_agreement) / (1 - expected_agreement)
 
 ### Weighted Kappa (Ordinal Agreement)
 
-python
 
 ```python
 # For ordered categories, penalize disagreements by distance

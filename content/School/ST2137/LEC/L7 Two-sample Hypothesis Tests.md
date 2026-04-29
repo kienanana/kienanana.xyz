@@ -80,7 +80,7 @@ where:
 - s is the sample standard deviation, and 
 - t_0.025,n-1 is the 0.025-quantile from the t distribution with n-1 degrees of freedom
 
-The formulae for many confidence intervals rely on asymptotic Normality of the estimator. However, this is an assumption that can be overcome with the technique of bootstrapping. 
+The formulae for many confidence intervals rely on asymptotic Normality of the estimator. However, this is an assumption that can be overcome with the technique of **bootstrapping** [[L10 Simulation#Bootstrapping]]. 
 
 Bootstrapping can also be used to sidestep the distributional assumptions in hypothesis tests, but the professor prefers confidence intervals to tests because they yield an interval, providing much more information than a binary outcome. 
 
@@ -176,6 +176,20 @@ print(f"""
 The assumptions of the test include *Normality* and *equal variance*. Let us assess the equality of variance first. While there are many hypothesis tests specifically for assessing if variances are equal (eg. Levene, Bartlett), the prof has a simple rule of thumb in this class: 
 
 > if the larger sd is more than twice the smaller one, then we should not use the equal variance form of the tests
+- use the above to assess homogeneity of variances (empirical rule)
+
+```R
+# EXAMPLE
+# Assess homogeneity of variances (empirical rule)  
+
+group_sds <- tapply(taiwan2$price, taiwan2$num_stores, sd)  
+  
+max_sd <- max(group_sds)  
+min_sd <- min(group_sds)  
+  
+ratio <- max_sd / min_sd  
+ratio
+```
 
 ##### R code 
 ```R

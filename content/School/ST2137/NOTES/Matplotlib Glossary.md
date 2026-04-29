@@ -18,7 +18,6 @@ Matplotlib is a comprehensive library for creating static, animated, and interac
 
 ### Most Common Functions
 
-python
 
 ```python
 # Creating plots
@@ -45,7 +44,6 @@ plt.show(), plt.close()
 
 ### Figure vs Axes Methods
 
-python
 
 ```python
 # These are equivalent:
@@ -65,7 +63,6 @@ ax.set_xlim(0, 10)        # OO
 
 ## IMPORTING
 
-python
 
 ```python
 import matplotlib.pyplot as plt
@@ -85,7 +82,6 @@ import numpy as np
 
 ### Line Plot
 
-python
 
 ```python
 plt.plot(x, y)                         # basic line plot
@@ -97,7 +93,6 @@ plt.plot(x, y, label='Data')           # with label for legend
 
 ### Scatter Plot
 
-python
 
 ```python
 plt.scatter(x, y)                      # basic scatter
@@ -108,7 +103,6 @@ plt.scatter(x, y, alpha=0.5)           # 50% transparent
 
 ### Histogram
 
-python
 
 ```python
 plt.hist(data, bins=20)                # 20 bins
@@ -119,7 +113,6 @@ plt.hist(data, bins=[0, 10, 20, 30])   # custom bin edges
 
 **From lectures:**
 
-python
 
 ```python
 # Histogram convention: left-closed intervals [a, b)
@@ -129,7 +122,6 @@ python
 
 ### Bar Chart
 
-python
 
 ```python
 plt.bar(x, height)                     # vertical bars
@@ -140,7 +132,6 @@ plt.bar(x, height, color='steelblue')  # color
 
 ### Box Plot
 
-python
 
 ```python
 plt.boxplot(data)                      # single box plot
@@ -155,7 +146,6 @@ plt.boxplot(data, showmeans=True)      # show mean marker
 
 ### Single Plot
 
-python
 
 ```python
 # Simple way (implicit)
@@ -170,7 +160,6 @@ plt.show()
 
 ### Multiple Subplots
 
-python
 
 ```python
 # Grid of subplots
@@ -189,7 +178,6 @@ fig, axes = plt.subplots(2, 1, sharex=True)
 
 **From Tutorial 3:**
 
-python
 
 ```python
 # Creating panel density plots manually
@@ -205,7 +193,6 @@ for i, (group_name, group_df) in enumerate(df.groupby('category')):
 
 ### Labels and Titles
 
-python
 
 ```python
 plt.xlabel('X-axis label', fontsize=12)
@@ -220,7 +207,6 @@ ax.set_title('Plot Title', fontsize=14)
 
 ### Axis Limits and Ticks
 
-python
 
 ```python
 plt.xlim(0, 10)                        # x-axis limits
@@ -232,7 +218,6 @@ plt.xticks([])                         # hide x-ticks
 
 ### Grid
 
-python
 
 ```python
 plt.grid(True)                         # add grid
@@ -243,7 +228,6 @@ plt.grid(True, which='both')           # major and minor
 
 ### Legend
 
-python
 
 ```python
 plt.legend()                           # automatic from labels
@@ -265,7 +249,6 @@ plt.legend(frameon=False)              # no box around legend
 
 ### Color Specification
 
-python
 
 ```python
 # Named colors
@@ -284,7 +267,6 @@ plt.plot(x, y, color=(1, 0, 0, 0.5))   # 50% transparent red
 
 **From lectures - Transparency for overplotting:**
 
-python
 
 ```python
 # RGB with alpha channel
@@ -294,7 +276,6 @@ plt.scatter(x, y, c=red_transparent, s=50)
 
 ### Line Styles
 
-python
 
 ```python
 plt.plot(x, y, linestyle='-')          # solid (default)
@@ -306,7 +287,6 @@ plt.plot(x, y, linewidth=2)            # line width
 
 ### Marker Styles
 
-python
 
 ```python
 plt.plot(x, y, marker='o')             # circle
@@ -320,7 +300,6 @@ plt.plot(x, y, markeredgecolor='black')  # edge color
 
 **Short format string:**
 
-python
 
 ```python
 plt.plot(x, y, 'ro-')                  # red circles with line
@@ -334,7 +313,6 @@ plt.plot(x, y, 'g^:')                  # green triangles, dotted
 
 ### Text Annotations
 
-python
 
 ```python
 plt.text(x, y, 'Text here')            # add text at (x, y)
@@ -347,7 +325,6 @@ plt.annotate('Peak', xy=(x, y), xytext=(x+1, y+1),
 
 **From assignment:** Adding text to plots
 
-python
 
 ```python
 ax.text(0.05, 0.95, 
@@ -360,7 +337,6 @@ ax.text(0.05, 0.95,
 
 ### Lines and Shapes
 
-python
 
 ```python
 plt.axhline(y=0, color='k', linestyle='--')  # horizontal line
@@ -374,7 +350,6 @@ plt.axline((x1, y1), slope=m)                # line with slope
 
 **From lectures:**
 
-python
 
 ```python
 # Add regression line to scatter plot
@@ -384,7 +359,6 @@ plt.axline((x1, y1), slope=slope, color='red', linestyle='--')
 
 ### Rectangles and Patches
 
-python
 
 ```python
 from matplotlib.patches import Rectangle
@@ -400,7 +374,6 @@ ax.add_patch(rect)
 
 ### Style Sheets
 
-python
 
 ```python
 plt.style.use('default')               # default style
@@ -411,7 +384,6 @@ plt.style.available                    # list all styles
 
 ### Figure Size and DPI
 
-python
 
 ```python
 plt.figure(figsize=(10, 6))            # width, height in inches
@@ -423,7 +395,6 @@ plt.savefig('plot.png', dpi=300)       # high resolution
 
 ### Tight Layout
 
-python
 
 ```python
 plt.tight_layout()                     # auto-adjust spacing
@@ -434,7 +405,6 @@ plt.tight_layout()                     # auto-adjust spacing
 
 ## SAVING FIGURES
 
-python
 
 ```python
 plt.savefig('plot.png')                # save as PNG
@@ -451,7 +421,6 @@ plt.savefig('plot.png', transparent=True)     # transparent background
 
 ### Heatmap (using imshow)
 
-python
 
 ```python
 # For matrix/2D data
@@ -467,7 +436,6 @@ plt.imshow(matrix, cmap='coolwarm', vmin=-1, vmax=1)  # symmetric
 
 **From lectures:** Correlation heatmaps
 
-python
 
 ```python
 # Must set vmin=-1, vmax=1 for correlation matrices
@@ -478,7 +446,6 @@ sns.heatmap(corr_matrix, annot=True, cmap='coolwarm',
 
 ### Density/KDE Plot
 
-python
 
 ```python
 from scipy.stats import gaussian_kde
@@ -490,7 +457,6 @@ plt.plot(x_range, density(x_range))
 
 ### Q-Q Plot
 
-python
 
 ```python
 from scipy import stats
@@ -502,7 +468,6 @@ plt.show()
 
 **From Exercise 4:**
 
-python
 
 ```python
 # Create Q-Q plot with customization
@@ -526,7 +491,6 @@ ax.get_lines()[1].set_linestyle('--')
 
 ### DataFrame Plotting
 
-python
 
 ```python
 # Pandas uses matplotlib backend
@@ -543,7 +507,6 @@ ax.set_xlabel('Custom Label')
 
 ### Grouped Plotting
 
-python
 
 ```python
 # Plot by group
@@ -558,7 +521,6 @@ plt.legend()
 
 ### Subplots with Different Sizes
 
-python
 
 ```python
 # Using GridSpec
@@ -574,7 +536,6 @@ ax3 = fig.add_subplot(gs[1:, -1])     # last 2 rows, last col
 
 ### Twin Axes (Two Y-axes)
 
-python
 
 ```python
 fig, ax1 = plt.subplots()
@@ -589,7 +550,6 @@ ax2.set_ylabel('Y2', color='r')
 
 ### Log Scale
 
-python
 
 ```python
 plt.yscale('log')                      # log scale on y-axis
@@ -601,7 +561,6 @@ plt.semilogy()                         # log y only
 
 ### Filling Between Curves
 
-python
 
 ```python
 plt.fill_between(x, y1, y2, alpha=0.3)  # fill between two curves
@@ -614,7 +573,6 @@ plt.fill_between(x, 0, y, alpha=0.5)    # fill from zero
 
 ### Zoom and Pan
 
-python
 
 ```python
 # In Jupyter notebooks
@@ -626,7 +584,6 @@ python
 
 ### Closing Figures
 
-python
 
 ```python
 plt.close()                            # close current figure
@@ -640,7 +597,6 @@ plt.close(fig)                         # close specific figure
 
 ### Pattern 1: Basic Scatter with Regression Line
 
-python
 
 ```python
 fig, ax = plt.subplots(figsize=(8, 6))
@@ -657,7 +613,6 @@ plt.savefig('scatter_regression.png', dpi=300)
 
 ### Pattern 2: Multiple Histograms
 
-python
 
 ```python
 fig, axes = plt.subplots(1, 3, figsize=(12, 4), sharex=True, sharey=True)
@@ -674,7 +629,6 @@ plt.tight_layout()
 
 ### Pattern 3: Side-by-Side Comparison
 
-python
 
 ```python
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
@@ -696,7 +650,6 @@ plt.tight_layout()
 
 ❌ **Forgetting plt.show()**
 
-python
 
 ```python
 # In scripts (not notebooks)
@@ -706,7 +659,6 @@ plt.plot(x, y)
 
 ❌ **Reusing same figure**
 
-python
 
 ```python
 plt.plot(x, y1)
@@ -721,7 +673,6 @@ plt.plot(x, y2)
 
 ❌ **Wrong import**
 
-python
 
 ```python
 import matplotlib  # Wrong!
@@ -730,7 +681,6 @@ import matplotlib.pyplot as plt  # Correct
 
 ❌ **Modifying closed figures**
 
-python
 
 ```python
 plt.plot(x, y)
@@ -744,7 +694,6 @@ plt.xlabel('X')  # Won't work - figure is shown/closed
 
 **Jittering for overplotting:**
 
-python
 
 ```python
 # Add small random noise to discrete variables
@@ -754,7 +703,6 @@ plt.scatter(x, y_jittered)
 
 **Transparency for dense data:**
 
-python
 
 ```python
 plt.scatter(x, y, alpha=0.1)  # 10% opaque
@@ -763,7 +711,6 @@ plt.scatter(x, y, alpha=0.1)  # 10% opaque
 
 **Consistent colors across plots:**
 
-python
 
 ```python
 colors = plt.cm.tab10(range(10))  # Get 10 distinct colors

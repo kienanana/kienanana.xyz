@@ -16,7 +16,6 @@ SciPy's statistics module provides a large number of probability distributions, 
 
 ## IMPORTING
 
-python
 
 ```python
 from scipy import stats
@@ -45,7 +44,6 @@ import numpy as np
 
 ### Normal Distribution
 
-python
 
 ```python
 from scipy.stats import norm
@@ -68,7 +66,6 @@ norm.rvs(loc=0, scale=1, size=100)     # 100 random N(0,1) values
 
 **Common shortcuts:**
 
-python
 
 ```python
 # Standard normal N(0,1) - can omit parameters
@@ -78,7 +75,6 @@ norm.cdf(1.96)                         # same as norm.cdf(1.96, 0, 1)
 
 ### Other Continuous Distributions
 
-python
 
 ```python
 from scipy.stats import uniform, expon, t, chi2, f
@@ -105,7 +101,6 @@ f.pdf(x, dfn=5, dfd=10)                # dfn, dfd = degrees of freedom
 
 ### Discrete Distributions
 
-python
 
 ```python
 from scipy.stats import binom, poisson, hypergeom
@@ -128,7 +123,6 @@ hypergeom.pmf(k, M, n, N)              # pmf at k
 
 **From lectures:** Hypergeometric for Fisher's exact test
 
-python
 
 ```python
 # Drawing without replacement
@@ -144,7 +138,6 @@ hypergeom.pmf(w, M+N, M, k)
 
 ### Central Tendency & Spread
 
-python
 
 ```python
 stats.tmean(data)                      # trimmed mean
@@ -154,9 +147,28 @@ stats.mode(data)                       # mode (most common value)
 stats.variation(data)                  # coefficient of variation
 ```
 
+### Robust Statistics
+
+
+```python
+# Trimmed mean — drop proportiontocut fraction from each tail before averaging
+stats.trim_mean(data, proportiontocut=0.1)   # 10% trimmed mean (drops lowest/highest 10%)
+
+# Interquartile range
+stats.iqr(data)                              # IQR = Q3 - Q1
+
+# Median absolute deviation (MAD)
+stats.median_abs_deviation(data)             # MAD (scaled to be consistent with SD)
+stats.median_abs_deviation(data, scale=1)    # raw MAD without scaling
+
+# Winsorize — replace extremes with quantile values (from scipy.stats.mstats)
+from scipy.stats.mstats import winsorize
+winsorize(data, limits=[0.05, 0.05])         # clip bottom 5% and top 5%
+# Returns a masked array; convert with .data or np.array()
+```
+
 **Usually just use NumPy:**
 
-python
 
 ```python
 np.mean(data), np.median(data), np.std(data)
@@ -164,7 +176,6 @@ np.mean(data), np.median(data), np.std(data)
 
 ### Distribution Shape
 
-python
 
 ```python
 stats.skew(data)                       # skewness
@@ -174,7 +185,6 @@ stats.moment(data, moment=3)           # 3rd moment
 
 ### Percentiles & Quantiles
 
-python
 
 ```python
 np.percentile(data, 50)                # 50th percentile (median)
@@ -190,7 +200,6 @@ np.quantile(data, 0.95)                # 95th quantile
 
 **One-Sample t-test:**
 
-python
 
 ```python
 # H₀: μ = μ₀
@@ -203,7 +212,6 @@ print(f"t = {result.statistic:.4f}, p = {result.pvalue:.4f}")
 
 **Shapiro-Wilk Test (Normality):**
 
-python
 
 ```python
 # H₀: data comes from normal distribution
@@ -217,40 +225,80 @@ stats.shapiro(data)
 
 **Independent Samples t-test:**
 
-python
 
 ```python
 # H₀: μ₁ = μ₂
-stats.ttest_ind(group1, group2)
-# Assumes equal variances
+t_out = stats.ttest_ind(group1, group2)            # equal variance (pooled)
+t_out = stats.ttest_ind(group1, group2, equal_var=False)  # Welch's (unequal var)
 
-# Welch's t-test (unequal variances)
-stats.ttest_ind(group1, group2, equal_var=False)
+# Access results
+t_out.statistic
+t_out.pvalue
+ci_95 = t_out.confidence_interval()   # returns (low, high) — newer API (L7)
 ```
 
 **Paired t-test:**
 
-python
 
 ```python
 # H₀: μ_diff = 0 (for paired data)
 stats.ttest_rel(before, after)
 ```
 
-**Mann-Whitney U Test (Non-parametric):**
+**Mann-Whitney U Test (Non-parametric, independent):**
 
-python
 
 ```python
-# H₀: distributions are same
+# H₀: distributions are same (Wilcoxon Rank-Sum / Mann-Whitney)
 stats.mannwhitneyu(group1, group2)
+```
+
+**Wilcoxon Signed-Rank Test (Non-parametric, paired):**
+
+
+```python
+# H₀: median of differences is 0
+# Non-parametric analogue of paired t-test
+wsr_out = stats.wilcoxon(before, after,
+                         correction=True,           # continuity correction
+                         method='approx')           # normal approximation
+print(f"statistic={wsr_out.statistic:.3f}, p={wsr_out.pvalue:.3f}")
+
+# One-sided test
+wsr_out = stats.wilcoxon(before, after, alternative='greater')  # H₁: before > after
+# alternative: 'two-sided' (default), 'greater', 'less'
+
+# Exact method (no ties, n < 16)
+wsr_out = stats.wilcoxon(before, after, method='exact')
+# Use method='approx' (normal approximation) when ties are present
+```
+
+**Kruskal-Wallis Test (Non-parametric, k groups):**
+
+
+```python
+# H₀: all groups follow the same distribution
+# Non-parametric analogue of one-way ANOVA
+# Requires n_i >= 5 for all groups
+
+groups = [x[1] for x in df['value'].groupby(df['group'])]
+kw_out = stats.kruskal(*groups)   # unpack list of arrays
+print(f"statistic={kw_out.statistic:.3f}, p={kw_out.pvalue:.3f}")
+```
+
+**Levene's Test (Equal Variance):**
+
+
+```python
+# H₀: all groups have equal variance
+stat, p = stats.levene(group1, group2, group3)
+# Rule of thumb from lectures: if largest SD > 2× smallest SD → use Welch/non-parametric
 ```
 
 ### Categorical Data Tests
 
 **Chi-Square Test of Independence:**
 
-python
 
 ```python
 from scipy.stats import chi2_contingency
@@ -267,7 +315,6 @@ print(f"Expected frequencies:\n{expected}")
 
 **From Exercise 4:**
 
-python
 
 ```python
 # Extract standardized residuals
@@ -288,7 +335,6 @@ std_residuals = (observed - expected) / np.sqrt(
 
 **Fisher's Exact Test (2×2 tables):**
 
-python
 
 ```python
 from scipy.stats import fisher_exact
@@ -303,7 +349,6 @@ print(f"p-value = {p_value:.4f}")
 
 **From Exercise 5:**
 
-python
 
 ```python
 # Fisher's test on political data (reduced to 2×2)
@@ -320,7 +365,6 @@ oddsratio, p_value = fisher_exact(table_dem_rep.values)
 
 **Pearson Correlation:**
 
-python
 
 ```python
 # H₀: ρ = 0 (no linear correlation)
@@ -330,7 +374,6 @@ print(f"Pearson r = {r:.4f}, p = {p_value:.4f}")
 
 **Spearman Rank Correlation:**
 
-python
 
 ```python
 # H₀: ρ_s = 0 (no monotonic correlation)
@@ -340,7 +383,6 @@ print(f"Spearman ρ = {rho:.4f}, p = {p_value:.4f}")
 
 **Kendall's Tau:**
 
-python
 
 ```python
 # H₀: τ = 0 (no association)
@@ -350,7 +392,6 @@ print(f"Kendall τ = {tau:.4f}, p = {p_value:.4f}")
 
 **From lectures & Exercise 3:**
 
-python
 
 ```python
 # For categorical data (ordinal)
@@ -369,14 +410,19 @@ tau, p = stats.kendalltau(df['var1'], df['var2'])
 
 ### Normality Tests
 
-python
 
 ```python
 # Shapiro-Wilk (best for small samples, n < 50)
 stat, p = stats.shapiro(data)
 
 # Kolmogorov-Smirnov (for larger samples)
-stat, p = stats.kstest(data, 'norm')
+stat, p = stats.kstest(data, 'norm')                        # legacy interface
+
+# 1-sample K-S test (preferred newer interface)
+# Tests whether data comes from a specified distribution
+result = stats.ks_1samp(data, stats.norm.cdf)               # vs standard normal
+result = stats.ks_1samp(data, stats.norm(loc=mu, scale=sigma).cdf)  # vs N(μ,σ)
+result.statistic; result.pvalue
 
 # Anderson-Darling
 result = stats.anderson(data, dist='norm')
@@ -384,7 +430,6 @@ result = stats.anderson(data, dist='norm')
 
 ### Q-Q Plot
 
-python
 
 ```python
 from scipy import stats
@@ -398,7 +443,6 @@ plt.show()
 
 **From Exercise 4:** Customized Q-Q plot
 
-python
 
 ```python
 fig, ax = plt.subplots(figsize=(10, 8))
@@ -433,7 +477,6 @@ ax.grid(True, alpha=0.3)
 
 ## LINEAR REGRESSION
 
-python
 
 ```python
 from scipy.stats import linregress
@@ -453,7 +496,6 @@ y_pred = slope * x + intercept
 
 **From Tutorial 3:** Poisson-ness plot
 
-python
 
 ```python
 # Fit line to Poisson-ness plot
@@ -463,11 +505,29 @@ lambda_hat = np.exp(slope)
 
 ---
 
+## NUMERICAL INTEGRATION
+
+
+```python
+from scipy import integrate
+
+# integrate.quad — integrate a 1D function from a to b
+result, error = integrate.quad(func, a, b)
+
+# Examples:
+result, _ = integrate.quad(lambda x: np.exp(2*x), 0, 1)   # ∫₀¹ e^(2x) dx
+result, _ = integrate.quad(lambda x: x**2, 0, 3)           # ∫₀³ x² dx
+
+# Monte Carlo alternative (E[h(X)] where X ~ Uniform(a,b)):
+# mean(h(rng.uniform(a, b, n))) * (b - a)
+```
+
+---
+
 ## CONFIDENCE INTERVALS
 
 ### t-Confidence Interval for Mean
 
-python
 
 ```python
 # Manual calculation
@@ -490,7 +550,6 @@ print(f"95% CI: [{ci_lower:.4f}, {ci_upper:.4f}]")
 
 ### Bootstrap Confidence Intervals
 
-python
 
 ```python
 from scipy.stats import bootstrap
@@ -511,7 +570,6 @@ print(f"95% CI: {res.confidence_interval}")
 
 ### Complete Chi-Square Analysis
 
-python
 
 ```python
 from scipy.stats import chi2_contingency
@@ -554,7 +612,6 @@ print("Residuals > 2 or < -2 indicate significant deviation")
 
 ### Odds Ratio and Relative Risk (2×2 tables)
 
-python
 
 ```python
 # For 2×2 table:
@@ -593,7 +650,6 @@ print(f"95% CI for OR: [{ci_lower:.4f}, {ci_upper:.4f}]")
 
 ### Gamma Function & Factorials
 
-python
 
 ```python
 from scipy.special import gammaln, factorial
@@ -608,7 +664,6 @@ factorial(5)                           # 120
 
 **From Tutorial 3:** Poisson-ness plot
 
-python
 
 ```python
 # Computing φ_k = ln(k! * X_k / N)
@@ -621,7 +676,6 @@ phi = gammaln(k + 1) + np.log(Xk / N)
 
 ### Workflow 1: Testing for Group Differences
 
-python
 
 ```python
 # 1. Check normality within groups
@@ -646,7 +700,6 @@ print(f"Test p-value: {result.pvalue:.4f}")
 
 ### Workflow 2: Checking Model Assumptions
 
-python
 
 ```python
 # For linear regression residuals
@@ -671,7 +724,6 @@ plt.show()
 
 ### Workflow 3: Categorical Association
 
-python
 
 ```python
 # 1. Create table
@@ -712,7 +764,6 @@ if ordinal_data:
 
 ### Test Output Format
 
-python
 
 ```python
 # Most scipy.stats tests return named tuples
@@ -728,7 +779,6 @@ t_stat, p_val = stats.ttest_ind(group1, group2)
 
 ### Multiple Testing Correction
 
-python
 
 ```python
 from scipy.stats import false_discovery_control
@@ -745,7 +795,6 @@ rejected = false_discovery_control(p_values, method='bh')
 
 ### Most Used Functions
 
-python
 
 ```python
 # Distributions
@@ -775,7 +824,9 @@ chi2_contingency(), fisher_exact()
 |Two independent groups|`ttest_ind()`|
 |Two paired groups|`ttest_rel()`|
 |Two groups, non-normal|`mannwhitneyu()`|
-|Multiple groups|Use ANOVA (not in scipy.stats)|
+|Two paired groups, non-normal|`wilcoxon()` (signed-rank)|
+|Multiple groups (parametric)|`ols` + `sm.stats.anova_lm()` in statsmodels|
+|Multiple groups (non-parametric)|`kruskal()`|
 |Categorical 2×2|`fisher_exact()` or `chi2_contingency()`|
 |Categorical r×c|`chi2_contingency()`|
 |Correlation (linear)|`pearsonr()`|
@@ -788,7 +839,6 @@ chi2_contingency(), fisher_exact()
 
 ❌ **Forgetting degrees of freedom**
 
-python
 
 ```python
 t.ppf(0.975, 10)  # Need df!
@@ -796,7 +846,6 @@ t.ppf(0.975, 10)  # Need df!
 
 ❌ **Using wrong tail for p-value**
 
-python
 
 ```python
 # Two-tailed test (most common)
@@ -808,7 +857,6 @@ stats.ttest_ind(group1, group2)  # Already two-tailed
 
 ❌ **Confusing pmf and pdf**
 
-python
 
 ```python
 binom.pdf(k, n, p)   # WRONG! Use pmf for discrete
@@ -820,7 +868,6 @@ norm.pdf(x)          # Correct
 
 ❌ **Not checking assumptions**
 
-python
 
 ```python
 # Always check expected counts for chi-square!

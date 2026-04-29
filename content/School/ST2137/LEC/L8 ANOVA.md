@@ -19,7 +19,7 @@ aliases:
 ## Introduction 
 In the [previous topic]([[L7 Two-sample Hypothesis Tests]]), we learned how to run two-sample t-tests. The objective of these procedures is to compare the means from two groups. Frequently, however, the means of more than two groups need to be compared. 
 
-In this topic, we introduce the *one-way analysis of variance (ANOVA)*. It generalises the t-test methodology to more than 2 groups. Hypothesis tests in the ANOVA frameworkrequire the assumption of Normality. When this does not hold, we turn to the *Kruskal-Wallis test* - a non-parametric version of ANOVA, to compare distributions between groups. 
+In this topic, we introduce the *one-way analysis of variance (ANOVA)*. It generalises the t-test methodology to more than 2 groups. Hypothesis tests in the ANOVA framework require the assumption of Normality. When this does not hold, we turn to the *Kruskal-Wallis test* - a non-parametric version of ANOVA, to compare distributions between groups. 
 
 While the F-test in ANOVA provides a determination of whether or not the group means are different, in practice, we would always want to follow up with specific comparisons between groups as well. This chapter covers how we can construct confidence intervals in those cases. 
 
@@ -82,7 +82,7 @@ SS_{T} = SS_{W} + SS_{B}
 $$
 - $SS_T$ : Sum of Squares Total 
 - $SS_W$ : Sum of Squares Within
-- $SS_B$ : Sum of Squares Between 
+- $SS_B$ : Sum of Squares Between (model sum of squares)
 
 In addition the following definitions are important for understanding the ANOVA output: 
 1. **The Between Mean Square** 
@@ -174,6 +174,8 @@ print(heifer_lm.summary())
 ![[Screenshot 2026-04-07 at 6.42.10 PM.png | 400]]
 
 When estimating, both R and Python set one of the $\alpha_{i}$ to be equal to 0. In the case of R, it is the coefficient for $Control$, since we set it as the first level in the factor. For Python, we can tell from the output that the constraint has been placed on the coefficient for $Alfacyp$ (since it is missing). 
+
+> To override the default or switch to sum-to-zero coding, see [[statsmodels#Contrast Coding for Categorical Predictors]].
 
 However, all estimates of group means are identical. From the R output, we can compute that the estimate of the mean for the $Alfacyp$ group is: 
 $$
@@ -317,7 +319,7 @@ c1 <- c(-1, 0.5, 0.5)
 n_vals <- c(6, 6, 6)
 L <- sum(c1*est_coef[3:5])
 
-#MSW <- summary_out[[1]]$`Mean Sq`[2]
+#MSW <- summary_out[[1]]$`Mean Sq`[2] # !!! dont use the [[1]]
 #df <- summary_out[[1]]$Df[2]
 se1 <- sqrt(MSW * sum( c1^2 / n_vals ) )
 

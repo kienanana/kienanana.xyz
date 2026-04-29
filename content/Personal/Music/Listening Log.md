@@ -57,6 +57,7 @@ aliases:
 - 🟢 Nine Inch Nails, Boys Noize - Nine Inch Noize 
 - 🔵 Jessie Ware - Superbloom
 - 🔵 Laufey - A Matter of Time: The Final Hour
+- 🟢 Not for Radio - Bloom EP
 
 ### Relistens:
 - Lil Ugly Mane - volcanic bird enemy and the voiced concern

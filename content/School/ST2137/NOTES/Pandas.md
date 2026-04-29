@@ -1,8 +1,6 @@
 ---
-class:
+class: software
 tags:
-  - python
-  - pandas
   - python
   - pandas
 source:
@@ -24,6 +22,9 @@ Pandas is a Python library used for data analysis and manipulation. IT provides 
 	- unique val of col, df of entries 
 	![[Screenshot 2026-03-10 at 1.25.58 PM.png]]
 	- you can take this further and apply y.pts`.sum()` for example
+	- `.describe()` after groupby → per-group count/mean/std/min/max etc.
+	- `.skew()` → skewness per group
+	- `.apply(lambda g: g['col'].kurt())` or `for i, df in grouped: df['col'].kurt()` → kurtosis per group
 - df`.cumsum()`
 	- default: axis = 0 (or 'index' or None)
 		- *Vertical* (downwards)
@@ -65,6 +66,29 @@ df.iloc[::-1]
 ```
 
 - `pd.to_datetime(df['date'])`
-- 
+- `df.rename(columns={'old': 'new', ...}, inplace=True)`
+- `pd.Series(array)` — wrap a numpy array as a Series (gives `.hist()`, `.describe()`, etc.)
+
+## Groupby Stats Pattern (L7)
+```python
+# per-group descriptive stats
+abl.groupby('gender').describe()
+
+# per-group skewness
+abl.groupby("gender").skew()
+
+# per-group kurtosis (no direct .kurt() on groupby — loop instead)
+for i, df in abl.groupby('gender'):
+    print(f"{df.gender.iloc[0]}: {df['col'].kurt():.4f}")
+```
+
+## Renaming Columns (L9)
+```python
+df.rename(columns={'No': 'id',
+                   'FLOW(cm)': 'Flow',
+                   'Compressive Strength (28-day)(Mpa)': 'Comp_Strength'},
+          inplace=True)
+```
+
 ---
 Full reference: [[Pandas Glossary]]

@@ -16,7 +16,6 @@ aliases:
 
 ### Most Used Functions
 
-python
 
 ```python
 # Reading
@@ -54,7 +53,6 @@ df.style.background_gradient(axis=1)
 
 ## IMPORTING
 
-python
 
 ```python
 import pandas as pd
@@ -67,7 +65,6 @@ import numpy as np  # often used together
 
 ### Series (1D)
 
-python
 
 ```python
 import pandas as pd
@@ -85,7 +82,6 @@ s.loc['a']                             # by label (explicit)
 
 ### DataFrame (2D)
 
-python
 
 ```python
 # Create DataFrame
@@ -105,7 +101,6 @@ df = pd.DataFrame({
 
 ### Reading Files
 
-python
 
 ```python
 # CSV
@@ -127,7 +122,6 @@ pd.read_table("file.txt", delimiter="\t")
 
 ### Writing Files
 
-python
 
 ```python
 df.to_csv("output.csv", index=False)            # save as CSV
@@ -141,7 +135,6 @@ df.to_json("output.json")                       # save as JSON
 
 ### Basic Info
 
-python
 
 ```python
 df.head()                              # first 5 rows
@@ -158,7 +151,6 @@ df.index                               # row index
 
 ### Quick Checks
 
-python
 
 ```python
 df.isnull().sum()                      # count nulls per column
@@ -174,7 +166,6 @@ df['col'].value_counts()               # frequency table
 
 ### Column Selection
 
-python
 
 ```python
 df['col']                              # single column → Series
@@ -184,7 +175,6 @@ df[['col1', 'col2']]                   # multiple columns
 
 ### Row Selection
 
-python
 
 ```python
 df[0:5]                                # first 5 rows (slicing)
@@ -195,7 +185,6 @@ df[df['age'] > 25]                     # filter by condition
 
 **Uses index/column NAMES, INCLUDES endpoint in slices**
 
-python
 
 ```python
 df.loc[0]                              # row with index 0
@@ -210,7 +199,6 @@ df.loc[df['age'] > 25, 'name']         # filtered rows, one column
 
 **Uses integer POSITIONS, EXCLUDES endpoint**
 
-python
 
 ```python
 df.iloc[0]                             # first row
@@ -230,7 +218,6 @@ df.iloc[::-1]                          # all rows reversed
 
 ### Boolean Indexing
 
-python
 
 ```python
 # Single condition
@@ -251,7 +238,6 @@ df.query('Age > 25 and Gender == "M"')
 
 ### Adding Columns
 
-python
 
 ```python
 df['new_col'] = values                 # add new column
@@ -261,7 +247,6 @@ df.insert(1, 'new_col', values)        # insert at position 1
 
 ### Renaming
 
-python
 
 ```python
 df.rename(columns={'old': 'new'})      # rename columns
@@ -271,7 +256,6 @@ df.columns = ['new1', 'new2', 'new3']  # rename all
 
 ### Dropping
 
-python
 
 ```python
 df.drop('col', axis=1)                 # drop column
@@ -283,7 +267,6 @@ df.dropna()                            # drop rows with any NaN
 
 ### Type Conversion
 
-python
 
 ```python
 df['col'].astype(int)                  # convert to integer
@@ -291,6 +274,10 @@ df['col'].astype(float)                # convert to float
 df['col'].astype(str)                  # convert to string
 pd.to_datetime(df['date'])             # convert to datetime
 pd.to_numeric(df['col'])               # convert to numeric
+
+# Convert to NumPy array
+df.to_numpy()                          # preferred over .values (explicit, returns ndarray)
+df['col'].to_numpy()                   # Series → 1D ndarray
 ```
 
 ---
@@ -299,7 +286,6 @@ pd.to_numeric(df['col'])               # convert to numeric
 
 ### groupby()
 
-python
 
 ```python
 # Returns iterable of (key, dataframe) tuples
@@ -314,7 +300,6 @@ for i, (group_name, group_df) in enumerate(df.groupby('column')):
 
 ### Aggregation After groupby
 
-python
 
 ```python
 df.groupby('col').mean()               # mean by group
@@ -339,7 +324,6 @@ for opponent, group in df.groupby('Opponent'):
 2. **Apply** function to each group (agg, transform, apply)
 3. **Combine** results back together
 
-python
 
 ```python
 # Example: mean score by gender
@@ -350,7 +334,6 @@ df.groupby('gender')['score'].mean()
 
 ## SORTING
 
-python
 
 ```python
 df.sort_values('col')                           # sort by column (ascending)
@@ -365,7 +348,6 @@ df.sort_index()                                 # sort by index
 
 ### Concatenating
 
-python
 
 ```python
 pd.concat([df1, df2])                  # stack vertically (rows)
@@ -374,7 +356,6 @@ pd.concat([df1, df2], axis=1)          # stack horizontally (cols)
 
 ### Merging
 
-python
 
 ```python
 pd.merge(df1, df2, on='key')           # inner join
@@ -388,7 +369,6 @@ pd.merge(df1, df2, on='key', how='outer')  # outer join
 
 ### Series String Methods (.str)
 
-python
 
 ```python
 df['col'].str.upper()                  # uppercase
@@ -410,7 +390,6 @@ df['col'].str[:3]                      # first 3 characters
 
 ### apply()
 
-python
 
 ```python
 # Apply function to each column (axis=0, default)
@@ -425,7 +404,6 @@ df['col'].apply(lambda x: x**2)
 
 ### map()
 
-python
 
 ```python
 # Map values in Series (one-to-one mapping)
@@ -435,7 +413,6 @@ df['col'].map(lambda x: x*2)
 
 ### applymap()
 
-python
 
 ```python
 # Apply function to every element in DataFrame
@@ -449,7 +426,6 @@ df.map(lambda x: x*2)                  # NEW in pandas 2.1+
 
 **Note:** Iteration is slow in pandas. Use vectorized operations when possible!
 
-python
 
 ```python
 # iterrows() - returns (index, Series)
@@ -467,7 +443,6 @@ for row in df.itertuples():
 
 ## CUMULATIVE OPERATIONS
 
-python
 
 ```python
 df['col'].cumsum()                     # cumulative sum
@@ -485,7 +460,6 @@ df['col'].cummin()                     # cumulative minimum
 
 ### Pivot & Melt
 
-python
 
 ```python
 # Wide to long (melt)
@@ -500,7 +474,6 @@ df.pivot_table(values='val', index='row', columns='col', aggfunc='mean')
 
 ### Stack & Unstack
 
-python
 
 ```python
 df.stack()                             # pivot columns to rows
@@ -513,7 +486,6 @@ df.unstack()                           # pivot rows to columns
 
 ### crosstab()
 
-python
 
 ```python
 # Create contingency table
@@ -533,7 +505,6 @@ pd.crosstab(df['col1'], df['col2'], normalize='all')     # overall props
 
 **From Assignment:** Extract values for numerical operations
 
-python
 
 ```python
 # Create contingency table
@@ -554,7 +525,6 @@ col_sums = n_ij.sum(axis=0)            # column totals
 
 ## MISSING DATA
 
-python
 
 ```python
 df.isnull()                            # check for NaN (returns bool df)
@@ -573,7 +543,6 @@ df.interpolate()                       # interpolate missing values
 
 ### Built-in Plotting
 
-python
 
 ```python
 # Uses matplotlib backend
@@ -596,7 +565,6 @@ pd.crosstab(df.col1, df.col2).plot(kind='bar', stacked=True)
 
 ### Plot Parameters
 
-python
 
 ```python
 # Common arguments
@@ -615,7 +583,6 @@ legend=True                            # show legend
 
 ### Descriptive Statistics
 
-python
 
 ```python
 df['col'].mean()                       # mean
@@ -630,7 +597,6 @@ df.corr()                              # correlation matrix
 
 ### Correlation
 
-python
 
 ```python
 df[['col1', 'col2']].corr()            # correlation matrix
@@ -651,7 +617,6 @@ corr_matrix.style.background_gradient(
 
 ### background_gradient() - Color Coding
 
-python
 
 ```python
 # Basic usage
@@ -667,7 +632,6 @@ df.style.background_gradient(cmap='coolwarm')   # blue-white-red
 
 **From Assignment:** Contingency table styling
 
-python
 
 ```python
 # Default: colors within each column
@@ -689,7 +653,6 @@ pd.crosstab(df['A'], df['B']).style.background_gradient(axis=1)
 
 **From Lectures:** Correlation matrix styling
 
-python
 
 ```python
 # Symmetric color scale for correlations
@@ -702,7 +665,6 @@ df.corr().style.background_gradient(
 
 ### Hypothesis Tests (scipy.stats)
 
-python
 
 ```python
 from scipy import stats
@@ -732,7 +694,6 @@ slope, intercept, r, p, stderr = stats.linregress(x, y)
 
 ## CATEGORICAL DATA (STATSMODELS)
 
-python
 
 ```python
 from statsmodels.api import stats as sms
@@ -755,7 +716,6 @@ mosaic(df, ['col1', 'col2'], statistic=True)  # color by residuals
 
 ## MATPLOTLIB BASICS
 
-python
 
 ```python
 import matplotlib.pyplot as plt
@@ -795,7 +755,6 @@ plt.show()
 
 ### Method Chaining
 
-python
 
 ```python
 # Wrap in parentheses, one method per line for readability
@@ -812,7 +771,6 @@ result = (df
 
 **IMPORTANT:** Don't ignore this warning!
 
-python
 
 ```python
 # WRONG - may not work as expected
@@ -828,7 +786,6 @@ subset['new_col'] = values             # No warning
 
 **This is confusing but important!**
 
-python
 
 ```python
 # axis=0 or 'index' → operate DOWN rows (column-wise operation)
@@ -846,7 +803,6 @@ df.drop('col', axis=1)                 # drop column
 
 ### inplace Parameter
 
-python
 
 ```python
 # Many pandas functions have inplace parameter
@@ -868,7 +824,6 @@ df.drop('col', axis=1, inplace=True)   # modifies df in place
 |.iloc|Position-based, EXCLUDES endpoint|Similar to R's default|
 |Default slicing|Excludes endpoint|Includes endpoint|
 
-python
 
 ```python
 # Pandas loc INCLUDES endpoint
@@ -885,7 +840,6 @@ df.iloc[1:3]  # rows at positions 1, 2 (NOT 3)
 
 ### Index is Critical
 
-python
 
 ```python
 # Pandas uses index for fast lookups (unlike R row numbers)
@@ -898,7 +852,6 @@ df.loc['index_value']                  # fast lookup by index
 
 ### Attribute vs Method (IMPORTANT!)
 
-python
 
 ```python
 # Attribute (no parentheses)
@@ -922,7 +875,6 @@ df.copy()                              # ALWAYS use when subsetting!
 
 ❌ **Forgetting copy()**
 
-python
 
 ```python
 # WRONG
@@ -935,7 +887,6 @@ subset = df[df['age'] > 25].copy()
 
 ❌ **Using 'and'/'or' instead of &/|**
 
-python
 
 ```python
 # WRONG
@@ -947,7 +898,6 @@ df[(df['age'] > 25) & (df['gender'] == 'M')]
 
 ❌ **Forgetting to bracket conditions**
 
-python
 
 ```python
 # WRONG
@@ -959,7 +909,6 @@ df[(df['age'] > 25) & (df['gender'] == 'M')]
 
 ❌ **Modifying DataFrame during iteration**
 
-python
 
 ```python
 # WRONG - don't modify df while iterating
@@ -972,7 +921,6 @@ df['new'] = df['col'].apply(lambda x: value)
 
 ❌ **Mixing loc and iloc**
 
-python
 
 ```python
 # WRONG
@@ -989,7 +937,6 @@ df.loc[0:5, 'col1':'col3']             # loc for labels
 
 ✅ **Use vectorized operations (avoid loops)**
 
-python
 
 ```python
 # SLOW
@@ -1002,7 +949,6 @@ df['new'] = df['old'] * 2
 
 ✅ **Check data after reading**
 
-python
 
 ```python
 df = pd.read_csv('file.csv')
@@ -1013,7 +959,6 @@ print(df.describe())
 
 ✅ **Use meaningful column names**
 
-python
 
 ```python
 # GOOD
@@ -1025,7 +970,6 @@ df.rename(columns={'col1': 'x1'}, inplace=True)
 
 ✅ **Handle missing data explicitly**
 
-python
 
 ```python
 df.dropna()                            # or
@@ -1035,7 +979,6 @@ df['col'].fillna(df['col'].mean())     # fill with mean
 
 ✅ **Use appropriate data types**
 
-python
 
 ```python
 df['date'] = pd.to_datetime(df['date'])

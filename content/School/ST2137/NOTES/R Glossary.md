@@ -14,7 +14,6 @@ aliases:
 
 ### Most Used Functions (Memorize!)
 
-r
 
 ```r
 # Reading
@@ -56,7 +55,6 @@ chisq.test(), t.test(), lm()
 
 ### Vectors
 
-r
 
 ```r
 # Creating vectors
@@ -71,7 +69,6 @@ rep(c(1,2), c(3,2))              # 1, 1, 1, 2, 2
 
 ### Matrices
 
-r
 
 ```r
 # Create matrix
@@ -88,7 +85,6 @@ matrixA %*% matrixB            # matrix multiplication
 
 ### Dataframes
 
-r
 
 ```r
 # Create dataframe
@@ -101,7 +97,6 @@ df$new_col <- values           # add by name
 
 ### Lists
 
-r
 
 ```r
 # Create list
@@ -119,7 +114,6 @@ my_list[["A"]]                 # by name with [[]]
 
 ### Reading Files
 
-r
 
 ```r
 # Text files
@@ -145,7 +139,6 @@ data <- fromJSON("file.json")                   # returns list
 
 ### Writing Files
 
-r
 
 ```r
 write.csv(df, "output.csv", row.names=FALSE)    # save as CSV
@@ -160,7 +153,6 @@ df <- readRDS("data.rds")                       # load R object
 
 ### Basic Info
 
-r
 
 ```r
 head(df)                       # first 6 rows
@@ -182,7 +174,6 @@ names(df)                      # column names
 
 ### Using [] Brackets
 
-r
 
 ```r
 # Basic indexing
@@ -199,7 +190,6 @@ x[-c(1,3)]                     # drops elements 1 and 3
 
 ### Using $ (Column Access)
 
-r
 
 ```r
 df$column_name                 # returns vector
@@ -208,7 +198,6 @@ df$age                         # get 'age' column
 
 ### Logical Subsetting
 
-r
 
 ```r
 # Single condition
@@ -239,7 +228,6 @@ df[df$Gender == "M" | df$Grade == "A", ]  # OR: male OR grade A
 
 ### Single Variable
 
-r
 
 ```r
 mean(x)                        # average
@@ -258,7 +246,6 @@ IQR(x)                         # interquartile range
 
 ### Grouped Statistics
 
-r
 
 ```r
 # aggregate() - THE WORKHORSE for grouped summaries
@@ -271,9 +258,27 @@ aggregate(cbind(x, y) ~ group, data=df, FUN=mean)  # multiple variables
 # FUN must return same-length output for each group
 ```
 
+### Apply Family
+
+
+```r
+# apply() — apply FUN over rows (MARGIN=1) or columns (MARGIN=2) of a matrix
+apply(matrix, MARGIN=1, FUN=mean)         # row means
+apply(matrix, MARGIN=2, FUN=sd)           # column std deviations
+apply(matrix, MARGIN=1, FUN=function(x) mean(x, trim=0.1))  # custom fn
+
+# sapply() — simplified apply; returns vector or matrix (not a list)
+sapply(1:5, function(i) i^2)              # [1, 4, 9, 16, 25]
+sapply(groups, mean)                      # mean of each group
+
+# tapply() — apply FUN to subsets of X defined by a factor INDEX
+tapply(df$score, df$gender, mean)         # mean score by gender
+tapply(df$score, df$gender, sd)           # SD by group
+tapply(df$value, df$group, function(x) mean(Winsorize(x)))  # custom fn
+```
+
 ### Correlation
 
-r
 
 ```r
 cor(x, y)                               # correlation (default: Pearson)
@@ -285,9 +290,29 @@ cor(df[, c("col1", "col2", "col3")])   # correlation matrix
 
 ---
 
+## ROBUST STATISTICS
+
+
+```r
+# Trimmed mean — discard extreme proportions before averaging
+mean(x, trim=0.1)                      # 10% trimmed: drops lowest/highest 10%
+
+# Median absolute deviation (MAD) — robust spread measure
+mad(x)                                 # median(|x - median(x)|) * 1.4826
+# The 1.4826 scale factor makes it consistent with SD for normal data
+
+# Winsorize — cap extreme values at given quantiles (requires DescTools)
+library(DescTools)
+Winsorize(x, quantile=c(0.05, 0.95))   # replace values outside [5th, 95th] pctile
+# Winsorize returns modified vector; combine with tapply/aggregate for groups
+aggregate(score ~ group, data=df,
+          FUN=function(x) mean(Winsorize(x, quantile=c(0.05, 0.95))))
+```
+
+---
+
 ## MISSING VALUES
 
-r
 
 ```r
 is.na(x)                       # TRUE/FALSE for each element
@@ -300,7 +325,6 @@ complete.cases(df)             # logical vector: TRUE if row complete
 
 ## SORTING & ORDERING
 
-r
 
 ```r
 sort(x)                                  # sort vector ascending
@@ -319,7 +343,6 @@ df[order(df$Age, df$Score), ]            # sort by Age, then Score
 
 ### Finding & Matching
 
-r
 
 ```r
 which(condition)               # returns indices where TRUE
@@ -332,7 +355,6 @@ match(x, table)                # returns positions of first matches
 
 ### Tabulation
 
-r
 
 ```r
 table(x)                       # frequency table
@@ -340,9 +362,29 @@ table(x, y)                    # cross-tabulation (contingency table)
 xtabs(~ x + y, data=df)        # alternative cross-tab using formula
 ```
 
+### Date Handling
+
+
+```r
+as.Date("2020-01-15")                        # parse ISO date string to Date
+as.Date("15/01/2020", format="%d/%m/%Y")     # parse with custom format
+Sys.Date()                                   # today's date
+as.numeric(date2 - date1)                    # difference in days
+```
+
+### Data Reshaping
+
+
+```r
+# stack() — reshape wide data to long format (selected columns → values + ind)
+stack(df, select=c(col1, col2))    # returns data.frame with $values and $ind
+stack(df[, c("before", "after")]) # use with wilcox.test/t.test on stacked data
+# $values: all numeric values concatenated
+# $ind   : factor indicating which original column each value came from
+```
+
 ### Cutting (Binning)
 
-r
 
 ```r
 cut(x, breaks)                             # bin continuous variable
@@ -354,7 +396,6 @@ cut(x, breaks=c(0,10,20), include.lowest=TRUE)  # close left endpoint
 
 ### Combinations
 
-r
 
 ```r
 combn(n, k)                    # all combinations of k items from n
@@ -364,7 +405,6 @@ combn(n, k)                    # all combinations of k items from n
 
 ### Set Operations
 
-r
 
 ```r
 union(x, y)                    # elements in x OR y
@@ -382,7 +422,6 @@ setdiff(x, y)                  # elements in x but NOT in y
 
 **Pattern:** Every distribution has 4 functions: `d`, `p`, `q`, `r`
 
-r
 
 ```r
 # d = density/PMF/PDF
@@ -413,7 +452,6 @@ for a table:
 **dhyper(a, a+c, b+d, a+b)**
 ### Hypothesis Tests
 
-r
 
 ```r
 # Chi-square test
@@ -427,16 +465,107 @@ chisq_out$expected             # expected frequencies
 fisher.test(table)
 
 # t-test
-t.test(x, y)                   # two-sample t-test
-t.test(x, mu=0)                # one-sample t-test
+t.test(x, mu=0)                        # one-sample
+t.test(x, y)                           # two-sample (Welch by default)
+t.test(x, y, var.equal=TRUE)           # pooled variance (equal var assumed)
+t.test(before, after, paired=TRUE)     # paired
+t.test(x, y, conf.level=0.99)         # 99% CI instead of default 95%
+
+# Extract t-test results
+t_out <- t.test(x, y, var.equal=TRUE)
+t_out$statistic                        # test statistic
+t_out$p.value                          # p-value
+t_out$conf.int                         # confidence interval
+
+# Normality tests
+shapiro.test(x)                        # Shapiro-Wilk, H0: data is Normal
+ks.test(x, "pnorm")                    # Kolmogorov-Smirnov
+
+# Q-Q plots
+qqnorm(x)                              # theoretical normal quantiles vs data
+qqline(x)                              # add reference line through quartiles
+
+# Non-parametric two-sample tests
+wilcox.test(x, y)                          # Wilcoxon Rank-Sum (independent)
+wilcox.test(x, y, alternative="greater")  # one-sided: H₁: x > y
+wilcox.test(before, after,
+            paired=TRUE, exact=FALSE)      # Wilcoxon Signed-Rank (paired)
+# exact=FALSE: use normal approximation (required when ties present)
+# alternative: "two.sided" (default), "greater", "less"
 
 # Linear models
-lm(y ~ x, data=df)             # simple linear regression
+lm(y ~ x, data=df)                # simple linear regression
+lm(y ~ x1 + x2, data=df)          # multiple regression
+lm(y ~ x1 + x2 + x3, data=df)     # add indicator variable for categorical
+lm(y ~ x1 * x2, data=df)          # interaction (includes main effects too)
 lm_out <- lm(y ~ x, data=df)
-lm_out$coefficients            # extract coefficients
-lm_out$fitted.values           # fitted y values
-coef(lm_out)                   # also gets coefficients
-summary(lm_out)                # detailed output
+
+# Accessing lm results
+coef(lm_out)                       # named vector of β estimates
+lm_out$coefficients                # same
+summary(lm_out)                    # coefficients + t-tests + R² + F-test
+anova(lm_out)                      # SS decomposition table (SSReg, SSRes, F)
+confint(lm_out)                    # 95% CI for all parameters
+fitted(lm_out)                     # ŷ fitted values
+residuals(lm_out)                  # raw residuals r_i = y_i - ŷ_i
+rstandard(lm_out)                  # standardised residuals (use for diagnostics)
+influence.measures(lm_out)         # leverage, Cook's D, DFFITS etc.
+
+# Extracting scalars from summary()
+s <- summary(lm_out)
+s$r.squared                        # R²
+s$adj.r.squared                    # adjusted R²
+s$sigma                            # residual standard error σ̂
+s$coefficients["x", "Pr(>|t|)"]   # p-value for specific coefficient
+```
+
+### ANOVA (L8)
+
+
+```r
+# One-way ANOVA via lm
+heifers_lm <- lm(org ~ type, data=heifers)
+anova(heifers_lm)                          # F-test table
+summary(heifers_lm)                        # coefficient estimates
+
+# Ordering factor levels (controls which group is reference)
+heifers$type <- factor(heifers$type,
+                       levels=c("Control", "Alfacyp", "Enro", ...))
+
+# Residual checks
+r1 <- residuals(heifers_lm)
+hist(r1)
+qqnorm(r1); qqline(r1)
+
+# Confidence interval for contrast / pairwise comparison (manual)
+qt(0.025, df=n-k, lower.tail=FALSE)        # critical t-value (positive)
+
+# Tukey HSD — all pairwise CIs, valid post-hoc
+TukeyHSD(aov(heifers_lm), ordered=TRUE)
+
+# Kruskal-Wallis (non-parametric, requires n_i >= 5 per group)
+kruskal.test(heifers$org, heifers$type)
+```
+
+### Prediction from Linear Model (L9)
+
+
+```r
+# Generate new data for prediction
+new_df <- data.frame(Water = seq(160, 240, by=5))
+
+# Confidence interval for mean response E(Y|X)
+conf_intervals <- predict(lm_out, new_df, interval="conf")
+# Returns matrix: columns = fit, lwr, upr
+
+# Prediction interval for individual new observation
+pred_intervals <- predict(lm_out, new_df, interval="pred")
+
+# Plot fitted line with CI bands
+plot(x, y)
+abline(lm_out, col="red")
+lines(new_df$Water, conf_intervals[, "lwr"], col="red", lty=2)
+lines(new_df$Water, conf_intervals[, "upr"], col="red", lty=2)
 ```
 
 ---
@@ -445,7 +574,6 @@ summary(lm_out)                # detailed output
 
 ### For Loops
 
-r
 
 ```r
 # Basic structure
@@ -470,7 +598,6 @@ for(group_name, group_df in groupby_output) {
 
 ### While Loops
 
-r
 
 ```r
 # Basic structure
@@ -489,7 +616,6 @@ while(x < 10) {
 
 ### If-Else
 
-r
 
 ```r
 if(condition) {
@@ -505,7 +631,6 @@ if(condition) {
 
 ## USER-DEFINED FUNCTIONS
 
-r
 
 ```r
 # Basic structure
@@ -530,7 +655,6 @@ function_name(5, 3)
 
 ### Basic Plots
 
-r
 
 ```r
 plot(x, y)                            # scatter plot
@@ -548,7 +672,6 @@ box_out$stats                         # five-number summary
 
 ### Plot Customization
 
-r
 
 ```r
 # Common arguments
@@ -585,7 +708,6 @@ rgb(255, 0, 0, 64, maxColorValue=255)  # custom with transparency
 
 ### Advanced Plotting Techniques
 
-r
 
 ```r
 # Jittering (add random noise to avoid overplotting)
@@ -600,7 +722,6 @@ plot(x, y, col=red_transparent, pch=20, cex=1.6)
 
 ## PLOTTING (LATTICE)
 
-r
 
 ```r
 library(lattice)
@@ -622,6 +743,10 @@ bwplot(variable ~ factor, data=df)        # by group
 xyplot(y ~ x, data=df)
 xyplot(y ~ x | factor, data=df)           # panels by factor
 xyplot(y ~ x, groups=factor, data=df)     # overlay by group
+xyplot(y ~ x, data=df, type="l")          # line plot
+
+# Dot plots
+dotplot(value ~ group, data=df)           # dot plot by group (good for means/CIs)
 
 # Bar charts
 barchart(table, horizontal=FALSE)
@@ -638,7 +763,6 @@ pch                             # plotting character
 
 ## PLOTTING (GGPLOT2) - If Covered
 
-r
 
 ```r
 library(ggplot2)
@@ -663,7 +787,6 @@ geom_density()                  # density plot
 
 ### Computing Expected Counts Under Independence
 
-r
 
 ```r
 # Given contingency table
@@ -685,7 +808,6 @@ residuals <- (tab - expected) / sqrt(expected)
 
 **Cohen's Kappa:**
 
-r
 
 ```r
 # Measure of inter-rater agreement
@@ -706,7 +828,6 @@ kappa <- (observed - expected) / (1 - expected)
 
 **Weighted Kappa (for ordinal categories):**
 
-r
 
 ```r
 # Create weight matrix: w_ij = 1 - |i-j|/(I-1)
@@ -741,7 +862,6 @@ kappa_w <- (weighted_obs - weighted_exp) / (1 - weighted_exp)
 
 ### Mosaic Plots
 
-r
 
 ```r
 # Mosaic plot (base R)
@@ -759,7 +879,6 @@ mosaicplot(table, shade=TRUE,
 
 ### Association Measures (Categorical)
 
-r
 
 ```r
 # Requires DescTools package
@@ -776,9 +895,24 @@ assoc_out <- Desc(table, plotit=FALSE)[[1]]$assocs
 # - Odds Ratio: for 2x2 tables
 ```
 
+### Skewness & Kurtosis (DescTools, L7)
+
+
+```r
+library(DescTools)
+
+# Per-group skewness and kurtosis via aggregate
+aggregate(viscera ~ gender, data=abl, Skew, method=1)
+aggregate(viscera ~ gender, data=abl, Kurt, method=1)
+
+# method=1: method-of-moments estimator (matches lecture formulas)
+# Skew > 0: right-skewed; < 0: left-skewed
+# Kurt > 0: fat tails (leptokurtic); < 0: thin tails (platykurtic)
+# Note: Kurt() here is EXCESS kurtosis (Normal = 0)
+```
+
 ### Odds Ratio & Relative Risk
 
-r
 
 ```r
 # Odds ratio for 2x2 table:
@@ -794,11 +928,105 @@ r
 
 ---
 
+## SIMULATION (L10)
+
+### Random Number Generation
+
+
+```r
+set.seed(2137)    # set seed — must call BEFORE generating; resets to same stream
+
+rnorm(n, mean=0, sd=1)           # Normal
+runif(n, min=0, max=1)           # Uniform
+rgamma(n, shape=2, rate=3)       # Gamma (rate = 1/scale)
+rpois(n, lambda=1.3)             # Poisson
+rbinom(n, size=2, prob=0.3)      # Binomial
+rexp(n, rate=1)                  # Exponential
+```
+
+### Simulation Loop Patterns
+
+
+```r
+# Basic simulation loop
+set.seed(2139)
+output_vec <- rep(0, length=100)     # pre-allocate
+for(i in 1:length(output_vec)) {
+  X <- rpois(20, 0.5)
+  # ... compute statistic
+  if(condition) output_vec[i] <- 1
+}
+mean(output_vec)                     # estimate of probability
+
+# replicate() — cleaner alternative for repeating a function call
+replicate(2000, some_function())
+
+# vapply() — like sapply but type-safe (faster, safer)
+vapply(1:2000,
+       function(x) generate_one_test(),
+       1L)                           # 1L specifies output type: integer scalar
+```
+
+### ifelse and floor
+
+
+```r
+ifelse(condition, value_if_true, value_if_false)   # vectorised if-else
+# e.g. profit function:
+hX <- ifelse(X >= 11000, 11000,
+             floor(X) + (11000 - floor(X)) * (-0.25))
+
+floor(x)     # round DOWN to nearest integer
+ceiling(x)   # round UP
+round(x, n)  # round to n decimal places
+```
+
+### Bootstrap (boot library)
+
+
+```r
+library(MASS)
+library(boot)
+
+# Define statistic function — must accept (data, indices)
+stat_fn <- function(d, i) {
+  mean(d[i], trim=0.1)     # i contains bootstrap sample indices
+}
+
+# Run bootstrap
+boot_out <- boot(chem, stat_fn, R=1999, stype="i")
+
+# Compute confidence intervals
+boot.ci(boot.out=boot_out, type=c("perc", "bca"))
+# perc: basic percentile interval
+# bca:  bias-corrected and accelerated (more accurate, preferred)
+```
+
+### Monte Carlo Integration
+
+
+```r
+# To estimate ∫ h(x) f(x) dx = E[h(X)]:
+# 1. Generate X ~ f
+# 2. Compute mean(h(X))
+
+set.seed(2138)
+X <- runif(50000, 0, 1)     # X ~ Uniform(0,1)
+hX <- exp(2*X)              # h(X)
+mean(hX)                    # Monte Carlo estimate
+
+# Confidence interval for the estimate (from CLT)
+s <- sd(hX)
+q1 <- qnorm(0.95)           # z-quantile
+CI <- c(mean(hX) - q1*s/sqrt(n), mean(hX) + q1*s/sqrt(n))
+```
+
+---
+
 ## SPECIAL TECHNIQUES
 
 ### Poisson-ness Plot
 
-r
 
 ```r
 # Check if data follows Poisson distribution
@@ -822,7 +1050,6 @@ lambda_hat <- exp(slope)
 
 ### Theil-Sen Estimator (Robust Slope)
 
-r
 
 ```r
 # Compute slope from ALL pairwise combinations
@@ -843,7 +1070,6 @@ robust_slope <- median(slopes)
 
 ## STRING OPERATIONS
 
-r
 
 ```r
 paste("Hello", "World")              # concatenate with space
@@ -864,12 +1090,16 @@ gsub("old", "new", string)           # replace all occurrences
 
 ## OUTPUT & PRINTING
 
-r
 
 ```r
 print(x)                             # print object
 cat("text", x, "\n")                 # concatenate and print (no quotes)
 cat("Value:", x, "\n", sep="")       # control separator
+
+# format() — convert number to string with controlled precision
+format(3.14159, digits=3)            # "3.14" (3 significant digits)
+format(0.0001234, digits=3)          # "0.000123"
+format(x, nsmall=2)                  # ensure at least 2 decimal places
 
 # Formatted printing
 sprintf("%.2f", 3.14159)             # "3.14" (2 decimals)
@@ -887,7 +1117,6 @@ sink()                               # stop, close file
 
 ## PACKAGES
 
-r
 
 ```r
 # Install (once)
@@ -908,16 +1137,16 @@ help(package="package_name")
 **Common Packages for This Course:**
 
 - `MASS` - datasets and robust regression
-- `lattice` - trellis graphics
+- `lattice` - trellis graphics (conditioned plots, `histogram`, `xyplot`, etc.)
 - `jsonlite` - JSON read/write
-- `DescTools` - categorical data analysis tools
-- `psych` - correlation plots
+- `DescTools` - `Skew()`, `Kurt()`, `Desc()` for categorical association measures
+- `psych` - correlation plots; `corPlot(r, cex=0.8, cex.axis=0.8, show.legend=TRUE)` where `r` is a correlation matrix
+- `boot` - bootstrap resampling (`boot()`, `boot.ci()`)
 
 ---
 
 ## GETTING HELP
 
-r
 
 ```r
 ?function_name                       # help for function
@@ -939,7 +1168,6 @@ apropos("text")                      # find functions with "text" in name
 
 **Shorter vector repeats to match longer vector**
 
-r
 
 ```r
 c(1, 2, 3, 4) + c(10, 20)
@@ -955,7 +1183,6 @@ matrix / vector  # vector recycles to match each column/row
 - **Indexing starts at 1** (not 0)
 - **Negative indexing DROPS elements** (not "from end")
 
-r
 
 ```r
 x <- c(10, 20, 30, 40, 50)
@@ -968,7 +1195,6 @@ x[-c(1,3)]     # 20, 40, 50 (drops 1st and 3rd)
 
 **Powerful notation used across many functions**
 
-r
 
 ```r
 # Basic: outcome ~ predictor
@@ -991,7 +1217,6 @@ xyplot(y ~ x | factor, data=df)  # separate panels by factor
 
 ## DEBUGGING TIPS
 
-r
 
 ```r
 # Insert breakpoint
@@ -1023,7 +1248,6 @@ typeof(object)                 # storage mode
 
 ❌ **Forgetting c()**
 
-r
 
 ```r
 # WRONG
@@ -1034,7 +1258,6 @@ x <- c(1, 2, 3)
 
 ❌ **Using = instead of == in logical tests**
 
-r
 
 ```r
 # WRONG
@@ -1045,7 +1268,6 @@ df[df$Gender == "M", ]
 
 ❌ **Forgetting comma in df[rows, cols]**
 
-r
 
 ```r
 # WRONG (treats as list indexing)
@@ -1056,7 +1278,6 @@ df[1:3, ]
 
 ❌ **Using && instead of & in vectors**
 
-r
 
 ```r
 # WRONG (only compares first elements)
@@ -1067,7 +1288,6 @@ df[df$Age > 25 & df$Gender == "M", ]
 
 ❌ **Accessing non-existent columns**
 
-r
 
 ```r
 # If column has spaces
@@ -1082,7 +1302,6 @@ df[, "col name"] # ALSO CORRECT
 
 ✅ **Use meaningful variable names**
 
-r
 
 ```r
 student_scores  # good
@@ -1091,7 +1310,6 @@ x               # bad (unless in math context)
 
 ✅ **Check data after reading**
 
-r
 
 ```r
 data <- read.csv("file.csv")
@@ -1102,7 +1320,6 @@ summary(data)   # check for oddities
 
 ✅ **Handle missing values explicitly**
 
-r
 
 ```r
 mean(x, na.rm=TRUE)           # remove NA before calculation
@@ -1111,7 +1328,6 @@ sum(is.na(x))                 # count missing
 
 ✅ **Factor variables when appropriate**
 
-r
 
 ```r
 df$category <- factor(df$category, 
@@ -1121,7 +1337,6 @@ df$category <- factor(df$category,
 
 ✅ **Check assumptions before tests**
 
-r
 
 ```r
 # Chi-square: all expected counts >= 5
