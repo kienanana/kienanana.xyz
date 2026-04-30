@@ -39,16 +39,17 @@ aliases:
 ---
 
 ### Continuous outcome, comparing groups → L7, L8
+*is there a difference between groups?*
 
 **Check assumptions first:**
 1. **Normality** — histogram + QQ-plot of data (L7) or residuals (L8)
 2. **Equal variance** — if larger SD > 2× smaller SD, do NOT assume equal variance
 
-| Situation               | Parametric             | Non-parametric fallback  |
-| ----------------------- | ---------------------- | ------------------------ |
-| 2 independent groups    | Independent t-test     | Wilcoxon Rank-Sum (WRS)  |
-| 2 paired/related groups | Paired t-test          | Wilcoxon Sign Test (WST) |
-| 3+ groups               | One-way ANOVA (F-test) | Kruskal-Wallis           |
+| Situation               | Parametric             | Non-parametric fallback (no normality assumption) |
+| ----------------------- | ---------------------- | ------------------------------------------------- |
+| 2 independent groups    | Independent t-test     | Wilcoxon Rank-Sum (WRS)                           |
+| 2 paired/related groups | Paired t-test          | Wilcoxon Sign Test (WST)                          |
+| 3+ groups               | One-way ANOVA (F-test) | Kruskal-Wallis                                    |
 
 > **Paired vs independent:** paired = same subject in both groups (e.g. before/after), or matched observations. Compute $D_i = X_i - Y_i$ and test if median/mean of D is 0.
 

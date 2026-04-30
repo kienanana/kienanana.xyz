@@ -467,6 +467,30 @@ This allows the same intuition that Pearson’s correlation does. When you are p
 
 
 ## stuff not in lec notes:
+
+### `findInterval(x, vec)`
+Assigns each element of `x` to an interval defined by `vec`. Returns a 0-based index: 0 means below the first breakpoint, 1 means in the first interval, etc.
+
+```R
+findInterval(x, c(2.5, 5.5))
+# x=1 → 0, x=3 → 1, x=6 → 2
+```
+
+To get **1-based quartile labels** (as in midterm Q2):
+```R
+# all.inside=TRUE forces values at the boundaries inside an interval
+stud_perf$G3_q <- findInterval(stud_perf$G3, c(0, 8, 11, 14, 20), all.inside = TRUE)
+# results in labels 1, 2, 3, 4 — pass as factor to spineplot
+spineplot(as.factor(G3_q) ~ absences, data = stud_perf, ...)
+```
+
+Key details:
+- `all.inside = TRUE` pushes boundary values inward so you always get a valid interval index
+- `findInterval` is **vectorised** — no need for a `for` loop
+- using `$` notation with `data=` argument in `spineplot` is redundant: use one or the other
+
+---
+
 #### Outlier Handling:
 - never automatically drop
 	- always investigate WHY

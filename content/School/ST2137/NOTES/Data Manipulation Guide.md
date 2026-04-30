@@ -174,6 +174,8 @@ a = np.array([[1,2],[3,4]])
 np.sum(a, axis=0)   # sum down columns → [4, 6]
 np.sum(a, axis=1)   # sum across rows → [3, 7]
 ```
+![[Pasted image 20260430121722.png | 500]]
+![[Pasted image 20260430121924.png | 500]]
 
 **Pandas ↔ NumPy conversion:**
 

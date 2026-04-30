@@ -300,6 +300,25 @@ note: after log transform, should RECOMPUTE Q1, Q3, IQR, boundaries
 	- less extreme tails: (highs are lower than norm, lows are higher than norm): thinner tails 
 	- more extreme tails: (highs are higher than norm, lows are lower than norm): fatter tails 
 
+### Rootogram (Python)
+A rootogram plots **square-root residuals** of observed vs expected counts — useful for assessing Poisson fit. Bars coloured by sign (blue = observed > expected, red = observed < expected).
+
+```python
+# Compute
+rootogram_df['res'] = np.sqrt(rootogram_df['obs']) - np.sqrt(rootogram_df['exp'])
+rootogram_df['color'] = np.where(rootogram_df['res'] > 0, 'blue', 'red')
+
+# Plot
+rootogram_df['res'].plot(kind='bar', color=rootogram_df['color'],
+    rot=1.0, xlabel='Goals For in a Game', ylabel='Residual',
+    title='Rootogram for Liverpool GF', ylim=[-2, 2])
+plt.axhline(y=0.0, linestyle='--', color='gray')
+```
+
+Why sqrt-transform? Raw counts are skewed; square root stabilises variance and makes the distribution closer to symmetric (especially for Poisson data).
+
+---
+
 ### On Density Plots:
 **Bandwidth Problem:**
 - bandwidth too small: spiky / noisy

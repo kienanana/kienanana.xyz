@@ -260,21 +260,36 @@ aggregate(cbind(x, y) ~ group, data=df, FUN=mean)  # multiple variables
 
 ### Apply Family
 
+| Function | Input           | Output           | Use when                             |
+| -------- | --------------- | ---------------- | ------------------------------------ |
+| `apply`  | matrix/array    | vector or matrix | row/col summaries of a matrix        |
+| `lapply` | list/vector     | list (always)    | transform each element, keep as list |
+| `sapply` | list/vector     | vector or matrix | same as lapply, simplified result    |
+| `vapply` | list/vector     | typed vector     | same as sapply, type-safe & faster   |
+| `tapply` | vector + factor | named array      | group-wise summaries                 |
 
 ```r
-# apply() — apply FUN over rows (MARGIN=1) or columns (MARGIN=2) of a matrix
-apply(matrix, MARGIN=1, FUN=mean)         # row means
-apply(matrix, MARGIN=2, FUN=sd)           # column std deviations
-apply(matrix, MARGIN=1, FUN=function(x) mean(x, trim=0.1))  # custom fn
+# apply() — over rows (MARGIN=1) or columns (MARGIN=2) of a matrix
+apply(m, MARGIN=1, FUN=mean)              # row means
+apply(m, MARGIN=2, FUN=sd)               # column std deviations
+apply(m, MARGIN=1, FUN=function(x) mean(x, trim=0.1))
 
-# sapply() — simplified apply; returns vector or matrix (not a list)
-sapply(1:5, function(i) i^2)              # [1, 4, 9, 16, 25]
-sapply(groups, mean)                      # mean of each group
+# lapply() — returns a list, always
+lapply(1:5, function(i) i^2)             # list(1, 4, 9, 16, 25)
+lapply(df_list, summary)                 # summary of each data frame
 
-# tapply() — apply FUN to subsets of X defined by a factor INDEX
-tapply(df$score, df$gender, mean)         # mean score by gender
-tapply(df$score, df$gender, sd)           # SD by group
-tapply(df$value, df$group, function(x) mean(Winsorize(x)))  # custom fn
+# sapply() — like lapply but simplifies to vector/matrix if possible
+sapply(1:5, function(i) i^2)             # c(1, 4, 9, 16, 25)
+sapply(groups, mean)                     # named vector of group means
+
+# vapply() — like sapply but type-safe; specify expected output type
+vapply(1:5, function(i) i^2, numeric(1)) # must return a numeric scalar each time
+vapply(1:2000, function(x) run_test(), 1L)  # 1L = integer scalar
+
+# tapply() — apply FUN to subsets of x defined by a grouping factor
+tapply(df$score, df$gender, mean)        # mean score by gender
+tapply(df$score, df$gender, sd)          # SD by group
+tapply(df$value, df$group, function(x) mean(Winsorize(x)))
 ```
 
 ### Correlation
@@ -961,10 +976,6 @@ mean(output_vec)                     # estimate of probability
 # replicate() — cleaner alternative for repeating a function call
 replicate(2000, some_function())
 
-# vapply() — like sapply but type-safe (faster, safer)
-vapply(1:2000,
-       function(x) generate_one_test(),
-       1L)                           # 1L specifies output type: integer scalar
 ```
 
 ### ifelse and floor

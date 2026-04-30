@@ -461,6 +461,34 @@ boot.ci(boot.out = boot_out, type=c("perc", "bca"))
 
 The boot function requires a function (*stat_fn*) that computes the statistic from the boot-strapped sample. Note that the intervals returned from the trimmed mean are much narrower. Moreover, from [[L5 Robust Statistics#Example 5.5]], we know that the trimmed mean for the chem dataset is 3.205. Hence the above output shows that the bootstrap intervals are asymmetric, reflecting the skewness of the distribution of the statistic. 
 
+## stuff not in lec notes:
+
+### `uniroot(f, interval, ...)` — Root Finding in R
+Finds where a function `f` crosses zero within `interval = c(lo, hi)`.
+
+```R
+# Find where g2(lambda) = 0, i.e. where the pdf equals a given ordinate
+r1 <- uniroot(g2, c(0.00001, 1.27), y=y_vals, alpha=alpha, beta=beta,
+              ordinate=ordinate)$root
+```
+
+- `f` must change sign across the interval (one positive end, one negative end)
+- returns a list; extract the root with `$root`
+- extra named arguments (e.g. `ordinate=`) are passed through to `f`
+
+---
+
+### `Vectorize(f, vectorize.args)` — Vectorise a Scalar Function
+Wraps a function so it accepts vector inputs element-wise (analogous to `numpy.vectorize`).
+
+```R
+g3 <- Vectorize(g3, "ordinate")   # now g3(c(0.1, 0.5, 0.9)) works
+```
+
+Needed when passing a function to `uniroot` that is not naturally vectorised.
+
+---
+
 ## Summary 
 > For our course, please be familiar with the basic building blocks of simulation studies:
 1. Generate iid samples, and then

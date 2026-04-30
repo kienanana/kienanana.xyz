@@ -127,7 +127,8 @@ F_{x,\epsilon} = (1 - \epsilon) F + \epsilon \Delta_{x}
 $$
 	- where Δ𝑥 is the degenerate probability distribution at x. 
 	- the minimum value of 𝜖 for which the estimator goes to infinity as x gets large, is referred to as the **breakdown point**. 
-	- for the sample mean, the breakdown point is 𝜖 = 0.5
+	- for the sample mean, the breakdown point is 𝜖 = 0
+	- for the sample median, the breakdown point is 𝜖 = 0.5
 
 
 ## Measures of Location
