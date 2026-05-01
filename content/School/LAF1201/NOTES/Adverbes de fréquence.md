@@ -1,6 +1,7 @@
 ---
 class: note
 tags:
+  - y3s2
   - french/grammar
 source: https://www.lawlessfrench.com/grammar/adverbs-of-frequency/
 related:

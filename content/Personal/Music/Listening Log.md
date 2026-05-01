@@ -21,10 +21,10 @@ aliases:
 - 🟢 Nine Inch Nails, Boys Noize - TRON Ares: Divergence
 - 🔵 Gorillaz - The Mountain
 - 🟢 [[Baby Keem - Ca$ino (2026)]]
-- 🔵 Harry Styles - Kiss All The Time. Disco, Occasionally.
+- 🟡 Harry Styles - Kiss All The Time. Disco, Occasionally.
 - 🟡 Brent Faiyaz - Icon
 - 🔵 J Cole - The Fall-Off
-- 🟢 Oneohtrix Point Never - Tranquilizer 
+- 🔵 Oneohtrix Point Never - Tranquilizer 
 - 🟢 Sam Fender - People Watching
 - 🟢 Daniel Lopatin - Marty Supreme OST
 - 🟢 D'Angelo - Voodoo
@@ -52,12 +52,13 @@ aliases:
 - ⭐ [[Sufjan Stevens - Illinois (2005)]] 
 - 🟢 slayr - Half Blood (BloodLuxe) 
 - 🟢 [[Grace Ives - Girlfriend (2026)]]
-- 🔵 Snail Mail - Ricochet 
+- 🟡 Snail Mail - Ricochet 
 - ⭐ My New Band Believe - Self-Titled
 - 🟢 Nine Inch Nails, Boys Noize - Nine Inch Noize 
-- 🔵 Jessie Ware - Superbloom
 - 🔵 Laufey - A Matter of Time: The Final Hour
 - 🟢 Not for Radio - Bloom EP
+- 🟢 Jessie Ware - Superbloom
+- 🟢 Loukeman - Sd-3 
 
 ### Relistens:
 - Lil Ugly Mane - volcanic bird enemy and the voiced concern
@@ -94,6 +95,9 @@ aliases:
 - Cashmere Cat - 9
 - caroline - caroline 2
 - LCD Soundsystem - This Is Happening
+- Geese - 3D Country 
+- Bob Dylan - The Freewheelin' Bob Dylan 
+- Daniel Caesar - NEVER ENOUGH
 
 ### Artists:
 - Fcukers
@@ -115,7 +119,8 @@ aliases:
 - [x] Snail Mail - Ricochet
 - [x] Grace Ives - Girlfriend
 - [ ] Petalbyte - <10><
-
+- [ ] Dorian Electra - Dorian Electra 
+- [ ] Quiet Light - Blue Angel Sparkling Silver 2
 
 
 

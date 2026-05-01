@@ -1,6 +1,7 @@
 ---
 class: note
 tags:
+  - y3s2
   - statistics
   - revision
 source:
@@ -57,11 +58,11 @@ aliases:
 
 **After ANOVA — which groups differ?**
 
-| When | Method |
-|---|---|
-| Contrast specified *before* seeing data | Manual contrast / t-test using $MS_W$ |
-| All pairwise comparisons *after* seeing data | **TukeyHSD** |
-| Subset of comparisons *after* seeing data | **Bonferroni** (divide α by number of tests m) |
+| When                                         | Method                                         |
+| -------------------------------------------- | ---------------------------------------------- |
+| Contrast specified *before* seeing data      | Manual contrast / t-test using $MS_W$          |
+| All pairwise comparisons *after* seeing data | **TukeyHSD**                                   |
+| Subset of comparisons *after* seeing data    | **Bonferroni** (divide α by number of tests m) |
 
 ---
 

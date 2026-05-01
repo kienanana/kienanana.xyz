@@ -1,6 +1,7 @@
 ---
 class:
 tags:
+  - y3s2
   - french
 source:
 related:

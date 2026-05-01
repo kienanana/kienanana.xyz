@@ -1,6 +1,7 @@
 ---
 class: note
 tags:
+  - y3s2
   - french/grammar
   - conversation
 source: https://issaiteach.org/pages/basic-question-formation-in-french-est-ce-que-inversion

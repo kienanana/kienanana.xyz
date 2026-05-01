@@ -1,6 +1,7 @@
 ---
 class: software
 tags:
+  - y3s2
   - python
   - statsmodels
 source:

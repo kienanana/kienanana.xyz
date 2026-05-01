@@ -1,6 +1,7 @@
 ---
 class: note
 tags:
+  - y3s2
   - french/grammar
 source: https://apprendre.tv5monde.com/en/aides/grammar-agreement-and-position-adjectives
 related:

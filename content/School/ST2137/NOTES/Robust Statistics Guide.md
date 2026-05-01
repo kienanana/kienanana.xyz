@@ -1,6 +1,7 @@
 ---
 class: note
 tags:
+  - y3s2
   - statistics
   - revision
 source:
@@ -42,11 +43,11 @@ aliases:
 
 ## Step 3 — Choosing a Scale Estimator
 
-| Estimator | Formula | For Normal, converts to $\hat{\sigma}$ by | Breakdown point |
-|---|---|---|---|
-| **SD** | $\sqrt{\frac{1}{n-1}\sum(X_i - \bar{X})^2}$ | already $\hat{\sigma}$ | 0% |
-| **IQR** | $Q_3 - Q_1$ | $\hat{\sigma} \approx \text{IQR} / 1.35$ | 25% |
-| **MAD** | $\text{median}(|X_i - \text{median}(X)|)$ | $\hat{\sigma} \approx 1.4826 \times \text{MAD}$ | 50% |
+| Estimator | Formula                                     | For Normal, converts to $\hat{\sigma}$ by | Breakdown point |                                                 |     |
+| --------- | ------------------------------------------- | ----------------------------------------- | --------------- | ----------------------------------------------- | --- |
+| **SD**    | $\sqrt{\frac{1}{n-1}\sum(X_i - \bar{X})^2}$ | already $\hat{\sigma}$                    | 0%              |                                                 |     |
+| **IQR**   | $Q_3 - Q_1$                                 | $\hat{\sigma} \approx \text{IQR} / 1.35$  | 25%             |                                                 |     |
+| **MAD**   | $\text{median}(                             | X_i - \text{median}(X)                    | )$              | $\hat{\sigma} \approx 1.4826 \times \text{MAD}$ | 50% |
 
 > **Rule of thumb:** if you're using a robust location estimator, use a robust scale estimator too. Pair trimmed/Winsorised mean with IQR or MAD.
 

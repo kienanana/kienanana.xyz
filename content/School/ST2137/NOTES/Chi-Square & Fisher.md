@@ -1,6 +1,7 @@
 ---
 class: note
 tags:
+  - y3s2
   - R
   - python
   - statistics

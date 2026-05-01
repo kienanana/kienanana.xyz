@@ -1,6 +1,7 @@
 ---
 class: note
 tags:
+  - y3s2
   - french/grammar
 source: https://issaiteach.org/pages/definite-and-indefinite-articles-in-french-le-la-les-un-une-des
 related:
