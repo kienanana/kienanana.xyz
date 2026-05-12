@@ -59,6 +59,12 @@ aliases:
 - 🟢 Not for Radio - Bloom EP
 - 🟢 Jessie Ware - Superbloom
 - 🟢 Loukeman - Sd-3 
+- 🔵 Racing Mount Pleasant - Grip Your Fist, I'm Heaven Bound
+- 🔵 Racing Mount Pleasant - Self-Titled
+- 🔵 Isaiah Rashad - IT'S BEEN AWFUL 
+- 🟢 U.S. Girls - In A Poem Unlimited
+- 🔵 Tiffany Day - HALO 
+- 🟢 glaive, kurtains - God Save The Three
 
 ### Relistens:
 - Lil Ugly Mane - volcanic bird enemy and the voiced concern
@@ -98,6 +104,7 @@ aliases:
 - Geese - 3D Country 
 - Bob Dylan - The Freewheelin' Bob Dylan 
 - Daniel Caesar - NEVER ENOUGH
+- Westside Gunn - Pray for Paris
 
 ### Artists:
 - Fcukers
@@ -105,6 +112,7 @@ aliases:
 - My New Band Believe 
 - Armand van Helden 
 - ear
+- Moodymann
 
 ---
 ### To-Listen:
@@ -121,6 +129,9 @@ aliases:
 - [ ] Petalbyte - <10><
 - [ ] Dorian Electra - Dorian Electra 
 - [ ] Quiet Light - Blue Angel Sparkling Silver 2
+- [ ] Moodymann - Sinner: KDJ-48 
+- [ ] Laurent Garnier - 33 Tours Et Puis S'en Vont
+- [ ] Thaiboy Digital, swedm - Paradise
 
 
 

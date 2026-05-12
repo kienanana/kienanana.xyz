@@ -44,7 +44,7 @@ class Solution {
         if (l1 == null && l2 == null && carry == 0) {
             return null;
         } 
-![[Screenshot 2026-05-05 at 11.02.14 PM.png]]
+        
         int v1 = (l1 != null) ? l1.val : 0;
         int v2 = (l2 != null) ? l2.val : 0;
         int sum = v1 + v2 + carry;
