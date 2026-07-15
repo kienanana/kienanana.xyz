@@ -1,6 +1,7 @@
 ---
 class: journal
 tags:
+  - personal/monthly-favs
 source:
 related:
 author:

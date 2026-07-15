@@ -32,6 +32,7 @@ I've also installed a bunch of packages to improve my experience with working wi
 	- cd replacement
 - yazi (implemented)
 	- terminal file manager 
-- lazygit
+- lazygit (using)
 - iosevka term (font)
 - harpoon 
+- btop

@@ -65,6 +65,18 @@ aliases:
 - 🟢 U.S. Girls - In A Poem Unlimited
 - 🔵 Tiffany Day - HALO 
 - 🟢 glaive, kurtains - God Save The Three
+- 🟢 black midi - Cavalcade
+- 🟢 USHER - Confessions
+- 🔵 Thundercat - Distracted
+- 🟡 fakemink - Terrified.
+- 🟡 JPEGMAFIA - EXPERIMENTAL RAP
+- 🟢 Bladee - Sulfur Surfer
+- 🟢 Three 6 Mafia - Most Known Unknown 
+- 🟡 Skrillex - SOMA
+- 🟢 Olivia Rodrigo - you seem pretty sad for a girl so in love 
+- 🟢 Guitarricadelafuente - Spanish Leather 
+- 🟢 Madeon - Victory
+- ⭐ Kim Petras - Detour
 
 ### Relistens:
 - Lil Ugly Mane - volcanic bird enemy and the voiced concern
@@ -105,6 +117,8 @@ aliases:
 - Bob Dylan - The Freewheelin' Bob Dylan 
 - Daniel Caesar - NEVER ENOUGH
 - Westside Gunn - Pray for Paris
+- black midi - Schlagenheim
+- NERO - Between II Worlds 
 
 ### Artists:
 - Fcukers
