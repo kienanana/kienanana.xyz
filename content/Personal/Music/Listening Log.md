@@ -77,6 +77,7 @@ aliases:
 - 🟢 Guitarricadelafuente - Spanish Leather 
 - 🟢 Madeon - Victory
 - ⭐ Kim Petras - Detour
+- 🟢 Frost Children - Tweaker Poem EP
 
 ### Relistens:
 - Lil Ugly Mane - volcanic bird enemy and the voiced concern
@@ -145,7 +146,10 @@ aliases:
 - [ ] Quiet Light - Blue Angel Sparkling Silver 2
 - [ ] Moodymann - Sinner: KDJ-48 
 - [ ] Laurent Garnier - 33 Tours Et Puis S'en Vont
-- [ ] Thaiboy Digital, swedm - Paradise
+- [x] Thaiboy Digital, swedm - Paradise
+- [ ] Lip Critic - Theft World
+- [ ] hemlocke springs - the apple tree under the sea
+- [ ] Tierra Whack - WHACK'S MUSEUM
 
 
 
