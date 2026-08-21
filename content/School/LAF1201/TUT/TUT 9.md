@@ -27,7 +27,7 @@ aliases:
 	- de / d' but NEVER des 
 		- see [[Negation]] (same logic)
 
-## [[Vocab Bank]]
+## [[LAF1201 Vocab Bank|Vocab Bank]]
 - souhaiter
 	- to want / wish 
 - un peu - a bit

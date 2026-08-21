@@ -75,9 +75,24 @@ aliases:
 - 🟡 Skrillex - SOMA
 - 🟢 Olivia Rodrigo - you seem pretty sad for a girl so in love 
 - 🟢 Guitarricadelafuente - Spanish Leather 
-- 🟢 Madeon - Victory
-- ⭐ Kim Petras - Detour
-- 🟢 Frost Children - Tweaker Poem EP
+- ⭐ Madeon - Victory
+- 🟢 Kim Petras - Detour
+- ⭐ Frost Children - Tweaker Poem EP
+- 🔴 The Strokes - Reality Awaits
+- 🔵 Steve Lacy - Oh yeah?
+- 🟢 Ryan Beatty - Calico
+- 🔵 Ryan Beatty - Sweet Fortune
+- 🔵 girlsweetvoiced - Lovesweet
+- 🔵 Sam Gellaitry - ANYWHERE HERE IS PERFECT (DELUXE)
+- 🟢 Alex G - We're All Going to the World's Fair (OST) 
+- 🟡 Madonna - CONFESSIONS II
+- 🟡 Ela Minus, Nick León - qué les pasó a mis amigos? EP
+- 🟢 Arca - XXXXX
+- ⭐ Phoebe Bridgers - Lost Weekend
+- 🔵 Kelela - new avatar
+- 🟡 Lil Uzi Vert - Maverick "Almost Forever" EP
+- 🔵 James Ivy - The Seams
+- 🔵 Denzel Curry, Kenneth Blume - ii
 
 ### Relistens:
 - Lil Ugly Mane - volcanic bird enemy and the voiced concern
@@ -120,6 +135,8 @@ aliases:
 - Westside Gunn - Pray for Paris
 - black midi - Schlagenheim
 - NERO - Between II Worlds 
+- Kavinsky - Nightcall
+- Porter Robinson - Spitfire EP
 
 ### Artists:
 - Fcukers

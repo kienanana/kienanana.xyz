@@ -7,7 +7,7 @@ source:
 related:
 author:
 date: 2026-03-06
-updated: 2026-03-06 00:04:32
+updated: 2026-08-21
 aliases:
 ---
 Related: [[Countries]] · [[Occupations]] · [[Time]] · [[Le Temps]] · [[Les Directions]] · [[Adverbes de fréquence]] · [[Expressions de quantité]]
@@ -72,15 +72,15 @@ Related: [[Countries]] · [[Occupations]] · [[Time]] · [[Le Temps]] · [[Les D
 - quelles — which (fem plural)  
 
 # Colours
-- blanc — white  
-- bleu — blue  
-- gris — grey  
+- blanc / blanche — white  
+- bleu / bleue — blue  
+- gris / grise — grey  
 - jaune — yellow  
-- marron — brown  
-- noir — black  
+- marron — brown *(never changes, even plural)*  
+- noir / noire — black  
 - rose — pink  
 - rouge — red  
-- vert — green  
+- vert / verte — green  
 - violet — purple  
 
 # Months
@@ -186,7 +186,7 @@ See [[Occupations]] for gender patterns
 - le ping-pong — table tennis  
 - le ski — skiing  
 - le tennis — tennis  
-- le vélo — cycling  
+- faire du vélo — to cycle  
 - le VTT — mountain biking  
 
 - les arts martiaux — martial arts  
@@ -210,8 +210,8 @@ See [[Occupations]] for gender patterns
 - un portefeuille — wallet  
 - un sac — bag  
 - un stylo — pen  
-- un plan - map
-- un quartier - neighbourhood
+- un plan — map
+- un quartier — neighbourhood
 
 - une chaise — chair  
 - une clé — key  
@@ -227,13 +227,12 @@ See [[Occupations]] for gender patterns
 - un maillot de bain — swimsuit
 - une valise — suitcase
 
- - une rue: street / road
+- une rue — street / road
 
 - des chaussures de sport — sports shoes
-- des chaussettes — socks
 - une montre — watch
 
-- des fleurs: flowers
+- des fleurs — flowers
 
 # Weather
 See [[Le Temps]] for full weather reference
@@ -364,6 +363,7 @@ See [[Expressions de quantité]] for containers and approximations
 - le chou-fleur — cauliflower
 - le concombre — cucumber
 - les haricots verts — green beans
+- les haricots — beans
 - les petits pois — peas
 - le poivron — bell pepper
 - les pommes de terre — potatoes
@@ -374,6 +374,7 @@ See [[Expressions de quantité]] for containers and approximations
 - le poisson — fish
 - le poulet — chicken
 - le saucisson — sausage
+- le thon — tuna
 ### 🔵 Countable → un / une / des
 - les sushis — sushi
 ## 🧀 Dairy
@@ -414,11 +415,6 @@ See [[Expressions de quantité]] for containers and approximations
 - le poivre — pepper
 - le vinaigre — vinegar
 - l’huile d’olive — olive oil
-
-## 🐟 More Protein
-### 🟢 Uncountable → du / de la / de l’
-- le thon — tuna
-- les haricots — beans
 
 # Ordinal Numbers
 - premier / première — 1st

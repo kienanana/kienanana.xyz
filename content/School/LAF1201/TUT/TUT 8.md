@@ -17,7 +17,7 @@ aliases:
 
 ![[Pasted image 20260327122535.png | 500]]
 
-## [[Vocab Bank]]
+## [[LAF1201 Vocab Bank|Vocab Bank]]
 - La boisson: drink 
 - déjeuner: to have lunch (regular ER)
 	- un déjeuner 
@@ -132,7 +132,7 @@ b. 40% des Français ne grignotent jamais. 30% grignotent rarement. 15% grignote
 ![[Screenshot 2026-03-27 at 1.12.18 PM.png | 500]]
 🔑 Adverb after the verb 
 
-- See [[Vocab Bank#Frequency]] & [[Adverbes de fréquence]]
+- See [[LAF1201 Vocab Bank#Frequency|Frequency]] & [[Adverbes de fréquence]]
 	- toujours — always  
 	- habituellement — usually  
 	- souvent — often  

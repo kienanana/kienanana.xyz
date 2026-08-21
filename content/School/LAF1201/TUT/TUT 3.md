@@ -30,7 +30,7 @@ des sports:
 
 - quels sports aimez-vous? / aimes-tu?
 - j’aime le basket-ball **mais (but)** je n’aime pas la danse
-> See also: [[Vocab Bank]]
+> See also: [[LAF1201 Vocab Bank|Vocab Bank]]
 
 DÉTESTER:
 

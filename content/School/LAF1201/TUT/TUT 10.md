@@ -11,7 +11,7 @@ aliases:
 ---
 # Ateliers - Commander au restaurant 
 
-## [[Vocab Bank]]
+## [[LAF1201 Vocab Bank|Vocab Bank]]
 - sauter - to jump
 - sauté - stir-fried
 - le carte bleue - credit card
