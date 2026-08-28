@@ -1,6 +1,7 @@
 ---
 class: note
 tags:
+  - y4s1
   - finance/markets
   - finance/risk
 source:
@@ -101,4 +102,3 @@ aliases:
 - futures - obligation
 - options - right (may / may not execute) - like insurances
 - risk premium
-

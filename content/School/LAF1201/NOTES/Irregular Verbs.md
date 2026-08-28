@@ -16,6 +16,8 @@ Irregular verbs do not follow standard -er, -ir, or -re [[Conjugation]] pattern,
 ![[Screenshot 2026-03-06 at 1.45.17 AM.png]]
 
 # ÊTRE (to be)  
+Used as an auxiliary in [[Passé Composé#Avec être|the passé composé with être]].
+
 ## Conjugation  
 
 | Pronoun     | ÊTRE   |
@@ -46,6 +48,8 @@ Irregular verbs do not follow standard -er, -ir, or -re [[Conjugation]] pattern,
 
 
 # AVOIR (to have)  
+Used as the auxiliary for most verbs in [[Passé Composé#Avec avoir|the passé composé with avoir]].
+
 ## Conjugation  
   
 | Pronoun     | AVOIR |

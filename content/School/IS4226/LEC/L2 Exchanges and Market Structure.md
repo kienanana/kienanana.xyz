@@ -1,6 +1,7 @@
 ---
 class: note
 tags:
+  - y4s1
   - finance/markets
 source:
 related:
@@ -179,7 +180,6 @@ aliases:
 
 
 ![[Screenshot 2026-08-20 at 5.28.57 PM.png]]
-
 
 
 

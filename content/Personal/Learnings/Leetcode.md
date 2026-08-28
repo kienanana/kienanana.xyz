@@ -34,7 +34,7 @@ I have found that trying to blast through the list in order has not proven very 
 1. [[Contains Duplicate]]
 2. [[Valid Anagram]]
 3. [[Two Sum]]
-4. Group Anagrams
+4. [[Group Anagrams]]
 5. Top K Frequent Elements
 6. Encode and Decode Strings
 7. Product of Array Except Self
