@@ -8,7 +8,7 @@ source:
 related:
 author:
 date: 2026-08-07
-updated: 2026-08-07 16:03:09
+updated: 2026-09-22 16:45:48
 aliases:
 ---
 ### Financial Markets - Different Classifications

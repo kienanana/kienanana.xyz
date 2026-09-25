@@ -1,6 +1,7 @@
 ---
 class:
 tags:
+  - cs/arrays
   - cs/hashing
   - leetcode/easy
 source: https://leetcode.com/problems/two-sum/description/?envType=problem-list-v2&envId=plakya4j
@@ -72,5 +73,4 @@ class Solution {
     }
 }
 ```
-
 

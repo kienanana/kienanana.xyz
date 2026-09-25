@@ -78,3 +78,10 @@ In case you are new to Music Production:
 	- I never got good at that 
 	- I did make some neat saws and leads 
 - I don't own it anymore, sad
+
+
+## Plugins to Try
+- u-he diva
+- toraverb
+- zynaptic morph
+- xln audio - life 

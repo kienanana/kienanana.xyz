@@ -2,7 +2,7 @@
 class:
 tags:
   - cs/trees
-  - cs/graphs
+  - cs/dfs
   - leetcode/medium
 source: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 related:

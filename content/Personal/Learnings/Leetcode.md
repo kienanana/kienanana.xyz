@@ -35,62 +35,62 @@ I have found that trying to blast through the list in order has not proven very 
 2. [[Valid Anagram]]
 3. [[Two Sum]]
 4. [[Group Anagrams]]
-5. Top K Frequent Elements
-6. Encode and Decode Strings
-7. Product of Array Except Self
-8. Valid Sudoku
+5. [[Top K Frequent Elements]]
+6. Encode and Decode Strings - paywalled?
+7. [[Product of Array Except Self]]
+8. [[Valid Sudoku]]
 9. Longest Consecutive Sequence
 
 #### 2. Two Pointers
-10. Valid Palindrome
-11. Two Sum II - Input Array Is Sorted
-12. 3Sum
+10. [[Valid Palindrome]]
+11. [[Two Sum II - Input Array Is Sorted]]
+12. [[3Sum]]
 13. Container With Most Water
 14. Trapping Rain Water
 
 #### 3. Sliding Window
-15. Best Time to Buy and Sell Stock
+15. [[Best Time to Buy and Sell Stock]]
 16. [[Longest Substring Without Repeating Characters]]
-17. Longest Repeating Character Replacement
+17. [[Longest Repeating Character Replacement]]
 18. Permutation in String
 19. Minimum Window Substring
 20. Sliding Window Maximum
 
 #### 4. Stack
-21. Valid Parentheses
-22. Min Stack
-23. Evaluate Reverse Polish Notation
-24. Generate Parentheses
+21. [[Valid Parentheses]]
+22. [[Min Stack]]
+23. [[Evaluate Reverse Polish Notation]]
+24. [[Generate Parentheses]]
 25. Daily Temperatures
 26. Car Fleet
 27. Largest Rectangle in Histogram
 
 #### 5. Binary Search
-28. Binary Search
-29. Search a 2D Matrix
-30. Koko Eating Bananas
-31. Find Minimum in Rotated Sorted Array
+28. [[Binary Search]]
+29. [[Search a 2D Matrix]]
+30. [[Koko Eating Bananas]]
+31. [[Find Minimum in Rotated Sorted Array]]
 32. Search in Rotated Sorted Array
 33. Time Based Key-Value Store
 34. [[Median of Two Sorted Arrays]]
 
 #### 6. Linked List
-35. Reverse Linked List
-36. Merge Two Sorted Lists
-37. Reorder List
-38. Remove Nth Node From End of List
-39. Copy List with Random Pointer
+35. [[Reverse Linked List]]
+36. [[Merge Two Sorted Lists]]
+37. [[Reorder List]]
+38. [[Remove Nth Node From End of List]]
+39. Copy List with Random Pointer (holy shit man what is this?)
 40. [[Add Two Numbers]]
-41. Linked List Cycle
-42. Find the Duplicate Number
-43. LRU Cache
+41. [[Linked List Cycle]]
+42. [[Find the Duplicate Number]]
+43. [[LRU Cache]]
 44. Merge K Sorted Lists
 45. Reverse Nodes in K-Group
 
 #### 7. Trees
-46. Invert Binary Tree
-47. Maximum Depth of Binary Tree
-48. Diameter of Binary Tree
+46. [[Invert Binary Tree]]
+47. [[Maximum Depth of Binary Tree]]
+48. [[Diameter of Binary Tree]]
 49. Balanced Binary Tree
 50. Same Tree
 51. Subtree of Another Tree

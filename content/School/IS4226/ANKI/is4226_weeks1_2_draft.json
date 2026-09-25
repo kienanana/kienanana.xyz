@@ -1,0 +1,752 @@
+[
+  {
+    "id": "is4226-w1-001",
+    "week": 1,
+    "type": "concept",
+    "front": "How are money markets distinguished from capital markets?",
+    "back": "By instrument maturity: money-market instruments mature in under 1 year, while capital-market instruments mature in over 1 year.",
+    "explanation": "Examples: Treasury bills and commercial paper are money-market instruments; stocks and longer-term bonds belong to capital markets.",
+    "tags": ["is4226", "w1", "markets", "classification"],
+    "source": "L1 Introduction to FM.md — Financial Markets: Different Classifications"
+  },
+  {
+    "id": "is4226-w1-002",
+    "week": 1,
+    "type": "scenario",
+    "front": "A corporation issues a new bond directly to investors. Is this a primary or secondary market transaction?",
+    "back": "Primary market.",
+    "explanation": "In a primary market, the issuer sells a newly issued instrument to investors.",
+    "tags": ["is4226", "w1", "markets", "primary_secondary"],
+    "source": "L1 Introduction to FM.md — Financial Markets: Different Classifications"
+  },
+  {
+    "id": "is4226-w1-003",
+    "week": 1,
+    "type": "scenario",
+    "front": "One investor sells an existing stock to another investor. Is this a primary or secondary market transaction?",
+    "back": "Secondary market.",
+    "explanation": "Secondary markets transfer existing instruments between investors; the issuer does not receive the sale proceeds.",
+    "tags": ["is4226", "w1", "markets", "primary_secondary"],
+    "source": "L1 Introduction to FM.md — Financial Markets: Different Classifications"
+  },
+  {
+    "id": "is4226-w1-004",
+    "week": 1,
+    "type": "compare",
+    "front": "What distinguishes a spot market from a derivatives market?",
+    "back": "A spot transaction exchanges the underlying asset for near-immediate settlement; a derivative is a contract whose value depends on an underlying asset and is settled according to future contractual terms.",
+    "explanation": "The lecture classifies markets by transaction settlement as spot/cash versus derivatives.",
+    "tags": ["is4226", "w1", "markets", "spot", "derivatives"],
+    "source": "L1 Introduction to FM.md — Financial Markets: Different Classifications; Derivatives"
+  },
+  {
+    "id": "is4226-w1-005",
+    "week": 1,
+    "type": "compare",
+    "front": "What distinguishes an exchange-based market from an over-the-counter (OTC) market?",
+    "back": "An exchange-based market trades listed instruments through a centralized marketplace; an OTC market trades through a decentralized network of counterparties rather than one central exchange.",
+    "explanation": "NYSE and SGX are exchange examples; forex is the lecture's main OTC example.",
+    "tags": ["is4226", "w1", "markets", "exchange", "otc"],
+    "source": "L1 Introduction to FM.md — Financial Markets: Different Classifications"
+  },
+  {
+    "id": "is4226-w1-006",
+    "week": 1,
+    "type": "concept",
+    "front": "What does owning a stock represent?",
+    "back": "An ownership stake in a company, with the shareholder bearing business risk and potentially receiving capital gains and dividends.",
+    "explanation": "Shareholders are residual claimants, so they can lose substantially if the company performs poorly or fails.",
+    "tags": ["is4226", "w1", "instruments", "stocks"],
+    "source": "L1 Introduction to FM.md — Stocks"
+  },
+  {
+    "id": "is4226-w1-007",
+    "week": 1,
+    "type": "scenario",
+    "front": "Which broad factors should an investor assess before investing in a stock?",
+    "back": "The nature of the business, whether returns are expected from growth or dividends, management quality, and relevant political and economic conditions.",
+    "explanation": "These determine the firm's prospects and the risks surrounding future cash flows.",
+    "tags": ["is4226", "w1", "instruments", "stocks", "fundamentals"],
+    "source": "L1 Introduction to FM.md — Stocks"
+  },
+  {
+    "id": "is4226-w1-008",
+    "week": 1,
+    "type": "concept",
+    "front": "What primarily determines the promised payments of a fixed-income instrument?",
+    "back": "Its maturity and interest terms.",
+    "explanation": "Examples in the lecture include fixed deposits, Treasury bills, and bonds. Actual realized return can still be affected by default, sale before maturity, and reinvestment conditions.",
+    "tags": ["is4226", "w1", "instruments", "fixed_income"],
+    "source": "L1 Introduction to FM.md — Fixed Income"
+  },
+  {
+    "id": "is4226-w1-009",
+    "week": 1,
+    "type": "scenario",
+    "front": "Which macroeconomic variables are especially relevant when evaluating fixed-income instruments?",
+    "back": "Interest rates and inflation, together with broader macroeconomic conditions.",
+    "explanation": "Interest-rate changes affect bond prices, while inflation affects the purchasing power of fixed payments.",
+    "tags": ["is4226", "w1", "instruments", "fixed_income", "drivers"],
+    "source": "L1 Introduction to FM.md — Fixed Income"
+  },
+  {
+    "id": "is4226-w1-010",
+    "week": 1,
+    "type": "concept",
+    "front": "What is an exchange-traded fund (ETF)?",
+    "back": "A fund traded on an exchange that holds a basket of instruments, often designed to track an index.",
+    "explanation": "An ETF's performance depends on its portfolio rather than a single company. ETFs can hold stocks, fixed income, balanced portfolios, or other assets.",
+    "tags": ["is4226", "w1", "instruments", "etf"],
+    "source": "L1 Introduction to FM.md — ETF"
+  },
+  {
+    "id": "is4226-w1-011",
+    "week": 1,
+    "type": "scenario",
+    "front": "Why might an investor use an index-tracking ETF instead of buying one company's stock?",
+    "back": "To obtain diversified exposure to a group of instruments through one exchange-traded security.",
+    "explanation": "The ETF's result reflects the basket or index, reducing dependence on any single constituent.",
+    "tags": ["is4226", "w1", "instruments", "etf", "diversification"],
+    "source": "L1 Introduction to FM.md — ETF"
+  },
+  {
+    "id": "is4226-w1-012",
+    "week": 1,
+    "type": "concept",
+    "front": "Name the four commodity groups used in the lecture.",
+    "back": "Metals; energy; livestock and meat; agricultural commodities.",
+    "explanation": "Examples include gold, crude oil, live cattle, and wheat respectively.",
+    "tags": ["is4226", "w1", "instruments", "commodities"],
+    "source": "L1 Introduction to FM.md — Commodities"
+  },
+  {
+    "id": "is4226-w1-013",
+    "week": 1,
+    "type": "concept",
+    "front": "What is traded in the foreign-exchange (forex) market?",
+    "back": "One currency against another as a currency pair.",
+    "explanation": "The market includes banks, central banks, investment managers, hedge funds, brokers, and investors, and is strongly driven by macroeconomic events.",
+    "tags": ["is4226", "w1", "instruments", "forex"],
+    "source": "L1 Introduction to FM.md — Forex"
+  },
+  {
+    "id": "is4226-w1-014",
+    "week": 1,
+    "type": "concept",
+    "front": "Why is forex attractive to many traders?",
+    "back": "High trading volume, near-24-hour trading, leverage, relatively low commissions, ease of shorting, flexible trade sizes, and extensive trading platforms/resources.",
+    "explanation": "These features improve accessibility and flexibility but leverage also magnifies losses.",
+    "tags": ["is4226", "w1", "instruments", "forex"],
+    "source": "L1 Introduction to FM.md — Why Traders Trade Forex"
+  },
+  {
+    "id": "is4226-w1-015",
+    "week": 1,
+    "type": "compare",
+    "front": "What is the difference between a centralized crypto exchange (CEX) and a decentralized exchange (DEX)?",
+    "back": "A CEX is operated by a centralized intermediary; a DEX uses blockchain-based protocols to let users trade without the same central operator.",
+    "explanation": "Both are exchange mechanisms for cryptocurrencies, whose core enabling technology is blockchain.",
+    "tags": ["is4226", "w1", "instruments", "crypto", "cex", "dex"],
+    "source": "L1 Introduction to FM.md — Cryptocurrencies"
+  },
+  {
+    "id": "is4226-w1-016",
+    "week": 1,
+    "type": "compare",
+    "front": "What is the key contractual difference between a futures contract and an option?",
+    "back": "A futures contract creates an obligation to transact according to its terms; an option gives its holder a right, but not an obligation, to exercise.",
+    "explanation": "The option holder pays a premium for that right, similar to paying for insurance.",
+    "tags": ["is4226", "w1", "instruments", "derivatives", "futures", "options"],
+    "source": "L1 Introduction to FM.md — Derivatives"
+  },
+  {
+    "id": "is4226-w1-017",
+    "week": 1,
+    "type": "concept",
+    "front": "Why are derivatives described as risk-management tools?",
+    "back": "Their payoffs can offset adverse changes in an underlying asset, allowing an exposure to be hedged or reshaped.",
+    "explanation": "Derivatives can also be used speculatively; calling them risk-management tools does not make them intrinsically low risk.",
+    "tags": ["is4226", "w1", "instruments", "derivatives", "risk"],
+    "source": "L1 Introduction to FM.md — Derivatives"
+  },
+  {
+    "id": "is4226-w2-001",
+    "week": 2,
+    "type": "concept",
+    "front": "What is a financial exchange?",
+    "back": "A marketplace in which buyers and sellers transact in instruments admitted for trading.",
+    "explanation": "Listing criteria, system stability, and defined trading rules can increase investor confidence.",
+    "tags": ["is4226", "w2", "exchange", "market_structure"],
+    "source": "L2 Exchanges and Market Structure.md — Exchange"
+  },
+  {
+    "id": "is4226-w2-002",
+    "week": 2,
+    "type": "concept",
+    "front": "Why do exchanges impose listing criteria?",
+    "back": "To require instruments or issuers to meet specified standards before admission, supporting market quality and investor confidence.",
+    "explanation": "Meeting listing criteria is not a guarantee that an investment is safe or profitable.",
+    "tags": ["is4226", "w2", "exchange", "listing"],
+    "source": "L2 Exchanges and Market Structure.md — Exchange"
+  },
+  {
+    "id": "is4226-w2-003",
+    "week": 2,
+    "type": "concept",
+    "front": "Why are market indices useful?",
+    "back": "They summarize market or segment performance and provide benchmarks against which a portfolio can be evaluated.",
+    "explanation": "The chosen weighting method determines which constituents drive the benchmark most strongly.",
+    "tags": ["is4226", "w2", "indices", "benchmark"],
+    "source": "L2 Exchanges and Market Structure.md — Index Calculations"
+  },
+  {
+    "id": "is4226-w2-004",
+    "week": 2,
+    "type": "formula",
+    "front": "What common structure do market-cap-weighted, equal-weighted, and price-weighted indices share?",
+    "back": "Index level = sum of the method's indexed quantities / divisor.",
+    "explanation": "The numerator uses market capitalizations, equal allocated amounts, or raw share prices respectively.",
+    "tags": ["is4226", "w2", "indices", "formula"],
+    "source": "L2 Exchanges and Market Structure.md — Understanding the Methods"
+  },
+  {
+    "id": "is4226-w2-005",
+    "week": 2,
+    "type": "formula",
+    "front": "How is a stock's weight found in a market-cap-weighted index?",
+    "back": "Weight_i = market capitalization_i / total market capitalization of all constituents, where market capitalization_i = price_i × shares outstanding_i.",
+    "explanation": "Larger companies therefore have more influence on index returns.",
+    "tags": ["is4226", "w2", "indices", "market_cap", "formula"],
+    "source": "L2 Exchanges and Market Structure.md — Exchange Index"
+  },
+  {
+    "id": "is4226-w2-006",
+    "week": 2,
+    "type": "calculation",
+    "front": "Stocks A, B, and C have market caps of $2,000, $4,000, and $9,000. What is C's weight in a market-cap-weighted index?",
+    "back": "60%.",
+    "explanation": "Total market cap = 2,000 + 4,000 + 9,000 = 15,000; C's weight = 9,000 / 15,000 = 0.60.",
+    "tags": ["is4226", "w2", "indices", "market_cap", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Understanding the Methods (adapted calculation)"
+  },
+  {
+    "id": "is4226-w2-007",
+    "week": 2,
+    "type": "formula",
+    "front": "In an equal-weighted index with n constituents, what is each constituent's target weight?",
+    "back": "1/n.",
+    "explanation": "Company size and share price do not determine the target weight; maintaining equal weights generally requires rebalancing.",
+    "tags": ["is4226", "w2", "indices", "equal_weight", "formula"],
+    "source": "L2 Exchanges and Market Structure.md — Equal Weighted Method"
+  },
+  {
+    "id": "is4226-w2-008",
+    "week": 2,
+    "type": "calculation",
+    "front": "An equal-weighted index contains 8 stocks. What is each stock's target weight?",
+    "back": "12.5%.",
+    "explanation": "1 / 8 = 0.125 = 12.5%.",
+    "tags": ["is4226", "w2", "indices", "equal_weight", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Equal Weighted Method (adapted calculation)"
+  },
+  {
+    "id": "is4226-w2-009",
+    "week": 2,
+    "type": "formula",
+    "front": "How is a stock's weight found in a price-weighted index?",
+    "back": "Weight_i = share price_i / sum of constituent share prices.",
+    "explanation": "A higher-priced stock has more influence even if its company is smaller by market capitalization.",
+    "tags": ["is4226", "w2", "indices", "price_weight", "formula"],
+    "source": "L2 Exchanges and Market Structure.md — Price Weighted Method"
+  },
+  {
+    "id": "is4226-w2-010",
+    "week": 2,
+    "type": "calculation",
+    "front": "A price-weighted index has stocks priced at $10, $20, and $30. What is the $30 stock's weight?",
+    "back": "50%.",
+    "explanation": "$30 / ($10 + $20 + $30) = 30/60 = 50%.",
+    "tags": ["is4226", "w2", "indices", "price_weight", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Understanding the Methods"
+  },
+  {
+    "id": "is4226-w2-011",
+    "week": 2,
+    "type": "concept",
+    "front": "What is the purpose of an index divisor?",
+    "back": "It scales the numerator to the chosen index level and is adjusted after structural events so those events do not create artificial index jumps.",
+    "explanation": "The absolute index level is arbitrary; percentage changes are economically meaningful.",
+    "tags": ["is4226", "w2", "indices", "divisor"],
+    "source": "L2 Exchanges and Market Structure.md — Understanding the Methods"
+  },
+  {
+    "id": "is4226-w2-012",
+    "week": 2,
+    "type": "calculation",
+    "front": "An index numerator is 15,000 and its intended base level is 100. What initial divisor is required?",
+    "back": "150.",
+    "explanation": "Divisor = numerator / base index level = 15,000 / 100 = 150.",
+    "tags": ["is4226", "w2", "indices", "divisor", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Understanding the Methods"
+  },
+  {
+    "id": "is4226-w2-013",
+    "week": 2,
+    "type": "formula",
+    "front": "Approximately how does one constituent's return affect an index's return?",
+    "back": "Contribution to index return = constituent weight × constituent return.",
+    "explanation": "With multiple moving stocks, add their weighted return contributions, subject to index methodology and rebalancing details.",
+    "tags": ["is4226", "w2", "indices", "contribution", "formula"],
+    "source": "L2 Exchanges and Market Structure.md — Understanding the Methods"
+  },
+  {
+    "id": "is4226-w2-014",
+    "week": 2,
+    "type": "calculation",
+    "front": "A stock has a 15% index weight and rises by 8%, while all other constituents are unchanged. What is its contribution to the index return?",
+    "back": "+1.2 percentage points.",
+    "explanation": "0.15 × 8% = 1.2%. Do not report 15% or 8% as the index change.",
+    "tags": ["is4226", "w2", "indices", "contribution", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Understanding the Methods (adapted calculation)"
+  },
+  {
+    "id": "is4226-w2-015",
+    "week": 2,
+    "type": "scenario",
+    "front": "A very large company has a low share price. Under which index method—market-cap- or price-weighted—will its company size directly give it greater influence?",
+    "back": "Market-cap-weighted.",
+    "explanation": "Price weighting ignores shares outstanding and company size; it uses the per-share price only.",
+    "tags": ["is4226", "w2", "indices", "comparison"],
+    "source": "L2 Exchanges and Market Structure.md — Understanding the Methods"
+  },
+  {
+    "id": "is4226-w2-016",
+    "week": 2,
+    "type": "concept",
+    "front": "Give one example of each major index-weighting method from the lecture.",
+    "back": "Market-cap weighted: S&P 500; equal weighted: S&P 500 Equal Weight Index; price weighted: Dow Jones Industrial Average.",
+    "explanation": "Other market-cap examples include NASDAQ-100, FTSE 100, and MSCI World; the Nikkei 225 is price weighted.",
+    "tags": ["is4226", "w2", "indices", "examples"],
+    "source": "L2 Exchanges and Market Structure.md — Examples"
+  },
+  {
+    "id": "is4226-w2-017",
+    "week": 2,
+    "type": "concept",
+    "front": "What is a broker's role in exchange trading?",
+    "back": "A broker intermediates between traders/investors and exchanges and may provide order routing, short selling, leverage, and related services.",
+    "explanation": "Brokers also perform KYC checks to identify customers and meet regulatory obligations.",
+    "tags": ["is4226", "w2", "brokers", "market_structure"],
+    "source": "L2 Exchanges and Market Structure.md — Brokers"
+  },
+  {
+    "id": "is4226-w2-018",
+    "week": 2,
+    "type": "concept",
+    "front": "What does KYC mean in the broker context?",
+    "back": "Know Your Customer: the process of verifying a customer's identity and relevant information.",
+    "explanation": "It supports regulatory compliance and controls related to financial crime and account suitability.",
+    "tags": ["is4226", "w2", "brokers", "kyc"],
+    "source": "L2 Exchanges and Market Structure.md — Brokers"
+  },
+  {
+    "id": "is4226-w2-019",
+    "week": 2,
+    "type": "compare",
+    "front": "How do long and short positions differ in how they profit?",
+    "back": "A long position profits when the asset price rises; a short position profits when the price falls.",
+    "explanation": "A short seller typically borrows and sells the asset, then later buys it back to return it.",
+    "tags": ["is4226", "w2", "short_selling", "positions"],
+    "source": "L2 Exchanges and Market Structure.md — Short Sell; Leverage"
+  },
+  {
+    "id": "is4226-w2-020",
+    "week": 2,
+    "type": "scenario",
+    "front": "You short 10 shares at $50 and buy them back at $42, ignoring fees. What is the profit?",
+    "back": "$80 profit.",
+    "explanation": "Short profit = (sale price − repurchase price) × quantity = ($50 − $42) × 10 = $80.",
+    "tags": ["is4226", "w2", "short_selling", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Short Sell (adapted calculation)"
+  },
+  {
+    "id": "is4226-w2-021",
+    "week": 2,
+    "type": "concept",
+    "front": "Why is the potential loss on a short stock position theoretically unlimited?",
+    "back": "Because the stock price can rise without a theoretical upper bound, increasing the price required to buy it back.",
+    "explanation": "By contrast, an unleveraged long stock position cannot lose more than its invested amount because price cannot fall below zero.",
+    "tags": ["is4226", "w2", "short_selling", "risk"],
+    "source": "L2 Exchanges and Market Structure.md — Leverage"
+  },
+  {
+    "id": "is4226-w2-022",
+    "week": 2,
+    "type": "concept",
+    "front": "What is financial leverage?",
+    "back": "Using borrowed funds to control a position larger than one's own capital.",
+    "explanation": "Leverage magnifies both gains and losses on the investor's equity; it does not improve the probability of a favorable price move.",
+    "tags": ["is4226", "w2", "leverage", "risk"],
+    "source": "L2 Exchanges and Market Structure.md — Leverage"
+  },
+  {
+    "id": "is4226-w2-023",
+    "week": 2,
+    "type": "formula",
+    "front": "What is the leverage factor formula?",
+    "back": "Leverage factor = total position size / investor's own capital.",
+    "explanation": "For example, controlling $1,000 with $100 of equity is 10× leverage.",
+    "tags": ["is4226", "w2", "leverage", "formula"],
+    "source": "L2 Exchanges and Market Structure.md — Leverage"
+  },
+  {
+    "id": "is4226-w2-024",
+    "week": 2,
+    "type": "formula",
+    "front": "How are initial margin fraction and leverage related in the lecture's simplified model?",
+    "back": "Margin fraction = 1 / leverage factor.",
+    "explanation": "Thus 10× leverage corresponds to a 10% margin requirement. Real brokers may impose additional maintenance-margin rules.",
+    "tags": ["is4226", "w2", "leverage", "margin", "formula"],
+    "source": "L2 Exchanges and Market Structure.md — Leverage"
+  },
+  {
+    "id": "is4226-w2-025",
+    "week": 2,
+    "type": "calculation",
+    "front": "What margin fraction corresponds to 5× leverage?",
+    "back": "20%.",
+    "explanation": "Margin = 1/5 = 0.20 = 20%.",
+    "tags": ["is4226", "w2", "leverage", "margin", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Leverage (adapted calculation)"
+  },
+  {
+    "id": "is4226-w2-026",
+    "week": 2,
+    "type": "formula",
+    "front": "How is purchasing power calculated under leverage?",
+    "back": "Purchasing power = account equity × leverage factor.",
+    "explanation": "The resulting position includes both the investor's capital and borrowed funds.",
+    "tags": ["is4226", "w2", "leverage", "purchasing_power", "formula"],
+    "source": "L2 Exchanges and Market Structure.md — Leverage"
+  },
+  {
+    "id": "is4226-w2-027",
+    "week": 2,
+    "type": "calculation",
+    "front": "An account has $400 and uses 5× leverage. If a stock costs $25, what is the maximum whole-share quantity, ignoring fees and buffers?",
+    "back": "80 shares.",
+    "explanation": "Purchasing power = $400 × 5 = $2,000; quantity = $2,000 / $25 = 80.",
+    "tags": ["is4226", "w2", "leverage", "purchasing_power", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Leverage (adapted calculation)"
+  },
+  {
+    "id": "is4226-w2-028",
+    "week": 2,
+    "type": "calculation",
+    "front": "A fully invested 4× leveraged long position gains 3%. What is the approximate return on account equity before interest and fees?",
+    "back": "+12%.",
+    "explanation": "Equity return ≈ leverage × asset return = 4 × 3% = 12%.",
+    "tags": ["is4226", "w2", "leverage", "returns", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Leverage (adapted calculation)"
+  },
+  {
+    "id": "is4226-w2-029",
+    "week": 2,
+    "type": "calculation",
+    "front": "A fully invested 10× leveraged long position loses 6%. What is the approximate loss on account equity before liquidation, interest, and fees?",
+    "back": "−60%.",
+    "explanation": "10 × (−6%) = −60%. Leverage scales losses just as it scales gains.",
+    "tags": ["is4226", "w2", "leverage", "returns", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Leverage (adapted calculation)"
+  },
+  {
+    "id": "is4226-w2-030",
+    "week": 2,
+    "type": "concept",
+    "front": "Why can a broker liquidate a leveraged position before the investor's equity reaches zero?",
+    "back": "To maintain the required margin and protect the funds the broker lent when losses erode the investor's collateral.",
+    "explanation": "This is associated with a margin call or forced liquidation; exact thresholds depend on broker rules.",
+    "tags": ["is4226", "w2", "leverage", "margin_call", "risk"],
+    "source": "L2 Exchanges and Market Structure.md — Leverage"
+  },
+  {
+    "id": "is4226-w2-031",
+    "week": 2,
+    "type": "compare",
+    "front": "What does technical analysis study, and what assumption commonly motivates it?",
+    "back": "It studies price charts and past market behavior, often assuming that recurring behavior or patterns can provide useful signals.",
+    "explanation": "Lecture examples include moving averages and wave theory.",
+    "tags": ["is4226", "w2", "analysis", "technical"],
+    "source": "L2 Exchanges and Market Structure.md — Predictions for Investing"
+  },
+  {
+    "id": "is4226-w2-032",
+    "week": 2,
+    "type": "compare",
+    "front": "What is the goal of fundamental analysis?",
+    "back": "To estimate an asset's intrinsic or 'real' value using business information and future expectations, then identify possible under- or overvaluation.",
+    "explanation": "Lecture examples include earnings per share (EPS) and price-to-earnings (P/E) ratios.",
+    "tags": ["is4226", "w2", "analysis", "fundamental"],
+    "source": "L2 Exchanges and Market Structure.md — Predictions for Investing"
+  },
+  {
+    "id": "is4226-w2-033",
+    "week": 2,
+    "type": "compare",
+    "front": "How is machine learning used for investment prediction in the lecture?",
+    "back": "By training computational/statistical models on selected and engineered features to identify hidden patterns and improve predictions.",
+    "explanation": "Predictive accuracy depends on data, features, validation, and whether learned patterns persist.",
+    "tags": ["is4226", "w2", "analysis", "machine_learning"],
+    "source": "L2 Exchanges and Market Structure.md — Predictions for Investing"
+  },
+  {
+    "id": "is4226-w2-034",
+    "week": 2,
+    "type": "concept",
+    "front": "What information is reflected in prices under weak-form market efficiency?",
+    "back": "Past market data such as historical prices and trading information.",
+    "explanation": "If weak-form efficiency holds, consistently earning abnormal returns from technical analysis alone should be difficult.",
+    "tags": ["is4226", "w2", "emh", "weak_form"],
+    "source": "L2 Exchanges and Market Structure.md — Adaptive Market Hypothesis"
+  },
+  {
+    "id": "is4226-w2-035",
+    "week": 2,
+    "type": "concept",
+    "front": "What information is reflected in prices under semi-strong-form market efficiency?",
+    "back": "All publicly available information, including past market data and public fundamental information.",
+    "explanation": "This implies neither technical nor public-information fundamental analysis should consistently generate abnormal returns after costs.",
+    "tags": ["is4226", "w2", "emh", "semi_strong"],
+    "source": "L2 Exchanges and Market Structure.md — Adaptive Market Hypothesis"
+  },
+  {
+    "id": "is4226-w2-036",
+    "week": 2,
+    "type": "concept",
+    "front": "What information is reflected in prices under strong-form market efficiency?",
+    "back": "All information, both public and private/insider information.",
+    "explanation": "This is the strongest and most demanding form of the efficient-market hypothesis.",
+    "tags": ["is4226", "w2", "emh", "strong_form"],
+    "source": "L2 Exchanges and Market Structure.md — Adaptive Market Hypothesis"
+  },
+  {
+    "id": "is4226-w2-037",
+    "week": 2,
+    "type": "compare",
+    "front": "How do behavioural finance and the efficient-market hypothesis differ?",
+    "back": "EMH emphasizes prices rapidly incorporating information; behavioural finance emphasizes that human biases and irrational behavior can produce systematic departures from fully rational pricing.",
+    "explanation": "The two frameworks make different assumptions about investors and the persistence of mispricing.",
+    "tags": ["is4226", "w2", "emh", "behavioural_finance"],
+    "source": "L2 Exchanges and Market Structure.md — Adaptive Market Hypothesis"
+  },
+  {
+    "id": "is4226-w2-038",
+    "week": 2,
+    "type": "concept",
+    "front": "What is the central idea of the Adaptive Market Hypothesis (AMH)?",
+    "back": "Market efficiency is not fixed; it evolves as participants adapt and as the market environment changes.",
+    "explanation": "AMH treats efficiency as context-dependent rather than an all-or-nothing permanent condition.",
+    "tags": ["is4226", "w2", "amh", "market_efficiency"],
+    "source": "L2 Exchanges and Market Structure.md — Adaptive Market Hypothesis"
+  },
+  {
+    "id": "is4226-w2-039",
+    "week": 2,
+    "type": "concept",
+    "front": "What are the four IDMR steps in the lecture's trading process?",
+    "back": "Identify, Decide, Manage risk, Rebalance.",
+    "explanation": "Identify the market/instrument; decide to buy, sell, or hold; manage risk with controls such as stops/targets; rebalance the portfolio as needed.",
+    "tags": ["is4226", "w2", "investment_management", "idmr"],
+    "source": "L2 Exchanges and Market Structure.md — Steps for Trading (IDMR)"
+  },
+  {
+    "id": "is4226-w2-040",
+    "week": 2,
+    "type": "scenario",
+    "front": "In IDMR, choosing a market and instrument based on risk tolerance and accessibility belongs to which step?",
+    "back": "Identify.",
+    "explanation": "The decision to buy, sell, or hold occurs only after the relevant market and instrument have been identified.",
+    "tags": ["is4226", "w2", "investment_management", "idmr", "scenario"],
+    "source": "L2 Exchanges and Market Structure.md — Steps for Trading (IDMR)"
+  },
+  {
+    "id": "is4226-w2-041",
+    "week": 2,
+    "type": "concept",
+    "front": "What is the purpose of a stop-loss order in trade planning?",
+    "back": "To define an exit intended to limit loss if the market moves against the position.",
+    "explanation": "Stops may be based on support/resistance, moving averages, indicators, or portfolio risk. Execution can differ from the stop price in fast markets.",
+    "tags": ["is4226", "w2", "risk_management", "stop_loss"],
+    "source": "L2 Exchanges and Market Structure.md — Risk Reward Ratios"
+  },
+  {
+    "id": "is4226-w2-042",
+    "week": 2,
+    "type": "concept",
+    "front": "What is the purpose of a take-profit level in trade planning?",
+    "back": "To define an exit at which a favorable move is converted into a realized gain.",
+    "explanation": "Together with the entry and stop-loss, it defines the planned reward relative to the planned risk.",
+    "tags": ["is4226", "w2", "risk_management", "take_profit"],
+    "source": "L2 Exchanges and Market Structure.md — Risk Reward Ratios"
+  },
+  {
+    "id": "is4226-w2-043",
+    "week": 2,
+    "type": "formula",
+    "front": "For a long trade, how are planned risk and planned reward per unit calculated?",
+    "back": "Risk = entry price − stop-loss price; reward = take-profit price − entry price.",
+    "explanation": "This assumes the stop is below entry and the target is above entry. Risk:reward may be written risk/reward; always check the convention used.",
+    "tags": ["is4226", "w2", "risk_management", "risk_reward", "formula"],
+    "source": "L2 Exchanges and Market Structure.md — Risk Reward Ratios"
+  },
+  {
+    "id": "is4226-w2-044",
+    "week": 2,
+    "type": "calculation",
+    "front": "A long trade enters at $50, has a stop at $46, and a target at $60. What are planned risk, planned reward, and reward-to-risk ratio?",
+    "back": "Risk = $4; reward = $10; reward-to-risk = 2.5:1.",
+    "explanation": "Risk = 50 − 46 = 4; reward = 60 − 50 = 10; reward/risk = 10/4 = 2.5.",
+    "tags": ["is4226", "w2", "risk_management", "risk_reward", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Risk Reward Ratios (adapted calculation)"
+  },
+  {
+    "id": "is4226-w2-045",
+    "week": 2,
+    "type": "formula",
+    "front": "For a short trade, how are planned risk and planned reward per unit calculated?",
+    "back": "Risk = stop-loss price − entry price; reward = entry price − take-profit price.",
+    "explanation": "This assumes the stop is above entry and the target is below entry.",
+    "tags": ["is4226", "w2", "risk_management", "risk_reward", "short", "formula"],
+    "source": "L2 Exchanges and Market Structure.md — Risk Reward Ratios"
+  },
+  {
+    "id": "is4226-w2-046",
+    "week": 2,
+    "type": "calculation",
+    "front": "A short trade enters at $80, has a stop at $84, and a target at $70. What are planned risk, planned reward, and reward-to-risk ratio?",
+    "back": "Risk = $4; reward = $10; reward-to-risk = 2.5:1.",
+    "explanation": "Risk = 84 − 80 = 4; reward = 80 − 70 = 10; reward/risk = 10/4 = 2.5.",
+    "tags": ["is4226", "w2", "risk_management", "risk_reward", "short", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Risk Reward Ratios (adapted calculation)"
+  },
+  {
+    "id": "is4226-w2-047",
+    "week": 2,
+    "type": "compare",
+    "front": "In an order book, what are the bid and the ask?",
+    "back": "The bid is the highest price a buyer currently offers; the ask (offer) is the lowest price a seller currently accepts.",
+    "explanation": "A buyer demanding immediate execution generally trades at the ask; a seller demanding immediate execution generally trades at the bid.",
+    "tags": ["is4226", "w2", "market_structure", "order_book"],
+    "source": "L2 Exchanges and Market Structure.md — Bid-Ask and Order Matching screenshot"
+  },
+  {
+    "id": "is4226-w2-048",
+    "week": 2,
+    "type": "formula",
+    "front": "How is the quoted bid–ask spread calculated?",
+    "back": "Spread = best ask − best bid.",
+    "explanation": "The spread is an immediate trading cost and a basic indicator of market liquidity.",
+    "tags": ["is4226", "w2", "market_structure", "order_book", "formula"],
+    "source": "L2 Exchanges and Market Structure.md — Bid-Ask and Order Matching screenshot"
+  },
+  {
+    "id": "is4226-w2-049",
+    "week": 2,
+    "type": "calculation",
+    "front": "The best bid is $24.92 and the best ask is $25.00. What is the spread?",
+    "back": "$0.08 per share.",
+    "explanation": "$25.00 − $24.92 = $0.08. A market buy would normally execute against the ask, while a market sell would normally execute against the bid.",
+    "tags": ["is4226", "w2", "market_structure", "order_book", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Bid-Ask and Order Matching (adapted calculation)"
+  },
+  {
+    "id": "is4226-w2-050",
+    "week": 2,
+    "type": "compare",
+    "front": "What is the main trade-off between a market order and a limit order?",
+    "back": "A market order prioritizes execution but not price; a limit order controls the worst acceptable price but may not execute.",
+    "explanation": "A buy limit sets the maximum purchase price; a sell limit sets the minimum sale price.",
+    "tags": ["is4226", "w2", "market_structure", "order_types"],
+    "source": "L2 Exchanges and Market Structure.md — Order Types screenshot"
+  },
+  {
+    "id": "is4226-w2-051",
+    "week": 2,
+    "type": "concept",
+    "front": "What does a stop order do?",
+    "back": "It remains inactive until its stop price is reached, then triggers the specified order used to enter or exit a position.",
+    "explanation": "A stop-loss can limit planned loss, but the final execution price can differ from the stop in a fast or gapping market.",
+    "tags": ["is4226", "w2", "market_structure", "order_types"],
+    "source": "L2 Exchanges and Market Structure.md — Order Types screenshot"
+  },
+  {
+    "id": "is4226-w2-052",
+    "week": 2,
+    "type": "formula",
+    "front": "How can position size be calculated from a fixed risk budget?",
+    "back": "Risk budget = account value × allowed risk percentage; quantity = risk budget / |entry price − stop price|, ignoring fees and slippage.",
+    "explanation": "This works backward from the maximum acceptable loss instead of choosing quantity first.",
+    "tags": ["is4226", "w2", "risk_management", "position_sizing", "formula"],
+    "source": "L2 Exchanges and Market Structure.md — Risk management screenshots"
+  },
+  {
+    "id": "is4226-w2-053",
+    "week": 2,
+    "type": "calculation",
+    "front": "A $20,000 account risks 1% per trade. Entry is $50 and the stop is $48. What is the maximum position size, ignoring costs?",
+    "back": "100 shares.",
+    "explanation": "Risk budget = $20,000 × 1% = $200. Risk per share = $2. Quantity = $200 / $2 = 100.",
+    "tags": ["is4226", "w2", "risk_management", "position_sizing", "calculation"],
+    "source": "L2 Exchanges and Market Structure.md — Risk management screenshots (adapted calculation)"
+  },
+  {
+    "id": "is4226-w2-054",
+    "week": 2,
+    "type": "concept",
+    "front": "What are the recurring stages in the lecture's formal investment-management cycle?",
+    "back": "Set objectives; establish policy; select a strategy; construct and monitor the portfolio; measure and evaluate performance; then repeat.",
+    "explanation": "Monitoring and evaluation feed back into objectives, policy, strategy, and portfolio construction.",
+    "tags": ["is4226", "w2", "investment_management", "process"],
+    "source": "L2 Exchanges and Market Structure.md — Investment Management Process screenshot"
+  },
+  {
+    "id": "is4226-w2-055",
+    "week": 2,
+    "type": "concept",
+    "front": "What are the three levels of the investment pyramid from bottom to top?",
+    "back": "Protection, accumulation, and top-risk investments.",
+    "explanation": "The base emphasizes safer assets; the middle pursues growth with risk; the top carries the highest risk and potential return. Allocation depends on risk appetite.",
+    "tags": ["is4226", "w2", "investment_management", "risk"],
+    "source": "L2 Exchanges and Market Structure.md — Investment pyramid screenshot"
+  },
+  {
+    "id": "is4226-w2-056",
+    "week": 2,
+    "type": "concept",
+    "front": "Why is portfolio rebalancing necessary?",
+    "back": "Market movements and changing circumstances alter portfolio weights and risk, so holdings may need adjustment to restore the intended allocation.",
+    "explanation": "The lecture connects rebalancing to market conditions, personal preferences, and portfolio risk.",
+    "tags": ["is4226", "w2", "investment_management", "rebalancing"],
+    "source": "L2 Exchanges and Market Structure.md — Investment-management screenshots"
+  },
+  {
+    "id": "is4226-w2-057",
+    "week": 2,
+    "type": "concept",
+    "front": "What three investor principles are emphasized in the lecture?",
+    "back": "Knowledge, supervision, and discipline.",
+    "explanation": "Understand instruments and risks; monitor, rebalance, and diversify; control greed and fear, keep records, and adapt when circumstances change.",
+    "tags": ["is4226", "w2", "investment_management", "principles"],
+    "source": "L2 Exchanges and Market Structure.md — Investor principles screenshot"
+  },
+  {
+    "id": "is4226-w2-058",
+    "week": 2,
+    "type": "scenario",
+    "front": "Inflation rises and the central bank responds by increasing interest rates. Trace the lecture's illustrative path to lower stock prices.",
+    "back": "Higher rates raise borrowing costs, slow growth and earnings, compress valuations, and can shift liquidity toward bonds, creating stock-selling pressure.",
+    "explanation": "This is one possible causal scenario, not a guaranteed sequence.",
+    "tags": ["is4226", "w1", "w2", "markets", "macro", "scenario"],
+    "source": "L1 Introduction to FM.md — inflation scenario screenshot"
+  }
+]

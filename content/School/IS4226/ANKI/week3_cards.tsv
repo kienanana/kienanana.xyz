@@ -1,0 +1,73 @@
+id	front	back	tags
+is4226-w3-001	What is the simple return from price \(P_{t-1}\) to \(P_t\)?	\(R_t=(P_t-P_{t-1})/P_{t-1}=P_t/P_{t-1}-1\).	is4226::w3::returns is4226::formula
+is4226-w3-002	What is the log return from price \(P_{t-1}\) to \(P_t\)?	\(r_t=\ln(P_t/P_{t-1})=\ln(1+R_t)\).	is4226::w3::returns is4226::formula
+is4226-w3-003	Convert a simple return \(R\) to a log return.	\(r=\ln(1+R)\). Use decimal form, e.g. 5% = 0.05.	is4226::w3::returns is4226::formula
+is4226-w3-004	Convert a log return \(r\) to a simple return.	\(R=e^r-1\). This is the return normally reported to an investor.	is4226::w3::returns is4226::formula
+is4226-w3-005	Why are log returns additive through time?	\(\sum_t\ln(P_t/P_{t-1})=\ln\prod_t(P_t/P_{t-1})=\ln(P_{last}/P_{first})\); intermediate prices cancel.	is4226::w3::returns is4226::interpretation
+is4226-w3-006	A price rises from $50 to $100, then falls to $50. What are the two simple returns and the total return?	\(+100\%\), then \(-50\%\); total return \(50/50-1=0\%\). The arithmetic mean of the two simple returns is +25%, but it is not the compound growth rate.	is4226::w3::returns is4226::calculation is4226::common_mistake
+is4226-w3-007	For the path $50 → $100 → $50, what are the log returns and their sum?	\(\ln2\approx0.6931\), then \(-\ln2\approx-0.6931\); sum = 0, matching the zero total log return.	is4226::w3::returns is4226::calculation
+is4226-w3-008	What does the arithmetic mean of historical simple returns measure—and what does it not measure?	It estimates the average one-period simple return. It is not the multi-period compound growth rate.	is4226::w3::returns is4226::common_mistake
+is4226-w3-009	How do the bounds of simple and log returns differ?	Simple return: \([-100\%,+\infty)\). Log return: \((-\infty,+\infty)\). Log returns are often better behaved for statistical modelling.	is4226::w3::returns is4226::compare
+is4226-w3-010	When are simple and log returns approximately equal?	For small price changes: \(\ln(1+R)\approx R\).	is4226::w3::returns is4226::interpretation
+is4226-w3-011	What is the absolute/holding-period return from first to last price?	\((P_{last}-P_{first})/P_{first}=P_{last}/P_{first}-1\).	is4226::w3::returns is4226::formula
+is4226-w3-012	A stock moves from $80 to $92. Calculate its simple holding-period return.	\((92-80)/80=0.15=15\%\).	is4226::w3::returns is4226::calculation
+is4226-w3-013	A stock earns a 12% simple return and ends at $56. What was its initial price?	\(P_0=P_1/(1+R)=56/1.12=$50\).	is4226::w3::returns is4226::calculation is4226::reverse
+is4226-w3-014	A log return is 0.08. What simple return should be reported?	\(e^{0.08}-1\approx0.08329=8.33\%\), not 8.00%.	is4226::w3::returns is4226::calculation is4226::common_mistake
+is4226-w3-015	A simple return is −20%. What is the log return?	\(\ln(0.8)\approx-0.22314=-22.31\%\) in log-return units.	is4226::w3::returns is4226::calculation
+is4226-w3-016	What is the expected-return formula for discrete states?	\(E[R]=\sum_i p_iR_i\), where \(\sum_i p_i=1\).	is4226::w3::expected_return is4226::formula
+is4226-w3-017	When does expected return reduce to the arithmetic mean?	When all \(n\) outcomes are equally likely: \(p_i=1/n\), so \(E[R]=(1/n)\sum_iR_i\).	is4226::w3::expected_return is4226::interpretation
+is4226-w3-018	Why can the symbol \(P\) cause confusion in return formulas?	\(P_t\) denotes price at time \(t\), while \(p_i\) in expected return denotes the probability of state \(i\). Identify the subscript and context.	is4226::w3::expected_return is4226::common_mistake
+is4226-w3-019	Returns are 20% with probability 0.3 and −5% with probability 0.7. Find expected return.	\(0.3(0.20)+0.7(-0.05)=0.025=2.5\%\).	is4226::w3::expected_return is4226::calculation
+is4226-w3-020	What is the formula for portfolio return?	\(R_p=\sum_iw_iR_i\), where \(w_i\) is the portfolio allocation and normally \(\sum_iw_i=1\).	is4226::w3::portfolio is4226::formula
+is4226-w3-021	A portfolio is 60% in A returning 10% and 40% in B returning −5%. Find portfolio return.	\(0.6(0.10)+0.4(-0.05)=0.04=4\%\).	is4226::w3::portfolio is4226::calculation
+is4226-w3-022	A two-asset portfolio returned 7%. It put 40% in A, which returned 10%. What did B return?	\(0.07=0.4(0.10)+0.6R_B\), so \(R_B=0.05=5\%\).	is4226::w3::portfolio is4226::calculation is4226::reverse
+is4226-w3-023	What does a histogram of daily returns show?	The frequency/count of returns falling within intervals. It reveals distributional behaviour such as concentration near zero, spread, skewness and extreme moves—not the time order of observations.	is4226::w3::distribution is4226::interpretation
+is4226-w3-024	What does standard deviation measure in the Week 3 context?	Dispersion of returns around their mean; higher standard deviation means higher volatility and is used as a proxy for risk.	is4226::w3::risk is4226::interpretation
+is4226-w3-025	State the population standard-deviation formula used in the notes.	\(\sigma=\sqrt{\sum_{i=1}^{N}(x_i-\mu)^2/N}\); variance is \(\sigma^2\).	is4226::w3::risk is4226::formula
+is4226-w3-026	Population or sample denominator: which is written in the IS4226 notes?	Population: divide by \(N\). A sample estimator often divides by \(N-1\), but use the convention the question specifies.	is4226::w3::risk is4226::common_mistake
+is4226-w3-027	For returns 1%, 3%, and 5%, calculate population mean and standard deviation.	Mean = 3%. Variance = \([(−2)^2+0^2+2^2]/3=8/3\) percentage-points²; \(\sigma\approx1.633\%\).	is4226::w3::risk is4226::calculation
+is4226-w3-028	Can a favourable unexpected move count as risk under the lecture definition?	Yes. Risk is deviation from what was expected, even when the deviation is favourable.	is4226::w3::risk is4226::interpretation
+is4226-w3-029	State the empirical 68–95–99.7 rule for a normal distribution.	About 68% lies within \(\mu\pm\sigma\), 95% within \(\mu\pm2\sigma\), and 99.7% within \(\mu\pm3\sigma\).	is4226::w3::normal is4226::formula
+is4226-w3-030	Daily return is normal with mean 0.1% and SD 1.5%. Give the approximate 95% daily-return band.	\(0.1\%\pm2(1.5\%)\Rightarrow[-2.9\%,3.1\%]\).	is4226::w3::normal is4226::calculation
+is4226-w3-031	A 95% return band is −4% to 6%. Infer the mean and SD using the lecture’s 2σ rule.	Midpoint \(\mu=1\%\). Half-width = 5% = \(2\sigma\), so \(\sigma=2.5\%\).	is4226::w3::normal is4226::calculation is4226::reverse
+is4226-w3-032	How do mean and standard deviation scale from daily data to \(N\) days?	\(\mu_N=N\mu_d\); \(\sigma_N=\sqrt N\,\sigma_d\), under the usual independent/stable-return assumption.	is4226::w3::scaling is4226::formula
+is4226-w3-033	Why does volatility scale by \(\sqrt N\), not by \(N\)?	Independent variances add: \(\mathrm{Var}_N=N\sigma_d^2\). Taking the square root gives \(\sigma_N=\sqrt N\sigma_d\).	is4226::w3::scaling is4226::interpretation is4226::common_mistake
+is4226-w3-034	Daily mean is 0.2% and daily SD is 1.2%. Find 5-day mean and SD.	\(\mu_5=5(0.2\%)=1.0\%\); \(\sigma_5=\sqrt5(1.2\%)\approx2.683\%\).	is4226::w3::scaling is4226::calculation
+is4226-w3-035	Using a $100 price, 5-day mean 1% and SD 2.68%, give the approximate 68% price band.	Return band: \(1\%\pm2.68\%=[-1.68\%,3.68\%]\). Price band: $98.32 to $103.68 using simple percentage conversion.	is4226::w3::normal is4226::calculation
+is4226-w3-036	Which annualisation factor is used for equities and which for crypto?	Equities: about 252 trading days. Crypto: 365 days because it trades daily.	is4226::w3::annualisation
+is4226-w3-037	Daily mean is 0.04% and daily SD is 1%. Annualise for equities.	Mean: \(252(0.04\%)=10.08\%\). SD: \(\sqrt{252}(1\%)\approx15.87\%\).	is4226::w3::annualisation is4226::calculation
+is4226-w3-038	An equity’s annualised volatility is 31.75%. Infer daily volatility using 252 days.	\(\sigma_d=31.75\%/\sqrt{252}\approx2.00\%\).	is4226::w3::annualisation is4226::calculation is4226::reverse
+is4226-w3-039	Distinguish systematic from unsystematic risk.	Systematic risk is market/macro risk affecting many assets and cannot be diversified away. Unsystematic risk is company/sector-specific and can be reduced through diversification.	is4226::w3::risk is4226::compare
+is4226-w3-040	Classify a global financial crisis and a company product recall by risk type.	Global financial crisis: systematic. Company product recall: unsystematic/idiosyncratic.	is4226::w3::risk is4226::scenario
+is4226-w3-041	What is the Sharpe ratio?	\(S=(R_p-R_f)/\sigma_p\): excess return per unit of portfolio volatility.	is4226::w3::sharpe is4226::formula
+is4226-w3-042	How should two positive Sharpe ratios be compared?	All else equal, the higher Sharpe ratio indicates better risk-adjusted performance: more excess return per unit of volatility.	is4226::w3::sharpe is4226::interpretation
+is4226-w3-043	When may Sharpe ratio be simplified to return divided by SD?	When the risk-free rate is assumed to be zero: \(S=R_p/\sigma_p\).	is4226::w3::sharpe is4226::common_mistake
+is4226-w3-044	Portfolio return is 12%, risk-free rate 2%, and SD 20%. Calculate Sharpe ratio.	\((0.12-0.02)/0.20=0.50\).	is4226::w3::sharpe is4226::calculation
+is4226-w3-045	Sharpe ratio is 0.8, volatility is 15%, and risk-free rate is 2%. Find portfolio return.	\(R_p=R_f+S\sigma=2\%+0.8(15\%)=14\%\).	is4226::w3::sharpe is4226::calculation is4226::reverse
+is4226-w3-046	What is beta’s covariance formula?	\(\beta_i=\mathrm{Cov}(R_i,R_m)/\mathrm{Var}(R_m)\).	is4226::w3::beta is4226::formula
+is4226-w3-047	What risk does beta measure?	Systematic risk/sensitivity of an asset or portfolio to movements in a chosen market benchmark.	is4226::w3::beta is4226::interpretation
+is4226-w3-048	Interpret beta values 1, 1.5, 0.6 and −0.4.	1: benchmark-like sensitivity. 1.5: tends to move 1.5% per 1% market move. 0.6: lower sensitivity. −0.4: tends to move oppositely. These are tendencies, not guarantees.	is4226::w3::beta is4226::interpretation
+is4226-w3-049	Cov(asset, market) = 0.018 and Var(market) = 0.012. Find beta.	\(\beta=0.018/0.012=1.5\).	is4226::w3::beta is4226::calculation
+is4226-w3-050	An asset’s beta is 0.8 and market variance is 0.0225. Find its covariance with the market.	\(\mathrm{Cov}=\beta\mathrm{Var}_m=0.8(0.0225)=0.018\).	is4226::w3::beta is4226::calculation is4226::reverse
+is4226-w3-051	What is the portfolio-beta formula?	\(\beta_p=\sum_iw_i\beta_i\).	is4226::w3::beta is4226::formula
+is4226-w3-052	A portfolio is 40% in beta 1.4 and 60% in beta 0.6. Find portfolio beta.	\(0.4(1.4)+0.6(0.6)=0.92\).	is4226::w3::beta is4226::calculation
+is4226-w3-053	A portfolio holds 30% in beta 1.5 and 70% in asset B; portfolio beta is 0.8. Find B’s beta.	\(0.8=0.3(1.5)+0.7\beta_B\), so \(\beta_B=0.5\).	is4226::w3::beta is4226::calculation is4226::reverse
+is4226-w3-054	What is a key limitation of beta noted in the lecture?	It is estimated from historical returns, so past benchmark sensitivity may not persist.	is4226::w3::beta is4226::interpretation
+is4226-w3-055	State the CAPM expected-return equation.	\(E(R_i)=R_f+\beta_i[E(R_m)-R_f]\).	is4226::w3::capm is4226::formula
+is4226-w3-056	In CAPM, what compensation is added to the risk-free rate?	\(\beta_i[E(R_m)-R_f]\): beta times the market risk premium.	is4226::w3::capm is4226::interpretation
+is4226-w3-057	Risk-free rate is 3%, expected market return 9%, and beta 1.2. Find CAPM expected return.	\(3\%+1.2(9\%-3\%)=10.2\%\).	is4226::w3::capm is4226::calculation
+is4226-w3-058	CAPM expected return is 8%, risk-free rate 2%, and market expected return 10%. Find beta.	\(8\%=2\%+\beta(8\%)\), so \(\beta=0.75\).	is4226::w3::capm is4226::calculation is4226::reverse
+is4226-w3-059	State alpha using the full CAPM formula.	\(\alpha=R_i-[R_f+\beta_i(R_m-R_f)]=R_i-R_f-\beta_i(R_m-R_f)\).	is4226::w3::alpha is4226::formula
+is4226-w3-060	When is the shortcut \(\alpha=R_i-\beta R_m\) valid?	When \(R_f=0\) (or the exercise explicitly directs that simplification). Otherwise use full CAPM alpha.	is4226::w3::alpha is4226::common_mistake
+is4226-w3-061	Interpret positive, zero and negative alpha.	Positive: outperformed the beta-adjusted CAPM benchmark. Zero: matched it. Negative: underperformed it.	is4226::w3::alpha is4226::interpretation
+is4226-w3-062	Actual return is 13%, risk-free rate 2%, market return 10%, and beta 1.1. Find alpha.	CAPM benchmark = \(2\%+1.1(8\%)=10.8\%\). Alpha = \(13\%-10.8\%=2.2\%\).	is4226::w3::alpha is4226::calculation
+is4226-w3-063	Alpha is 1%, beta 0.8, risk-free rate 2%, and market return 7%. Find actual return.	\(R_i=\alpha+R_f+\beta(R_m-R_f)=1\%+2\%+0.8(5\%)=7\%\).	is4226::w3::alpha is4226::calculation is4226::reverse
+is4226-w3-064	Distinguish covariance from correlation.	Covariance gives direction and joint movement in scale-dependent units. Correlation standardises covariance by both SDs, is unitless, and lies from −1 to +1.	is4226::w3::correlation is4226::compare
+is4226-w3-065	State the correlation formula.	\(\rho_{xy}=\mathrm{Cov}(x,y)/(\sigma_x\sigma_y)\).	is4226::w3::correlation is4226::formula
+is4226-w3-066	Interpret correlation values +1, 0 and −1.	+1: perfect positive linear co-movement. 0: no linear relationship. −1: perfect negative linear co-movement.	is4226::w3::correlation is4226::interpretation
+is4226-w3-067	Covariance is 0.006, and the assets’ SDs are 0.10 and 0.15. Find correlation.	\(0.006/(0.10\times0.15)=0.4\).	is4226::w3::correlation is4226::calculation
+is4226-w3-068	Correlation is −0.5, and SDs are 8% and 12%. Find covariance.	\(\mathrm{Cov}=\rho\sigma_x\sigma_y=-0.5(0.08)(0.12)=-0.0048\).	is4226::w3::correlation is4226::calculation is4226::reverse
+is4226-w3-069	Why does correlation matter for diversification?	Combining assets with imperfect or negative correlation can reduce portfolio volatility because their movements do not fully reinforce one another.	is4226::w3::correlation is4226::interpretation
+is4226-w3-070	Does correlation establish causation?	No. It describes linear association, not why the variables move together.	is4226::w3::correlation is4226::common_mistake
+is4226-w3-071	Two assets have identical expected return and volatility. Which better diversifies an existing portfolio?	The asset with lower correlation to the existing portfolio, all else equal.	is4226::w3::correlation is4226::scenario
+is4226-w3-072	Which metric answers each question: total volatility, market sensitivity, risk-adjusted excess return, abnormal performance, co-movement?	Standard deviation; beta; Sharpe ratio; alpha; correlation, respectively.	is4226::w3::metrics is4226::compare

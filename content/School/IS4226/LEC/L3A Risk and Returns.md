@@ -3,11 +3,12 @@ class: note
 tags:
   - y4s1
   - finance/risk
+  - finance/returns
 source:
 related:
 author:
 date: 2026-08-25
-updated: 2026-08-25 12:28:56
+updated: 2026-09-22 16:45:48
 aliases:
 ---
 ### Stock Returns

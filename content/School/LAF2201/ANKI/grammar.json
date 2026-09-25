@@ -1,0 +1,738 @@
+[
+  {
+    "id": "pc-etre-formation",
+    "french": "Comment forme-t-on le passé composé avec être ?",
+    "english": "être au présent + participe passé",
+    "notes": "Example: elle est allée. Non-reflexive verbs with être agree with the subject; reflexive agreement has additional rules.",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pc-etre-accord",
+    "french": "Comment le participe passé s'accorde-t-il avec être ?",
+    "english": "For non-reflexive verbs using être: it agrees with the subject in gender and number.",
+    "notes": "elle est allée; ils sont partis; elles sont venues. Reflexive verbs have additional agreement rules.",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pc-negation",
+    "french": "Où place-t-on ne… pas au passé composé ?",
+    "english": "Around the auxiliary: subject + ne/n' + auxiliary + pas + past participle.",
+    "notes": "Je n'ai pas compris. Je ne suis pas allé(e).",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pc-interrogation",
+    "french": "Quelles sont les trois façons de poser une question au passé composé ?",
+    "english": "Intonation, inversion, and est-ce que.",
+    "notes": "Tu es arrivé ? Es-tu arrivé ? Est-ce que tu es arrivé ?",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-aller",
+    "french": "participe passé : aller",
+    "english": "allé",
+    "notes": "Base participle shown. Auxiliary: être. Add -e / -s / -es to agree with the subject.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-venir",
+    "french": "participe passé : venir",
+    "english": "venu",
+    "notes": "Base participle shown. Auxiliary: être. Add -e / -s / -es to agree with the subject.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-arriver",
+    "french": "participe passé : arriver",
+    "english": "arrivé",
+    "notes": "Base participle shown. Auxiliary: être. Add -e / -s / -es to agree with the subject.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-partir",
+    "french": "participe passé : partir",
+    "english": "parti",
+    "notes": "Base participle shown. Auxiliary: être. Add -e / -s / -es to agree with the subject.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-monter",
+    "french": "participe passé : monter",
+    "english": "monté",
+    "notes": "Base participle shown. Auxiliary: être / avoir. être for intransitive movement; avoir when the verb takes a direct object.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-descendre",
+    "french": "participe passé : descendre",
+    "english": "descendu",
+    "notes": "Base participle shown. Auxiliary: être / avoir. être for intransitive movement; avoir when the verb takes a direct object.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-entrer",
+    "french": "participe passé : entrer",
+    "english": "entré",
+    "notes": "Base participle shown. Auxiliary: être. Add -e / -s / -es to agree with the subject.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-sortir",
+    "french": "participe passé : sortir",
+    "english": "sorti",
+    "notes": "Base participle shown. Auxiliary: être / avoir. être for intransitive movement; avoir when the verb takes a direct object.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-naitre",
+    "french": "participe passé : naître",
+    "english": "né",
+    "notes": "Base participle shown. Auxiliary: être. Add -e / -s / -es to agree with the subject.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-mourir",
+    "french": "participe passé : mourir",
+    "english": "mort",
+    "notes": "Base participle shown. Auxiliary: être. Add -e / -s / -es to agree with the subject.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-passer",
+    "french": "participe passé : passer",
+    "english": "passé",
+    "notes": "Base participle shown. Auxiliary: être / avoir. être for intransitive movement; avoir when the verb takes a direct object.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-retourner",
+    "french": "participe passé : retourner",
+    "english": "retourné",
+    "notes": "Base participle shown. Auxiliary: être / avoir. être for intransitive movement; avoir when the verb takes a direct object.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-tomber",
+    "french": "participe passé : tomber",
+    "english": "tombé",
+    "notes": "Base participle shown. Auxiliary: être. Add -e / -s / -es to agree with the subject.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-rester",
+    "french": "participe passé : rester",
+    "english": "resté",
+    "notes": "Base participle shown. Auxiliary: être. Add -e / -s / -es to agree with the subject.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-faire",
+    "french": "participe passé : faire",
+    "english": "fait",
+    "notes": "Base participle shown. Auxiliary: avoir.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-prendre",
+    "french": "participe passé : prendre",
+    "english": "pris",
+    "notes": "Base participle shown. Auxiliary: avoir.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-pouvoir",
+    "french": "participe passé : pouvoir",
+    "english": "pu",
+    "notes": "Base participle shown. Auxiliary: avoir.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-conduire",
+    "french": "participe passé : conduire",
+    "english": "conduit",
+    "notes": "Base participle shown. Auxiliary: avoir.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-lire",
+    "french": "participe passé : lire",
+    "english": "lu",
+    "notes": "Base participle shown. Auxiliary: avoir.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-boire",
+    "french": "participe passé : boire",
+    "english": "bu",
+    "notes": "Base participle shown. Auxiliary: avoir.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-devenir",
+    "french": "participe passé : devenir",
+    "english": "devenu",
+    "notes": "Base participle shown. Auxiliary: être. Add -e / -s / -es to agree with the subject.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-revenir",
+    "french": "participe passé : revenir",
+    "english": "revenu",
+    "notes": "Base participle shown. Auxiliary: être. Add -e / -s / -es to agree with the subject.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-rentrer",
+    "french": "participe passé : rentrer",
+    "english": "rentré",
+    "notes": "Base participle shown. Auxiliary: être / avoir. être for intransitive movement; avoir when the verb takes a direct object.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-comprendre",
+    "french": "participe passé : comprendre",
+    "english": "compris",
+    "notes": "Base participle shown. Auxiliary: avoir.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-apprendre",
+    "french": "participe passé : apprendre",
+    "english": "appris",
+    "notes": "Base participle shown. Auxiliary: avoir.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-voir",
+    "french": "participe passé : voir",
+    "english": "vu",
+    "notes": "Base participle shown. Auxiliary: avoir.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-savoir",
+    "french": "participe passé : savoir",
+    "english": "su",
+    "notes": "Base participle shown. Auxiliary: avoir.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-etre",
+    "french": "participe passé : être",
+    "english": "été",
+    "notes": "Base participle shown. Auxiliary: avoir.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-avoir",
+    "french": "participe passé : avoir",
+    "english": "eu",
+    "notes": "Base participle shown. Auxiliary: avoir.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pp-dormir",
+    "french": "participe passé : dormir",
+    "english": "dormi",
+    "notes": "Base participle shown. Auxiliary: avoir.",
+    "category": "Grammar > Past participles",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pc-avoir-formation",
+    "french": "Form the passé composé with avoir.",
+    "english": "Present tense of avoir + past participle.",
+    "notes": "J'ai regardé le spectacle.",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pc-er",
+    "french": "Regular -er verbs: how do you form the past participle?",
+    "english": "Replace -er with -é.",
+    "notes": "aimer → aimé; chanter → chanté",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pc-ir",
+    "french": "Regular -ir verbs such as finir: past participle ending?",
+    "english": "Replace -ir with -i.",
+    "notes": "finir → fini. This is not a rule for all -ir verbs: venir → venu.",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pc-re",
+    "french": "Regular -re verbs such as vendre: past participle ending?",
+    "english": "Replace -re with -u.",
+    "notes": "vendre → vendu. Irregular examples: prendre → pris; faire → fait.",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pc-sortir-object",
+    "french": "Complete: Elle ___ sortie. Elle ___ sorti son téléphone.",
+    "english": "est; a",
+    "notes": "She went out. She took out her phone. The second sentence has a direct object.",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pc-agreement-elles",
+    "french": "Complete: Elles sont ___ (aller).",
+    "english": "allées",
+    "notes": "Feminine plural: -es.",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pc-agreement-nous",
+    "french": "A mixed group says: Nous sommes ___ (partir).",
+    "english": "partis",
+    "notes": "Use masculine plural for a mixed group; parties for an all-female group.",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pc-reflexive",
+    "french": "Which auxiliary do reflexive verbs use in the passé composé?",
+    "english": "être",
+    "notes": "Je me suis habillé(e). Auxiliary choice alone does not determine every reflexive agreement.",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pc-negative-practice",
+    "french": "Make negative: Nous avons regardé le programme.",
+    "english": "Nous n'avons pas regardé le programme.",
+    "notes": "",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "pc-inversion-practice",
+    "french": "Use inversion: Tu as compris ?",
+    "english": "As-tu compris ?",
+    "notes": "Invert the auxiliary and subject pronoun.",
+    "category": "Grammar > Passé composé",
+    "source": "School/LAF2201/NOTES/Passé Composé.md"
+  },
+  {
+    "id": "im-stem",
+    "french": "How do you form the imparfait stem for most verbs?",
+    "english": "Take the present-tense nous form and remove -ons.",
+    "notes": "nous faisons → fais-; être is the exception.",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-etre-stem",
+    "french": "What is the imparfait stem of être?",
+    "english": "ét-",
+    "notes": "It is not somm-.",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-je-tu",
+    "french": "Imparfait endings for je and tu?",
+    "english": "-ais for both",
+    "notes": "j'étais; tu étais",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-il",
+    "french": "Imparfait ending for il / elle / on?",
+    "english": "-ait",
+    "notes": "il était; elle faisait; on chantait",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-nous",
+    "french": "Imparfait ending for nous?",
+    "english": "-ions",
+    "notes": "nous étions; nous faisions",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-vous",
+    "french": "Imparfait ending for vous?",
+    "english": "-iez",
+    "notes": "vous étiez; vous faisiez",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-ils",
+    "french": "Imparfait ending for ils / elles?",
+    "english": "-aient",
+    "notes": "ils étaient; elles faisaient",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-manger",
+    "french": "Complete in the imparfait: je ___ / nous ___ (manger).",
+    "english": "je mangeais / nous mangions",
+    "notes": "Keep e before a for the soft g sound; i already makes g soft.",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-commencer",
+    "french": "Complete in the imparfait: je ___ / nous ___ (commencer).",
+    "english": "je commençais / nous commencions",
+    "notes": "Use ç before a, but c before i.",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-faire",
+    "french": "Complete in the imparfait: il ___ / nous ___ (faire).",
+    "english": "il faisait / nous faisions",
+    "notes": "Stem: fais-. The ai in these forms is pronounced /ə/.",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-ambiance",
+    "french": "Describe the background: « It was lively. »",
+    "english": "C'était animé.",
+    "notes": "",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-weather",
+    "french": "Describe the background: « The weather was hot. »",
+    "english": "Il faisait chaud.",
+    "notes": "",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-there-were",
+    "french": "Describe the background: « There were lots of people. »",
+    "english": "Il y avait beaucoup de monde.",
+    "notes": "",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-negative",
+    "french": "Make negative: Il y avait du monde.",
+    "english": "Il n'y avait pas de monde.",
+    "notes": "ne… pas surrounds avait; du becomes de after this negation.",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-question",
+    "french": "Use inversion: Tu étais où ?",
+    "english": "Où étais-tu ?",
+    "notes": "",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-inversion-t",
+    "french": "Choose: Y avait-il / Y avait-t-il beaucoup de monde ?",
+    "english": "Y avait-il beaucoup de monde ?",
+    "notes": "avait already ends in t; do not add another -t-.",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "im-negative-si",
+    "french": "Tu n'étais pas au concert ? Reply that you WERE there.",
+    "english": "Si, j'y étais !",
+    "notes": "Si contradicts a negative question or statement.",
+    "category": "Grammar > Imparfait",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "tense-background",
+    "french": "Which past tense normally describes a background state or an unbounded habit?",
+    "english": "The imparfait.",
+    "notes": "Descriptions, weather, feelings, and ongoing actions when viewed as background.",
+    "category": "Grammar > Tense choice",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "tense-event",
+    "french": "Which past tense presents an event as a completed, bounded whole?",
+    "english": "The passé composé.",
+    "notes": "It can also describe a completed number or period of repeated actions.",
+    "category": "Grammar > Tense choice",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "tense-interruption",
+    "french": "Complete: Je ___ (dormir) quand le téléphone ___ (sonner).",
+    "english": "Je dormais quand le téléphone a sonné.",
+    "notes": "Ongoing background + completed event.",
+    "category": "Grammar > Tense choice",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "tense-repetition",
+    "french": "Choose: Pendant une semaine, nous avons marché / marchions tous les jours. Present the week as a completed whole.",
+    "english": "Pendant une semaine, nous avons marché tous les jours.",
+    "notes": "Repetition does not automatically require the imparfait.",
+    "category": "Grammar > Tense choice",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "tense-etre-whole",
+    "french": "Is « Ça a été génial » grammatical?",
+    "english": "Yes. It presents the experience as a completed whole.",
+    "notes": "C'était génial normally describes the background or what it was like.",
+    "category": "Grammar > Tense choice",
+    "source": "School/LAF2201/NOTES/Imparfait.md"
+  },
+  {
+    "id": "jouer-games",
+    "french": "Which preposition follows jouer for games and sports?",
+    "english": "à: jouer au tennis, jouer aux cartes",
+    "notes": "à + le → au; à + les → aux",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/LEC/L3.md"
+  },
+  {
+    "id": "jouer-instruments",
+    "french": "Which preposition follows jouer for instruments?",
+    "english": "de: jouer du piano, jouer de la guitare",
+    "notes": "de + le → du; de + la → de la",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/LEC/L3.md"
+  },
+  {
+    "id": "faire-activities",
+    "french": "Complete: faire ___ jardinage / faire ___ natation.",
+    "english": "faire du jardinage / faire de la natation",
+    "notes": "These activity expressions use faire de.",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/LEC/L3.md"
+  },
+  {
+    "id": "bags",
+    "french": "What does BAGS help you remember about French adjectives?",
+    "english": "Common adjectives of beauty, age, goodness and size usually precede the noun.",
+    "notes": "un beau costume; une jeune femme; un bon album; une petite robe",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/LEC/L4.md"
+  },
+  {
+    "id": "bel",
+    "french": "Complete: un ___ homme (beau).",
+    "english": "un bel homme",
+    "notes": "Use bel before a masculine singular noun beginning with a vowel or silent h.",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/NOTES/LAF2201 Vocab Bank.md"
+  },
+  {
+    "id": "vieil",
+    "french": "Complete: un ___ ami (vieux).",
+    "english": "un vieil ami",
+    "notes": "Feminine: une vieille amie.",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/NOTES/LAF2201 Vocab Bank.md"
+  },
+  {
+    "id": "nouvel",
+    "french": "Complete: un ___ album (nouveau).",
+    "english": "un nouvel album",
+    "notes": "Feminine: une nouvelle chanson.",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/NOTES/LAF2201 Vocab Bank.md"
+  },
+  {
+    "id": "colour-simple",
+    "french": "Complete: des chaussettes ___ (blanc).",
+    "english": "des chaussettes blanches",
+    "notes": "A simple colour adjective normally agrees in gender and number.",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/NOTES/LAF2201 Vocab Bank.md"
+  },
+  {
+    "id": "colour-invariable",
+    "french": "Complete: des chaussures ___ (marron).",
+    "english": "des chaussures marron",
+    "notes": "Marron, orange and crème are invariable colour adjectives.",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/NOTES/LAF2201 Vocab Bank.md"
+  },
+  {
+    "id": "colour-compound",
+    "french": "Complete: des chemises ___ (bleu clair).",
+    "english": "des chemises bleu clair",
+    "notes": "Compound colour descriptions are invariable.",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/NOTES/LAF2201 Vocab Bank.md"
+  },
+  {
+    "id": "neuf-nouveau",
+    "french": "What is the difference between neuf and nouveau for an item of clothing?",
+    "english": "Neuf means brand-new / unused; nouveau can mean newly acquired or different, even if used.",
+    "notes": "Feminine: neuve / nouvelle.",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/TUT/TUT 2.md"
+  },
+  {
+    "id": "porter-mettre",
+    "french": "Which means « wear », and which means « put on »: porter / mettre?",
+    "english": "porter = wear; mettre = put on",
+    "notes": "Je porte une veste. Je vais mettre une veste.",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/NOTES/LAF2201 Vocab Bank.md"
+  },
+  {
+    "id": "care-infinitive",
+    "french": "Which verb form is used in written clothing-care instructions?",
+    "english": "The infinitive.",
+    "notes": "Laver à la main. Vider les poches.",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/TUT/TUT 2.md"
+  },
+  {
+    "id": "care-negative",
+    "french": "How do you write « Do not iron » as a care instruction?",
+    "english": "Ne pas repasser.",
+    "notes": "ne pas + infinitive; both negative words come before the verb.",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/TUT/TUT 2.md"
+  },
+  {
+    "id": "savoir-connaitre",
+    "french": "Complete: Je ___ Paris; je ___ nager.",
+    "english": "Je connais Paris; je sais nager.",
+    "notes": "connaître = familiarity with people, places or things; savoir + infinitive = know how to do something.",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/TUT/TUT 2.md"
+  },
+  {
+    "id": "savoir-fact",
+    "french": "Complete: Je ___ que sa taille est 38.",
+    "english": "Je sais que sa taille est 38.",
+    "notes": "Use savoir for facts and information.",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/TUT/TUT 2.md"
+  },
+  {
+    "id": "apres-infinitive",
+    "french": "Why « après avoir utilisé le téléphone » rather than « après utiliser le téléphone »?",
+    "english": "Après + past infinitive presents the action as completed before the next action.",
+    "notes": "avoir utilisé = past infinitive, not a conjugated passé composé. « Faire une pause après avoir utilisé le téléphone. »",
+    "category": "Grammar > Usage and agreement",
+    "source": "School/LAF2201/TUT/TUT 2.md"
+  },
+  {
+    "id": "pronominal-present-negation",
+    "french": "Make negative: Je me maquille.",
+    "english": "Je ne me maquille pas.",
+    "notes": "ne precedes the reflexive pronoun; pas follows the conjugated verb.",
+    "category": "Grammar > Unité 6",
+    "source": "School/LAF2201/TUT/TUT 3.md"
+  },
+  {
+    "id": "pronominal-futur-proche",
+    "french": "Translate: We are going to go for a walk.",
+    "english": "Nous allons nous promener.",
+    "notes": "The reflexive pronoun stays immediately before the infinitive.",
+    "category": "Grammar > Unité 6",
+    "source": "School/LAF2201/TUT/TUT 3.md"
+  },
+  {
+    "id": "pronominal-futur-negative",
+    "french": "Make negative: Nous allons nous promener.",
+    "english": "Nous n’allons pas nous promener.",
+    "notes": "Negation surrounds allons, not the infinitive.",
+    "category": "Grammar > Unité 6",
+    "source": "School/LAF2201/TUT/TUT 3.md"
+  },
+  {
+    "id": "feminine-creatif",
+    "french": "Give the feminine: créatif / positif.",
+    "english": "créative / positive",
+    "notes": "-if → -ive.",
+    "category": "Grammar > Unité 6",
+    "source": "School/LAF2201/LEC/L6.md"
+  },
+  {
+    "id": "feminine-doux-roux",
+    "french": "Give the feminine: doux / roux.",
+    "english": "douce / rousse",
+    "notes": "Learn these separately; -oux has more than one feminine pattern.",
+    "category": "Grammar > Unité 6",
+    "source": "School/LAF2201/LEC/L6.md"
+  },
+  {
+    "id": "voiced-consonants",
+    "french": "Which sounds are voiced: [f], [v], [s], [z]?",
+    "english": "[v] and [z].",
+    "notes": "The vocal cords vibrate for [v] and [z], but not for [f] and [s].",
+    "category": "Grammar > Unité 6",
+    "source": "School/LAF2201/LEC/L6.md"
+  },
+  {
+    "id": "obligation-devoir",
+    "french": "Complete: Tu ___ être à l’heure. (devoir)",
+    "english": "Tu dois être à l’heure.",
+    "notes": "devoir + infinitive expresses obligation.",
+    "category": "Grammar > Unité 6",
+    "source": "School/LAF2201/TUT/TUT 4.md"
+  },
+  {
+    "id": "possibility-pouvoir",
+    "french": "Complete: Vous ___ travailler le soir ? (pouvoir)",
+    "english": "Vous pouvez travailler le soir ?",
+    "notes": "pouvoir + infinitive expresses ability or possibility.",
+    "category": "Grammar > Unité 6",
+    "source": "School/LAF2201/TUT/TUT 4.md"
+  },
+  {
+    "id": "question-est-ce-que-order",
+    "french": "Rewrite with est-ce que: Vous étudiez où ?",
+    "english": "Où est-ce que vous étudiez ?",
+    "notes": "Keep subject–verb order after est-ce que.",
+    "category": "Grammar > Unité 6",
+    "source": "School/LAF2201/LEC/L5.md"
+  }
+]

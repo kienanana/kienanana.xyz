@@ -91,8 +91,20 @@ aliases:
 - ⭐ Phoebe Bridgers - Lost Weekend
 - 🔵 Kelela - new avatar
 - 🟡 Lil Uzi Vert - Maverick "Almost Forever" EP
-- 🔵 James Ivy - The Seams
+- 🟢 James Ivy - The Seams
 - 🔵 Denzel Curry, Kenneth Blume - ii
+- 🔵 Charli XCX - Music, Fashion, Film
+- 🟡 Naisha - 911 EP
+- 🟡 ear - Rumspringa
+- 🔵 Mac DeMarco - The View From Tian Tan
+- 🟢 Moodymann - Black Mahogani
+- 🟢 Bright Eyes - I'm Wide Awake, It's Morning
+- 🔵 Jungle - Sunshine
+- 🟢 tsubi club - trinket
+- 🔴 ADÉLA - PRIMA 
+- 🔵 The Lemon Twigs - Everything Harmony
+- 🟢 Angine de Poitrine - Vol.II
+- 🟢 LCD Soundsystem - the long goodbye (lcd soundsystem live at madison square garden)
 
 ### Relistens:
 - Lil Ugly Mane - volcanic bird enemy and the voiced concern
@@ -137,6 +149,14 @@ aliases:
 - NERO - Between II Worlds 
 - Kavinsky - Nightcall
 - Porter Robinson - Spitfire EP
+- Paramore - Self-Titled
+- Slowdive - Souvlaki
+- Slowdive - Self-Titled
+- Slowdive - everything is alive
+- ⭐ Jane Remover - Frailty
+- Fleet Foxes - Helplessness Blues
+- Daft Punk - Alive 2007
+- glaive - May It Never Falter
 
 ### Artists:
 - Fcukers

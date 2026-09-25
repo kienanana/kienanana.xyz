@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "is4226-w4-time-price",
+    "week": 4,
+    "type": "recall",
+    "front": "How do time-based and price-based charts differ?",
+    "back": "Time-based charts represent fixed time intervals. Price-based charts add entries only after sufficient price movement; equal spacing does not imply equal elapsed time.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Reading Charts",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-chart-types",
+    "week": 4,
+    "type": "recall",
+    "front": "Which time-based and price-based chart types are listed in L4?",
+    "back": "Time-based: line charts and candlesticks. Price-based: Point and Figure, Renko and Kagi.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Reading Charts",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-line",
+    "week": 4,
+    "type": "recall",
+    "front": "What prices does a line chart show, and what detail does it hide?",
+    "back": "Closing prices. It shows the overall trend but hides price swings within each interval.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Line and Candlesticks",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-ohlc",
+    "week": 4,
+    "type": "recall",
+    "front": "What does OHLC stand for?",
+    "back": "Open, High, Low and Close.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Line and Candlesticks",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-candle-parts",
+    "week": 4,
+    "type": "recall",
+    "front": "What do a candlestick's body and wicks represent?",
+    "back": "Body: the interval's open-to-close range. Wicks: extend to the interval's high and low.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Line and Candlesticks",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-candle-direction",
+    "week": 4,
+    "type": "recall",
+    "front": "What distinguishes a rising candle from a falling candle?",
+    "back": "Rising: close above open. Falling: close below open.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Line and Candlesticks",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-candle-interval",
+    "week": 4,
+    "type": "recall",
+    "front": "What does the interval of a candlestick chart determine?",
+    "back": "The period represented by each candle, e.g. 5 minutes, 15 minutes or 1 day.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Line and Candlesticks",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-pnf-columns",
+    "week": 4,
+    "type": "recall",
+    "front": "What do X and O columns represent in a Point and Figure chart?",
+    "back": "X: rising prices. O: falling prices.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Point and Figure",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-pnf-box",
+    "week": 4,
+    "type": "recall",
+    "front": "What does box size mean in a Point and Figure chart?",
+    "back": "The price move represented by each X or O; smaller moves are ignored.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Point and Figure",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-pnf-reversal",
+    "week": 4,
+    "type": "recall",
+    "front": "What does reversal count mean in a Point and Figure chart?",
+    "back": "The number of boxes price must move in the opposite direction to start a new column.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Point and Figure",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-pnf-atr",
+    "week": 4,
+    "type": "recall",
+    "front": "What does ATR stand for, and how is it used in the note's Point and Figure chart?",
+    "back": "Average True Range. It can set box size based on volatility.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Point and Figure",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-pnf-input",
+    "week": 4,
+    "type": "recall",
+    "front": "What price input is used for the Point and Figure chart described in the note?",
+    "back": "Closing prices.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Point and Figure",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-pnf-tradeoff",
+    "week": 4,
+    "type": "recall",
+    "front": "What is the stated trade-off of Point and Figure's noise filtering?",
+    "back": "Fewer false breakouts, but later signals.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Point and Figure",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-pnf-ta",
+    "week": 4,
+    "type": "recall",
+    "front": "Which technical-analysis principles can still be applied to Point and Figure charts?",
+    "back": "Trends, support/resistance and breakouts.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Point and Figure",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-renko",
+    "week": 4,
+    "type": "recall",
+    "front": "What is a Renko chart?",
+    "back": "A price-based chart made of bricks of a chosen price size. New bricks appear when price crosses the required thresholds; small moves produce no new brick.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Renko and Kagi",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-renko-size",
+    "week": 4,
+    "type": "recall",
+    "front": "How can Renko brick size be set, and what is the effect of larger bricks?",
+    "back": "Fixed or based on ATR. Larger bricks filter more noise but delay signals.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Renko and Kagi",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-renko-reversal",
+    "week": 4,
+    "type": "recall",
+    "front": "In the Renko construction described in L4, how large is the move needed for a reversal brick?",
+    "back": "Two brick sizes in the opposite direction from the last brick's closing edge.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Renko and Kagi",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-kagi",
+    "week": 4,
+    "type": "recall",
+    "front": "What is a Kagi chart?",
+    "back": "A price-based chart of connected vertical lines. The current line extends as price continues in the same direction and reverses only when an opposite move reaches the chosen reversal amount.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Renko and Kagi",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-kagi-join",
+    "week": 4,
+    "type": "recall",
+    "front": "How are opposite-direction vertical lines connected on a Kagi chart?",
+    "back": "By a short horizontal line.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Renko and Kagi",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-kagi-purpose",
+    "week": 4,
+    "type": "recall",
+    "front": "What does a Kagi chart's filtering help reveal?",
+    "back": "Larger price swings and support/resistance, by filtering small fluctuations.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Renko and Kagi",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-charts-combine",
+    "week": 4,
+    "type": "recall",
+    "front": "Why does the note suggest using chart types together?",
+    "back": "Candlesticks show timing and OHLC detail, while price-based charts help reveal the broader trend.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::charts"
+    ],
+    "source": "L4 Trading Strategies and Systems — Renko and Kagi",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-workflow",
+    "week": 4,
+    "type": "recall",
+    "front": "What is the sequence in the vectorised backtesting system shown in L4?",
+    "back": "Database → raw OHLC data via yfinance API → prepare data → strategy signals → PNL/equity curve → analysis.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::backtesting"
+    ],
+    "source": "L4 Trading Strategies and Systems — Vectorised Backtesting System — embedded workflow screenshot",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-prepare",
+    "week": 4,
+    "type": "recall",
+    "front": "What happens in the 'Prepare data' stage of vectorised backtesting?",
+    "back": "Create a dataframe to store features and prepare the indicators/features required by the strategy.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::backtesting"
+    ],
+    "source": "L4 Trading Strategies and Systems — Vectorised Backtesting System — embedded workflow screenshot",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-signals",
+    "week": 4,
+    "type": "recall",
+    "front": "How does the shown backtesting system register strategy signals?",
+    "back": "Use if-else statements to record buy/hold/sell in a dataframe column, typically as 1/0/−1.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::backtesting"
+    ],
+    "source": "L4 Trading Strategies and Systems — Vectorised Backtesting System — embedded workflow screenshot",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-pnl",
+    "week": 4,
+    "type": "recall",
+    "front": "What determines PNL or the equity curve in the shown backtesting system?",
+    "back": "Actual returns and the position held.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::backtesting"
+    ],
+    "source": "L4 Trading Strategies and Systems — Vectorised Backtesting System — embedded workflow screenshot",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-analysis",
+    "week": 4,
+    "type": "recall",
+    "front": "What is produced in the analysis stage of the shown backtesting system?",
+    "back": "Metrics, graphs and figures.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::backtesting"
+    ],
+    "source": "L4 Trading Strategies and Systems — Vectorised Backtesting System — embedded workflow screenshot",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-api",
+    "week": 4,
+    "type": "recall",
+    "front": "What does an API do, according to L4?",
+    "back": "Connects two systems/programs; APIs are bundled in libraries.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::apis"
+    ],
+    "source": "L4 Trading Strategies and Systems — API's",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-api-examples",
+    "week": 4,
+    "type": "recall",
+    "front": "Which API/data-library examples are listed in L4?",
+    "back": "Yahoo Finance, Google Finance, Quandl, AlphaVantage and pandas datareader.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::apis"
+    ],
+    "source": "L4 Trading Strategies and Systems — API's",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-ticker",
+    "week": 4,
+    "type": "recall",
+    "front": "What is the difference between yf.Ticker(...) and yf.Tickers(...) in the notebook?",
+    "back": "Ticker creates an object for one symbol. Tickers handles multiple symbols.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::python"
+    ],
+    "source": "L4 Trading Strategies and Systems — Notebook Screenshots",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-history",
+    "week": 4,
+    "type": "recall",
+    "front": "Which ticker attributes/methods retrieve stock information and historical prices in the notebook?",
+    "back": "stock_data.info retrieves stock information; stock_data.history(...) retrieves historical prices.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::python"
+    ],
+    "source": "L4 Trading Strategies and Systems — Notebook Screenshots",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-date-period",
+    "week": 4,
+    "type": "recall",
+    "front": "What two ways of specifying a historical-data window are shown in the notebook?",
+    "back": "A lookback period, e.g. period = '1y', or explicit start and end dates.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::python"
+    ],
+    "source": "L4 Trading Strategies and Systems — Notebook Screenshots",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-plot",
+    "week": 4,
+    "type": "recall",
+    "front": "Which column is selected when plotting the notebook's line chart?",
+    "back": "The Close column.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::python"
+    ],
+    "source": "L4 Trading Strategies and Systems — Notebook Screenshots",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-bass",
+    "week": 4,
+    "type": "recall",
+    "front": "Which four metrics does the BASS function return, in order?",
+    "back": "Beta, alpha, standard deviation and annualised Sharpe ratio.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Prepare prices and returns",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-bass-inputs",
+    "week": 4,
+    "type": "recall",
+    "front": "What inputs does the BASS function take?",
+    "back": "Stock symbol, benchmark symbol, start date and end date.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Prepare prices and returns",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-returns",
+    "week": 4,
+    "type": "recall",
+    "front": "What does pct_change() calculate from the closing-price columns in the BASS notebook?",
+    "back": "Regular/simple returns between consecutive observations.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Prepare prices and returns",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-dropna",
+    "week": 4,
+    "type": "recall",
+    "front": "What is the role of dropna() in the BASS data preparation?",
+    "back": "Remove rows containing missing values.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Prepare prices and returns",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-beta",
+    "week": 4,
+    "type": "recall",
+    "front": "How is beta calculated in the BASS notebook?",
+    "back": "Covariance of stock and benchmark returns divided by the variance of benchmark returns.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Beta",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-beta-matrix",
+    "week": 4,
+    "type": "recall",
+    "front": "How does the alternative beta calculation use the returns covariance matrix?",
+    "back": "Divide the stock–benchmark covariance entry by the benchmark-variance entry.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Beta",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-annual-mean",
+    "week": 4,
+    "type": "recall",
+    "front": "How does the BASS notebook estimate annual returns from daily returns?",
+    "back": "Mean daily return × 252.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Alpha and standard deviation",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-alpha",
+    "week": 4,
+    "type": "recall",
+    "front": "How does the notebook calculate annualised alpha in percentage units, assuming a zero risk-free rate?",
+    "back": "(Annualised stock return − beta × annualised benchmark return) × 100.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Alpha and standard deviation",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-std",
+    "week": 4,
+    "type": "recall",
+    "front": "How is the notebook's standard deviation calculated, and what are its units?",
+    "back": "Standard deviation of daily stock returns × 100. It is daily standard deviation in percentage units, not annualised.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Alpha and standard deviation",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-cagr",
+    "week": 4,
+    "type": "recall",
+    "front": "What CAGR formula is stated in the notebook comments for data spanning more than a year?",
+    "back": "CAGR = (final price / initial price)^(1/t) − 1, where t is the number of years.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Alpha and standard deviation",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-sharpe-daily",
+    "week": 4,
+    "type": "recall",
+    "front": "How does the notebook calculate daily Sharpe ratio, assuming a zero risk-free rate?",
+    "back": "Mean daily stock return / standard deviation of daily stock returns.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Sharpe ratio",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-sharpe-annual",
+    "week": 4,
+    "type": "recall",
+    "front": "How does the notebook annualise daily Sharpe ratio?",
+    "back": "Daily Sharpe ratio × √252.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Sharpe ratio",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-risk-free",
+    "week": 4,
+    "type": "recall",
+    "front": "What risk-free-rate assumption is used for alpha and Sharpe in the notebook?",
+    "back": "A zero risk-free rate.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Sharpe ratio",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-sharpe-benchmark",
+    "week": 4,
+    "type": "recall",
+    "front": "Does the notebook's Sharpe calculation require benchmark returns?",
+    "back": "No. It uses the stock's own returns and standard deviation and can be used to compare stocks/portfolios.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::bass"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Sharpe ratio",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-rank",
+    "week": 4,
+    "type": "recall",
+    "front": "In which order does sort_values(by='sharpe', ascending=False) rank stocks?",
+    "back": "Highest to lowest Sharpe ratio (descending).",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::python"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Calculate and rank the stocks",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-exceptions",
+    "week": 4,
+    "type": "recall",
+    "front": "Why does the notebook wrap each stock's BASS calculation in try/except?",
+    "back": "To continue processing the remaining stocks if a symbol has no available data or raises an exception.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::python"
+    ],
+    "source": "L4 Trading Strategies and Systems — BASS Notebook Screenshots — Calculate and rank the stocks",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-passive",
+    "week": 4,
+    "type": "recall",
+    "front": "What is a passive (static) strategy, and what is its objective?",
+    "back": "Buy and hold with minimal security/strategy selection; capture market returns without frequent adjustments.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Passive vs Active",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-passive-examples",
+    "week": 4,
+    "type": "recall",
+    "front": "What passive-strategy examples does L4 give?",
+    "back": "Index funds and ETFs tracking the S&P 500.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Passive vs Active",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-active",
+    "week": 4,
+    "type": "recall",
+    "front": "What is an active (dynamic) strategy, and what is its objective?",
+    "back": "Frequent decision-making and trading; beat the market, outperform benchmarks or exploit inefficiencies.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Passive vs Active",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-active-examples",
+    "week": 4,
+    "type": "recall",
+    "front": "What active-strategy examples does L4 give?",
+    "back": "Hedge funds, discretionary traders and quant funds.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Passive vs Active",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-idea",
+    "week": 4,
+    "type": "recall",
+    "front": "What is the idea-first (deductive) approach to strategy development?",
+    "back": "Start with a hypothesis, intuition or theory, then use data to test or validate it.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Idea First or Data First",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-data",
+    "week": 4,
+    "type": "recall",
+    "front": "What is the data-first (inductive) approach to strategy development?",
+    "back": "Start by mining patterns/signals in large datasets; a theory may come afterward to explain the pattern.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Idea First or Data First",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-idea-examples",
+    "week": 4,
+    "type": "recall",
+    "front": "Which idea-first examples are listed in L4?",
+    "back": "Momentum due to investor herding; activity before weekends/lunch breaks; the first hour of trading.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Idea First or Data First",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-data-examples",
+    "week": 4,
+    "type": "recall",
+    "front": "Which data-first approaches are listed in L4?",
+    "back": "Machine learning and extensive quantitative research.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Idea First or Data First",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-fast",
+    "week": 4,
+    "type": "recall",
+    "front": "What timescale and sources of advantage characterize fast strategies in L4?",
+    "back": "Seconds to minutes; microstructure, speed and execution edge.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Fast vs Slow",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-fast-examples",
+    "week": 4,
+    "type": "recall",
+    "front": "Which fast-strategy examples does L4 give?",
+    "back": "High-frequency trading, scalping and intraday strategies.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Fast vs Slow",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-slow",
+    "week": 4,
+    "type": "recall",
+    "front": "What timescale and signals characterize slow strategies in L4?",
+    "back": "Hours to days to months; broader economic, fundamental or trend signals.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Fast vs Slow",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-slow-examples",
+    "week": 4,
+    "type": "recall",
+    "front": "Which slow-strategy examples does L4 give?",
+    "back": "Intraday trades, swing trades, position trades and macro bets.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Fast vs Slow",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-skew",
+    "week": 4,
+    "type": "recall",
+    "front": "How does L4 contrast the win patterns associated with negative and positive skew?",
+    "back": "Negative skew: more wins, but small wins. Positive skew: fewer wins, but big wins.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Positive or Negative Skew — text and embedded screenshots",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-negative-examples",
+    "week": 4,
+    "type": "recall",
+    "front": "Which examples does L4 associate with negative skew?",
+    "back": "Mean reversion, selling options, market making and an insurance seller.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Positive or Negative Skew — text and embedded screenshots",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-positive-examples",
+    "week": 4,
+    "type": "recall",
+    "front": "Which examples does L4 associate with positive skew?",
+    "back": "Trend/momentum strategies, buying options and an insurance buyer.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Positive or Negative Skew — text and embedded screenshots",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-mean-reversion",
+    "week": 4,
+    "type": "recall",
+    "front": "What is mean reversion?",
+    "back": "Asset prices return to their long-term average.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Mean Reversion or Momentum",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-momentum",
+    "week": 4,
+    "type": "recall",
+    "front": "What is momentum, according to L4?",
+    "back": "Continued rate of change of prices in the same direction.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Mean Reversion or Momentum",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-technical-fundamental",
+    "week": 4,
+    "type": "recall",
+    "front": "What information distinguishes technical and fundamental approaches in L4?",
+    "back": "Technical: price action. Fundamental: micro-to-macro data.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Trading Strategies",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-pairs",
+    "week": 4,
+    "type": "recall",
+    "front": "What does L4 associate pairs trading with?",
+    "back": "Disturbed correlation between pairs.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Other Popular Strategies",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-arbitrage",
+    "week": 4,
+    "type": "recall",
+    "front": "What does L4 associate arbitrage with?",
+    "back": "Inefficiencies in markets.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Other Popular Strategies",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-market-making",
+    "week": 4,
+    "type": "recall",
+    "front": "What phrase does L4 use to describe market making?",
+    "back": "“Spread betting.” (The wording used in the note.)",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Other Popular Strategies",
+    "explanation": ""
+  },
+  {
+    "id": "is4226-w4-candlestick-patterns",
+    "week": 4,
+    "type": "recall",
+    "front": "What do candlestick-pattern strategies reflect, according to L4?",
+    "back": "Trading sentiment.",
+    "tags": [
+      "is4226",
+      "is4226::w4",
+      "is4226::recall",
+      "is4226::strategies"
+    ],
+    "source": "L4 Trading Strategies and Systems — Other Popular Strategies",
+    "explanation": ""
+  }
+]

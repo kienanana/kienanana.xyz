@@ -464,14 +464,14 @@ Example sentences:
 ⚠️ Irregular [[IR Verbs|IR]] verb
 ## Conjugation
 
-| Pronoun     | DEVOIR  |
-| ----------- | ------- |
-| je          | dois    |
-| tu          | dois    |
-| il / elle   | doit    |
-| nous        | devons  |
-| vous        | devez   |
-| ils / elles | doivent |
+| Pronoun     | DEVOIR              |
+| ----------- | ------------------- |
+| je          | dois                |
+| tu          | dois                |
+| il / elle   | doit                |
+| nous        | devons              |
+| vous        | devez               |
+| ils / elles | doivent (nt silent) |
 ⚠️ Stem changes:
 - **doi-** → je, tu
 - **doi- / doit** → il / elle
@@ -487,7 +487,7 @@ Example sentences:
 #### 3. Probability (should / must be)
 - Il doit être chez lui.
 - Elle doit avoir faim.
-
+	
 Example sentences:
 - Je dois finir mes devoirs.
 - Nous devons aller à l’université.

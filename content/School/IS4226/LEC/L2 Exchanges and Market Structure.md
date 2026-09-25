@@ -3,11 +3,12 @@ class: note
 tags:
   - y4s1
   - finance/markets
+  - finance/trading
 source:
 related:
 author:
 date: 2026-08-20
-updated: 2026-08-20 15:42:00
+updated: 2026-09-22 16:45:48
 aliases:
 ---
 ## Exchange 
@@ -38,11 +39,16 @@ aliases:
 - Equal Weighted Method
 	- similar to previous method but equal weights to each stock 
 	- assume investing same amount of money to each stock 
+	- weight = 33.3%, 33.3%, 33.3%
 	![[Screenshot 2026-08-20 at 4.08.02 PM.png]]
 - Price Weighted Method 
 	- simple arithmetic average prices of all stocks 
 	- easiest method in calculation 
 	- dow jones index 
+	- weight = 
+		- 10 / 60 = 16.7%
+		- 20 / 60 = 33.3%
+		- 30 / 60 = 50%
 	![[Screenshot 2026-08-20 at 4.09.54 PM.png]]
 
 #### understanding the methods:
@@ -180,8 +186,6 @@ aliases:
 
 
 ![[Screenshot 2026-08-20 at 5.28.57 PM.png]]
-
-
 
 
 

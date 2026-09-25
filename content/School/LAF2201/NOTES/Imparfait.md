@@ -11,7 +11,7 @@ related:
   - "[[Irregular Verbs]]"
 author:
 date: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-23
 aliases:
   - L'imparfait
 ---
@@ -27,24 +27,27 @@ For almost every verb:
 2. Remove **-ons** to obtain the stem.
 3. Add the imparfait ending.
 
-| Pronoun | Ending |
-| --- | --- |
-| je | -ais |
-| tu | -ais |
-| il / elle / on | -ait |
-| nous | -ions |
-| vous | -iez |
-| ils / elles | -aient |
+| Pronoun        | Ending |
+| -------------- | ------ |
+| je             | -ais   |
+| tu             | -ais   |
+| il / elle / on | -ait   |
+| nous           | -ions  |
+| vous           | -iez   |
+| ils / elles    | -aient |
 
 ### Examples
 - faire: nous **faisons** → fais- → je **faisais**, nous **faisions**
 - manger: nous **mangeons** → mange- → je **mangeais**, nous **mangions**
+- commencer: nous **commençons** → commenç- → je **commençais**, nous **commencions**
 
 With *manger*, retain the **e** before *a* to keep the soft *g* sound (*je mangeais*), but remove it before *i*, where the sound is already soft (*nous mangions*).
 
+With *commencer*, retain the cedilla before *a* to keep the soft *c* sound (*je commençais*), but remove it before *i* (*nous commencions*).
+
 Note the pronunciation of *faisions* and *faisiez*: **ai** has an “e” sound.
 
-## L'imparfait de être ⭐
+## L'imparfait d'être ⭐
 [[Irregular Verbs#ÊTRE (to be)|Être]] is the only exception to the usual stem rule. Its imparfait stem is **ét-**, not *somm-*.
 
 `c'était` = *ce* + *était*, the imparfait of **être** in the *il/elle/on* form. Thus, `c'est` in the present becomes `c'était` in the past.
@@ -64,7 +67,7 @@ An atmosphere is normally a background state, so use the imparfait:
 - C'était passionnant ≠ ennuyeux.
 - C'était génial ≠ nul.
 
-For this use, write `c'était génial`, rather than *ça a été génial*.
+For background description, `c'était génial` is normally the expected form. `Ça a été génial` is also grammatical, but it presents the experience as a completed whole.
 
 ## Négation
 The imparfait is a **simple tense**: it consists of one conjugated word and has no auxiliary. The negation therefore surrounds that verb:
@@ -108,21 +111,28 @@ Negation and inversion combine as **ne + verb-pronoun + pas**:
 - Tu **n'**étais **pas** là ?
 - **N'**étais-**tu pas** là ?
 
-Answer a negative question with **si**, not *oui*:
+Use **si** to contradict a negative question; use **non** to confirm the negative:
 > — Tu n'étais pas au concert ?  
 > — **Si**, j'y étais !
 
 ## Imparfait ou passé composé ? ⭐
 
-| | [[Passé Composé|Passé composé]] | Imparfait |
-| --- | --- | --- |
-| **Role** | events that move the story forward | the backdrop around those events |
-| **Question** | *Qu'est-ce qui s'est passé ?* | *C'était comment ?* |
-| **Time** | one completed moment | ongoing, with no clear beginning or end |
-| **Repetition** | happened once | habitual: “used to” or “would” |
-| **Typical use** | actions | descriptions, weather, feelings, age, time and décor |
+|                 | [[Passé Composé\|Passé composé]]                    | Imparfait                                            |
+| --------------- | ---------------------------------------------------- | ---------------------------------------------------- |
+| **Role**        | events that move the story forward                   | the backdrop around those events                     |
+| **Question**    | *Qu'est-ce qui s'est passé ?*                        | *C'était comment ?*                                  |
+| **Time**        | completed and bounded                                | ongoing, with no clear beginning or end              |
+| **Repetition**  | a completed number or period of repeated actions      | an unbounded habit: “used to” or “would”             |
+| **Typical use** | actions                                              | descriptions, weather, feelings, age, time and décor |
 
 Think of a film: the **imparfait** is the set and lighting; the **passé composé** is what the actors do within it.
+
+A common pattern combines an ongoing background action with a completed event:
+> Je **dormais** quand le téléphone **a sonné**.
+
+The passé composé can also describe repeated actions when they are presented as a completed, bounded whole:
+- J'**ai visité** Paris trois fois.
+- Pendant une semaine, nous **avons marché** tous les jours.
 
 Verbs that describe rather than act—especially **être**, **avoir**, **il y a**, and **faire** for weather—normally use the imparfait for background description: *c'était*, *il y avait*, *il faisait*.
 

@@ -1,0 +1,69 @@
+{
+  "topics": [
+    {
+      "name": "LAF2201 Topics::Clothing and Shopping",
+      "query": "tag:fr::laf2201 tag:fr::laf2201::topic::clothing",
+      "total": 110,
+      "loaded": 110
+    },
+    {
+      "name": "LAF2201 Topics::People and Feelings",
+      "query": "tag:fr::laf2201 tag:fr::laf2201::topic::people",
+      "total": 120,
+      "loaded": 120
+    },
+    {
+      "name": "LAF2201 Topics::Work and Education",
+      "query": "tag:fr::laf2201 tag:fr::laf2201::topic::work",
+      "total": 125,
+      "loaded": 125
+    },
+    {
+      "name": "LAF2201 Topics::Daily Routines",
+      "query": "tag:fr::laf2201 tag:fr::laf2201::topic::routine",
+      "total": 40,
+      "loaded": 40
+    },
+    {
+      "name": "LAF2201 Topics::Music, Arts and Leisure",
+      "query": "tag:fr::laf2201 tag:fr::laf2201::topic::leisure",
+      "total": 77,
+      "loaded": 77
+    },
+    {
+      "name": "LAF2201 Topics::Time, Holidays and Numbers",
+      "query": "tag:fr::laf2201 tag:fr::laf2201::topic::time",
+      "total": 42,
+      "loaded": 42
+    },
+    {
+      "name": "LAF2201 Topics::Appointments and Communication",
+      "query": "tag:fr::laf2201 tag:fr::laf2201::topic::communication",
+      "total": 28,
+      "loaded": 28
+    },
+    {
+      "name": "LAF2201 Topics::General Vocabulary",
+      "query": "tag:fr::laf2201 tag:fr::laf2201::topic::general",
+      "total": 134,
+      "loaded": 134
+    },
+    {
+      "name": "LAF2201 Topics::Grammar - Past Tenses",
+      "query": "tag:fr::laf2201 tag:fr::laf2201::topic::past",
+      "total": 66,
+      "loaded": 66
+    },
+    {
+      "name": "LAF2201 Topics::Grammar - Other",
+      "query": "tag:fr::laf2201 tag:fr::laf2201::topic::grammar",
+      "total": 26,
+      "loaded": 26
+    }
+  ],
+  "cards": 768,
+  "notes": 768,
+  "backup": "/Users/kienanana/Documents/VAULT/School/LAF2201/ANKI/backups/topic-decks-20260924-165643.json",
+  "rescheduling": false,
+  "limit": 1000000
+}
