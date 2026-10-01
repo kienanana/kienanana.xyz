@@ -7,12 +7,15 @@ source:
 related:
 author:
 date: 2026-09-10
-updated: 2026-09-23
+updated: 2026-09-25
 aliases:
 ---
 # Situation 2: Parler de ses habitudes 
 
 ## Vocab Bank
+
+See [[LAF2201 Vocab Bank#Une journée type — daily routine in chronological order|Une journée type — morning-to-night routine]] for the consolidated verbs, their *je* forms, and English meanings.
+
 #### Qu'est-ce que tu fais à 7h du matin ?
 - je me réveille : i wake up
 - je me douche / je me lave

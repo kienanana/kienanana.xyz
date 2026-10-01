@@ -105,6 +105,14 @@ aliases:
 - 🔵 The Lemon Twigs - Everything Harmony
 - 🟢 Angine de Poitrine - Vol.II
 - 🟢 LCD Soundsystem - the long goodbye (lcd soundsystem live at madison square garden)
+- 🟢 Alex G - Rules
+- 🟢 Alex G - Trick
+- 🟢 Alex G - DSU 
+- 🟡 Alex G - Beach Music
+- 🟡 Alex G - Rocket
+- 🟢 Alex G - House of Sugar
+- 🟢 Carly Rae Jepsen - Day and Night
+- ⭐ [[Tinashe - Popstar (2026)]]
 
 ### Relistens:
 - Lil Ugly Mane - volcanic bird enemy and the voiced concern
@@ -157,6 +165,7 @@ aliases:
 - Fleet Foxes - Helplessness Blues
 - Daft Punk - Alive 2007
 - glaive - May It Never Falter
+- Alex G - Headlights
 
 ### Artists:
 - Fcukers

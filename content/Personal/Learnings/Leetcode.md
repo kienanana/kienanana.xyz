@@ -91,15 +91,15 @@ I have found that trying to blast through the list in order has not proven very 
 46. [[Invert Binary Tree]]
 47. [[Maximum Depth of Binary Tree]]
 48. [[Diameter of Binary Tree]]
-49. Balanced Binary Tree
-50. Same Tree
-51. Subtree of Another Tree
-52. Lowest Common Ancestor of a Binary Search Tree
-53. Binary Tree Level Order Traversal
-54. Binary Tree Right Side View
+49. [[Balanced Binary Tree]]
+50. [[Same Tree]]
+51. [[Subtree of Another Tree]]
+52. [[Lowest Common Ancestor of a Binary Search Tree]]
+53. [[Binary Tree Level Order Traversal]]
+54. [[Binary Tree Right Side View]]
 55. [[Count Good Nodes in Binary Tree]]
-56. Validate Binary Search Tree
-57. Kth Smallest Element in a BST
+56. [[Validate Binary Search Tree]]
+57. [[Kth Smallest Element in a BST]]
 58. Construct Binary Tree from Preorder and Inorder Traversal
 59. Binary Tree Maximum Path Sum
 60. Serialize and Deserialize Binary Tree

@@ -1,0 +1,1310 @@
+[
+  {
+    "id": "is4226-l5a-recall-001",
+    "chapter": "5a",
+    "front": "What is pairs trading (statistical arbitrage)?",
+    "back": "Trading a temporary deviation between historically related instruments, expecting their spread to revert toward its usual level.",
+    "source": "L5A Other Popular Strategies > Statistical Arbitrage / Pairs Trading",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-002",
+    "chapter": "5a",
+    "front": "What key assumption underlies pairs trading?",
+    "back": "The relationship between the pair remains intact and the deviation is temporary, rather than a fundamental divergence.",
+    "source": "L5A Other Popular Strategies > Statistical Arbitrage / Pairs Trading",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-003",
+    "chapter": "5a",
+    "front": "What is the z-score formula for a pairs-trading spread?",
+    "back": "\\(z=(x-\\mu)/\\sigma\\), where \\(x\\) is the current spread (defined consistently, e.g. difference of returns), \\(\\mu\\) its historical mean and \\(\\sigma\\) its historical standard deviation.",
+    "source": "L5A Other Popular Strategies > Statistical Arbitrage / Pairs Trading",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-004",
+    "chapter": "5a",
+    "front": "What does a spread&#x27;s z-score measure?",
+    "back": "How many standard deviations the current spread lies above or below its historical mean.",
+    "source": "L5A Other Popular Strategies > Statistical Arbitrage / Pairs Trading",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-005",
+    "chapter": "5a",
+    "front": "In pairs trading, must both legs be profitable for convergence to yield a profit?",
+    "back": "No. The gain on one leg can exceed the loss on the other.",
+    "source": "L5A Other Popular Strategies > Statistical Arbitrage / Pairs Trading",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-006",
+    "chapter": "5a",
+    "front": "What is the main failure risk of a mean-reverting pairs trade?",
+    "back": "The instruments diverge for fundamental reasons, so the historical relationship does not recover.",
+    "source": "L5A Other Popular Strategies > Statistical Arbitrage / Pairs Trading",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-007",
+    "chapter": "5a",
+    "front": "What is cross-exchange arbitrage?",
+    "back": "Buying an instrument on the cheaper exchange and selling it on the more expensive exchange to exploit a price discrepancy.",
+    "source": "L5A Other Popular Strategies > Arbitrage",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-008",
+    "chapter": "5a",
+    "front": "What is grid trading?",
+    "back": "Placing multiple buy and sell orders at spaced price levels within a range to capture repeated price fluctuations.",
+    "source": "L5A Other Popular Strategies > Grid Trading",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-009",
+    "chapter": "5a",
+    "front": "Where are the initial buy and sell limit orders placed in the lecture&#x27;s grid strategy?",
+    "back": "Buy limits below the current price; sell limits above the current price.",
+    "source": "L5A Other Popular Strategies > Grid Trading",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-010",
+    "chapter": "5a",
+    "front": "What market behaviour does grid trading assume?",
+    "back": "Range-bound, mean-reverting price movements: repeated oscillation within a recurring range.",
+    "source": "L5A Other Popular Strategies > Grid Trading",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-011",
+    "chapter": "5a",
+    "front": "What is the main risk of grid trading?",
+    "back": "A sustained breakout: price continues beyond the range and does not return to close the opposite side profitably.",
+    "source": "L5A Other Popular Strategies > Grid Trading",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-012",
+    "chapter": "5a",
+    "front": "What determines a candlestick&#x27;s real body?",
+    "back": "The opening and closing prices. Body size indicates the magnitude of the open-to-close move and helps reflect buying or selling pressure.",
+    "source": "L5A Other Popular Strategies > Candlestick Patterns",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-013",
+    "chapter": "5a",
+    "front": "What is a doji, and what does it represent?",
+    "back": "A candle with approximately equal open and close, hence a very small body. It represents indecision, not an automatic reversal.",
+    "source": "L5A Other Popular Strategies > Candlestick Patterns",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-014",
+    "chapter": "5a",
+    "front": "Why must a candlestick pattern be read in context?",
+    "back": "Its meaning depends on the preceding trend and confirmation from subsequent price action or other evidence.",
+    "source": "L5A Other Popular Strategies > Candlestick Patterns",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-015",
+    "chapter": "5a",
+    "front": "Which three single/two-candle bullish patterns are listed in L5A?",
+    "back": "Hammer, inverted hammer and bullish engulfing.",
+    "source": "L5A Other Popular Strategies > Candlestick Patterns",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-016",
+    "chapter": "5a",
+    "front": "Which other three bullish patterns are listed in L5A?",
+    "back": "Morning star, piercing line and three white soldiers.",
+    "source": "L5A Other Popular Strategies > Candlestick Patterns",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-017",
+    "chapter": "5a",
+    "front": "Which three single/two-candle bearish patterns are listed in L5A?",
+    "back": "Shooting star, hanging man and bearish engulfing.",
+    "source": "L5A Other Popular Strategies > Candlestick Patterns",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5a-recall-018",
+    "chapter": "5a",
+    "front": "Which other three bearish patterns are listed in L5A?",
+    "back": "Evening star, dark cloud cover and three black crows.",
+    "source": "L5A Other Popular Strategies > Candlestick Patterns",
+    "tags": [
+      "is4226::l5a",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-001",
+    "chapter": "5b",
+    "front": "What is technical analysis (TA)?",
+    "back": "The study of price action, primarily prices and volumes, through charts and mathematical indicators.",
+    "source": "L5B Technical Analysis > What is TA?",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-002",
+    "chapter": "5b",
+    "front": "What are the three premises of technical analysis?",
+    "back": "Market action discounts everything; prices move in trends; history repeats itself.",
+    "source": "L5B Technical Analysis > Foundation of TA",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-003",
+    "chapter": "5b",
+    "front": "What does “market action discounts everything” mean in TA?",
+    "back": "Relevant influences are reflected in market prices; price action expresses the resulting supply and demand.",
+    "source": "L5B Technical Analysis > Foundation of TA",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-004",
+    "chapter": "5b",
+    "front": "What does the TA premise “prices move in trends” imply?",
+    "back": "An established trend is more likely to continue than reverse until a force changes it.",
+    "source": "L5B Technical Analysis > Foundation of TA",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-005",
+    "chapter": "5b",
+    "front": "What explains the TA premise “history repeats itself”?",
+    "back": "Recurring investor psychology and collective behaviour, particularly fear and greed, produce recurring patterns.",
+    "source": "L5B Technical Analysis > Foundation of TA",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-006",
+    "chapter": "5b",
+    "front": "What is a primary trend, and what is its typical duration in the notes?",
+    "back": "The overall market direction, lasting months to years.",
+    "source": "L5B Technical Analysis > Foundation of TA",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-007",
+    "chapter": "5b",
+    "front": "What is a secondary trend, and what is its typical duration in the notes?",
+    "back": "A countertrend or mean-reverting movement within the primary trend, lasting days to months.",
+    "source": "L5B Technical Analysis > Foundation of TA",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-008",
+    "chapter": "5b",
+    "front": "What is a minor (tertiary) trend, and what is its typical duration?",
+    "back": "Short-term fluctuations within larger trends, lasting minutes or hours to days.",
+    "source": "L5B Technical Analysis > Foundation of TA",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-009",
+    "chapter": "5b",
+    "front": "What does it mean that price trends and patterns are fractal?",
+    "back": "Similar patterns occur across different timeframes.",
+    "source": "L5B Technical Analysis > Foundation of TA",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-010",
+    "chapter": "5b",
+    "front": "What defines an uptrend?",
+    "back": "Successive higher highs and higher lows.",
+    "source": "L5B Technical Analysis > Uptrend Downtrend Sideways",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-011",
+    "chapter": "5b",
+    "front": "What defines a downtrend?",
+    "back": "Successive lower highs and lower lows.",
+    "source": "L5B Technical Analysis > Uptrend Downtrend Sideways",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-012",
+    "chapter": "5b",
+    "front": "What defines a sideways or choppy market?",
+    "back": "Highs and lows remain within roughly the same zones, with no sustained uptrend or downtrend.",
+    "source": "L5B Technical Analysis > Uptrend Downtrend Sideways",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-013",
+    "chapter": "5b",
+    "front": "Which points define an uptrend line versus a downtrend line?",
+    "back": "Uptrend: join supportive troughs. Downtrend: join resistive peaks. At least two points establish a tentative line.",
+    "source": "L5B Technical Analysis > Uptrend Downtrend Sideways",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-014",
+    "chapter": "5b",
+    "front": "What is “confirmation by averages” in Dow Theory?",
+    "back": "The industrial and transport averages should trend in the same direction to confirm a market signal.",
+    "source": "L5B Technical Analysis > Dow Theory",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-015",
+    "chapter": "5b",
+    "front": "What do DJIA and DJTA stand for?",
+    "back": "Dow Jones Industrial Average and Dow Jones Transportation Average.",
+    "source": "L5B Technical Analysis > Dow Theory",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-016",
+    "chapter": "5b",
+    "front": "Why does Dow Theory compare industrial and transport averages?",
+    "back": "Producers and the firms transporting their goods should show consistent economic strength or weakness.",
+    "source": "L5B Technical Analysis > Dow Theory",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-017",
+    "chapter": "5b",
+    "front": "What is a support level?",
+    "back": "A price area where buying pressure tends to halt or reverse a decline.",
+    "source": "L5B Technical Analysis > Support and Resistances",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-018",
+    "chapter": "5b",
+    "front": "What is a resistance level?",
+    "back": "A price area where selling pressure tends to halt or reverse a rise.",
+    "source": "L5B Technical Analysis > Support and Resistances",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-019",
+    "chapter": "5b",
+    "front": "What is support/resistance role reversal?",
+    "back": "Broken resistance may become support; broken support may become resistance.",
+    "source": "L5B Technical Analysis > Support and Resistances",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-020",
+    "chapter": "5b",
+    "front": "What psychological mechanism helps create support and resistance?",
+    "back": "Traders remember earlier prices and outcomes; their repeated buying and selling decisions concentrate demand or supply at those levels.",
+    "source": "L5B Technical Analysis > Support and Resistances",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-021",
+    "chapter": "5b",
+    "front": "What is the standard pivot-point formula?",
+    "back": "\\(P=(H+L+C)/3\\), using the reference period&#x27;s high \\(H\\), low \\(L\\) and close \\(C\\).",
+    "source": "L5B Technical Analysis > Pivot Points - To calculate S&R",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-022",
+    "chapter": "5b",
+    "front": "What is the first pivot resistance formula, R₁?",
+    "back": "\\(R_1=2P-L\\), where \\(P\\) is the pivot and \\(L\\) the reference-period low.",
+    "source": "L5B Technical Analysis > Pivot Points - To calculate S&R",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-023",
+    "chapter": "5b",
+    "front": "What is the second pivot resistance formula, R₂?",
+    "back": "\\(R_2=P+(H-L)\\).",
+    "source": "L5B Technical Analysis > Pivot Points - To calculate S&R",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-024",
+    "chapter": "5b",
+    "front": "What is the first pivot support formula, S₁?",
+    "back": "\\(S_1=2P-H\\), where \\(H\\) is the reference-period high.",
+    "source": "L5B Technical Analysis > Pivot Points - To calculate S&R",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-025",
+    "chapter": "5b",
+    "front": "What is the second pivot support formula, S₂?",
+    "back": "\\(S_2=P-(H-L)\\).",
+    "source": "L5B Technical Analysis > Pivot Points - To calculate S&R",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-026",
+    "chapter": "5b",
+    "front": "What market-condition caveat accompanies the pivot formulas in the notes?",
+    "back": "They are presented for normal trading without major news or events.",
+    "source": "L5B Technical Analysis > Pivot Points - To calculate S&R",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-027",
+    "chapter": "5b",
+    "front": "What is a technical indicator?",
+    "back": "A mathematical derivation of price and/or volume used to identify patterns and confirm signals.",
+    "source": "L5B Technical Analysis > Indicators",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-028",
+    "chapter": "5b",
+    "front": "Why are technical indicators generally lagging?",
+    "back": "They are calculated from price and volume observations that have already occurred.",
+    "source": "L5B Technical Analysis > Indicators",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-029",
+    "chapter": "5b",
+    "front": "What is an indicator&#x27;s lookback period?",
+    "back": "The amount or number of periods of historical data used to calculate it.",
+    "source": "L5B Technical Analysis > Indicators",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-030",
+    "chapter": "5b",
+    "front": "What is relative volume (RVOL), and what is its formula?",
+    "back": "Current volume relative to its recent average: \\(\\mathrm{RVOL}=V_{\\mathrm{current}}/\\overline V_{\\mathrm{lookback}}\\).",
+    "source": "L5B Technical Analysis > Indicators",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-031",
+    "chapter": "5b",
+    "front": "What does RVOL ≈ 1 mean?",
+    "back": "Current trading volume is near its average over the selected lookback period.",
+    "source": "L5B Technical Analysis > Indicators",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-032",
+    "chapter": "5b",
+    "front": "Does high RVOL identify the direction of a price move?",
+    "back": "No. It indicates unusual trading activity or interest, not whether price will rise or fall.",
+    "source": "L5B Technical Analysis > Indicators",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-033",
+    "chapter": "5b",
+    "front": "What is the purpose of a moving average?",
+    "back": "To smooth price fluctuations, reduce noise and make the underlying trend easier to interpret.",
+    "source": "L5B Technical Analysis > Moving Averages",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-034",
+    "chapter": "5b",
+    "front": "What is the N-period simple moving average formula?",
+    "back": "\\(\\mathrm{SMA}_t=\\frac{1}{N}\\sum_{i=0}^{N-1}P_{t-i}\\). Each of the N observations has equal weight.",
+    "source": "L5B Technical Analysis > Moving Averages",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-035",
+    "chapter": "5b",
+    "front": "How does an EMA differ from an SMA?",
+    "back": "An exponential moving average gives greater weight to recent observations; an SMA gives equal weight within its window.",
+    "source": "L5B Technical Analysis > Moving Averages",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-036",
+    "chapter": "5b",
+    "front": "What distinguishes a fast moving average from a slow one?",
+    "back": "A fast MA has a shorter lookback and responds more quickly; a slow MA has a longer lookback and responds more slowly.",
+    "source": "L5B Technical Analysis > Moving Averages",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-037",
+    "chapter": "5b",
+    "front": "What is a moving-average crossover?",
+    "back": "An event in which a faster MA crosses above or below a slower MA, indicating a change in relative momentum.",
+    "source": "L5B Technical Analysis > Strategy Moving Averages",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-038",
+    "chapter": "5b",
+    "front": "What are moving-average bands or envelopes?",
+    "back": "Upper and lower boundaries around a moving average, using a chosen distance or dispersion measure.",
+    "source": "L5B Technical Analysis > Strategy Moving Averages",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-039",
+    "chapter": "5b",
+    "front": "What does RSI stand for, and what range does it occupy?",
+    "back": "Relative Strength Index; it ranges from 0 to 100.",
+    "source": "L5B Technical Analysis > RSI",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-040",
+    "chapter": "5b",
+    "front": "What is the relative strength (RS) formula used in RSI?",
+    "back": "\\(RS=\\text{Average gain}/\\text{Average loss}\\), with losses expressed as positive magnitudes over the chosen lookback.",
+    "source": "L5B Technical Analysis > RSI",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-041",
+    "chapter": "5b",
+    "front": "What is the RSI formula in terms of RS?",
+    "back": "\\(\\mathrm{RSI}=100-\\frac{100}{1+RS}\\).",
+    "source": "L5B Technical Analysis > RSI",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-042",
+    "chapter": "5b",
+    "front": "What is the common RSI lookback stated in the notes?",
+    "back": "14 periods (14 days for daily data).",
+    "source": "L5B Technical Analysis > RSI",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-043",
+    "chapter": "5b",
+    "front": "What are the conventional RSI overbought and oversold thresholds?",
+    "back": "70 for overbought and 30 for oversold. These are conventions, not universal thresholds for every instrument.",
+    "source": "L5B Technical Analysis > RSI",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l5b-recall-044",
+    "chapter": "5b",
+    "front": "What is bearish price–RSI divergence?",
+    "back": "Price rises or makes a higher high while RSI falls or fails to confirm that high, suggesting weakening upward momentum.",
+    "source": "L5B Technical Analysis > RSI",
+    "tags": [
+      "is4226::l5b",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-001",
+    "chapter": "6",
+    "front": "What is systematic trading?",
+    "back": "Rule-based (mechanical) trading that uses data to define and test decisions, control risk and execute consistently.",
+    "source": "L6 Systematic Trading Strategies and Systems > What is Systematic Trading",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-002",
+    "chapter": "6",
+    "front": "Must systematic trading be fully automated?",
+    "back": "No. It can be automatic, semi-automatic or manual, provided decisions follow defined rules.",
+    "source": "L6 Systematic Trading Strategies and Systems > What is Systematic Trading",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-003",
+    "chapter": "6",
+    "front": "What distinguishes a trading rule, its variables and its parameters?",
+    "back": "Rule: the decision logic. Variables: quantities used by the rule. Parameters: chosen settings, such as moving-average window lengths.",
+    "source": "L6 Systematic Trading Strategies and Systems > What is Systematic Trading",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-004",
+    "chapter": "6",
+    "front": "What behavioural problem does systematic trading aim to reduce?",
+    "back": "Emotional and inconsistent decisions driven by fear and greed.",
+    "source": "L6 Systematic Trading Strategies and Systems > What is Systematic Trading",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-005",
+    "chapter": "6",
+    "front": "What is backtesting?",
+    "back": "Simulating a trading rule on historical data to evaluate how it would have performed.",
+    "source": "L6 Systematic Trading Strategies and Systems > Backtesting",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-006",
+    "chapter": "6",
+    "front": "What are the main steps in a backtest?",
+    "back": "Obtain historical data; simulate signals and buy/sell points; calculate P&amp;L and performance metrics; compare rule variations to select a model.",
+    "source": "L6 Systematic Trading Strategies and Systems > Backtesting Steps",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-007",
+    "chapter": "6",
+    "front": "What is the central limitation of historical backtest performance?",
+    "back": "Historical patterns may not persist; good past performance does not guarantee future results.",
+    "source": "L6 Systematic Trading Strategies and Systems > Backtesting Steps",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-008",
+    "chapter": "6",
+    "front": "What is an in-sample backtest?",
+    "back": "Select a model or variation using a historical dataset and report performance on that same dataset.",
+    "source": "L6 Systematic Trading Strategies and Systems > Backtesting Types",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-009",
+    "chapter": "6",
+    "front": "Why can in-sample backtest results be too optimistic?",
+    "back": "The model is selected to fit the evaluated data, so performance can reflect overfitting, including information from later years relative to earlier evaluated years.",
+    "source": "L6 Systematic Trading Strategies and Systems > Backtesting Types",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-010",
+    "chapter": "6",
+    "front": "What is an out-of-sample backtest?",
+    "back": "Select or fit a model on an earlier training period, then evaluate it on a later, unseen test period.",
+    "source": "L6 Systematic Trading Strategies and Systems > Backtesting Types",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-011",
+    "chapter": "6",
+    "front": "What is an expanding-window backtest?",
+    "back": "Repeatedly fit on all available earlier data and test on the next period; the training window grows after each step.",
+    "source": "L6 Systematic Trading Strategies and Systems > Backtesting Types",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-012",
+    "chapter": "6",
+    "front": "What is a rolling-window backtest?",
+    "back": "Repeatedly fit on a fixed-length recent training window, test on the next period, then move the window forward and drop the oldest data.",
+    "source": "L6 Systematic Trading Strategies and Systems > Backtesting Types",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-013",
+    "chapter": "6",
+    "front": "What is the key distinction between expanding and rolling training windows?",
+    "back": "Expanding retains all past training data; rolling retains a fixed-length recent history.",
+    "source": "L6 Systematic Trading Strategies and Systems > Backtesting Types",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-014",
+    "chapter": "6",
+    "front": "What is walk-forward testing?",
+    "back": "Sequential testing where each test period uses a model fitted only on earlier data; expanding and rolling windows are examples.",
+    "source": "L6 Systematic Trading Strategies and Systems > Backtesting Types",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-015",
+    "chapter": "6",
+    "front": "What is the main trade-off of a rolling training window?",
+    "back": "It focuses on recent market conditions but uses less historical training data.",
+    "source": "L6 Systematic Trading Strategies and Systems > Backtesting Types",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-016",
+    "chapter": "6",
+    "front": "What is a strategy variation?",
+    "back": "A different parameter setting for the same trading rule, such as different MA lengths.",
+    "source": "L6 Systematic Trading Strategies and Systems > Variations in Backtesting",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-017",
+    "chapter": "6",
+    "front": "What is overfitting in backtest model selection?",
+    "back": "Selecting a rule or parameters that capture historical noise or luck rather than a persistent pattern.",
+    "source": "L6 Systematic Trading Strategies and Systems > Variations in Backtesting",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-018",
+    "chapter": "6",
+    "front": "Why does testing more variations increase overfitting risk?",
+    "back": "It increases the chance of finding an apparently excellent historical result purely by luck.",
+    "source": "L6 Systematic Trading Strategies and Systems > Variations in Backtesting",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-019",
+    "chapter": "6",
+    "front": "If test performance influences model selection, is that period still an independent test?",
+    "back": "No. It has become part of selection; evaluate the final choice on fresh unseen data.",
+    "source": "L6 Systematic Trading Strategies and Systems > Variations in Backtesting",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-020",
+    "chapter": "6",
+    "front": "What three approaches to handling many variations are listed in the notes?",
+    "back": "Choose the best, choose randomly, or combine variations with equal or unequal weights.",
+    "source": "L6 Systematic Trading Strategies and Systems > Variations in Backtesting",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-021",
+    "chapter": "6",
+    "front": "What weighting methods for combined variations are listed in the notes?",
+    "back": "Equal weights, optimised weights and bootstrapped weights.",
+    "source": "L6 Systematic Trading Strategies and Systems > Best Practices",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-022",
+    "chapter": "6",
+    "front": "How does true Sharpe ratio affect the evidence needed to establish profitability?",
+    "back": "Lower true Sharpe generally requires more data to distinguish performance from noise; a short history can give an unreliable Sharpe estimate.",
+    "source": "L6 Systematic Trading Strategies and Systems > How much data is needed?",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-023",
+    "chapter": "6",
+    "front": "What is vectorised backtesting in the lecture&#x27;s simplified setup?",
+    "back": "Dataframe-based calculations of signals and overall returns, without explicitly simulating individual executions and portfolio cash flows.",
+    "source": "L6 Systematic Trading Strategies and Systems > Vectorised vs Event Based Backtesting",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-024",
+    "chapter": "6",
+    "front": "What is event-based backtesting?",
+    "back": "A sequential simulation that explicitly models trading events, executions and portfolio changes.",
+    "source": "L6 Systematic Trading Strategies and Systems > Vectorised vs Event Based Backtesting",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-025",
+    "chapter": "6",
+    "front": "Which quantities can an event-based backtest explicitly track?",
+    "back": "Position sizes, cash balances, P&amp;L, transaction costs, leverage and risk/money-management rules.",
+    "source": "L6 Systematic Trading Strategies and Systems > Vectorised vs Event Based Backtesting",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-026",
+    "chapter": "6",
+    "front": "What is the main trade-off between the lecture&#x27;s vectorised and event-based approaches?",
+    "back": "Vectorised: computationally efficient and easier to implement. Event-based: more realistic execution and portfolio modelling, with greater coding complexity.",
+    "source": "L6 Systematic Trading Strategies and Systems > Vectorised vs Event Based Backtesting",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-027",
+    "chapter": "6",
+    "front": "What does Position represent in the L6 long/short MA model?",
+    "back": "The holding direction: +1 for long and −1 for short.",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-028",
+    "chapter": "6",
+    "front": "What is the formula for Signal in terms of Position?",
+    "back": "\\(\\mathrm{Signal}_t=\\mathrm{Position}_t-\\mathrm{Position}_{t-1}\\).",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-029",
+    "chapter": "6",
+    "front": "What do Signal values +2, −2 and 0 mean in the L6 model?",
+    "back": "+2: short to long. −2: long to short. 0: no change of position.",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-030",
+    "chapter": "6",
+    "front": "What is the stock log-return formula?",
+    "back": "\\(r_t=\\ln(P_t/P_{t-1})\\), where \\(P_t\\) is the closing price at time t.",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-031",
+    "chapter": "6",
+    "front": "What is the simplified L6 strategy-return formula?",
+    "back": "\\(r^{\\mathrm{strategy}}_t=q_{t-1}r_t\\), where \\(q_{t-1}\\) is the previous period&#x27;s position and \\(r_t\\) the current stock log return.",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-032",
+    "chapter": "6",
+    "front": "Why does the L6 strategy-return formula use the previous period&#x27;s position?",
+    "back": "The position determined at today&#x27;s close earns the next period&#x27;s return. Using today&#x27;s close-derived position for today&#x27;s return introduces look-ahead bias.",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-033",
+    "chapter": "6",
+    "front": "What is look-ahead bias?",
+    "back": "Using information in a historical decision that would not yet have been available at that decision time.",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-034",
+    "chapter": "6",
+    "front": "What caveats apply to the L6 signed-log-return strategy calculation?",
+    "back": "It assumes simplified execution at the signal close without costs; negating a stock&#x27;s log return is an approximation for a short position&#x27;s return.",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-035",
+    "chapter": "6",
+    "front": "How do log returns aggregate over time?",
+    "back": "They add: \\(r_{1:T}=\\sum_{t=1}^{T}r_t\\).",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-036",
+    "chapter": "6",
+    "front": "How is the growth of one unit of wealth calculated from log returns?",
+    "back": "\\(W_T=\\exp(\\sum_{t=1}^{T}r_t)\\), with initial wealth \\(W_0=1\\).",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-037",
+    "chapter": "6",
+    "front": "How is cumulative simple return calculated from log returns?",
+    "back": "\\(R_{1:T}=\\exp(\\sum_{t=1}^{T}r_t)-1\\).",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-038",
+    "chapter": "6",
+    "front": "How is mean daily log return annualised using 252 trading days?",
+    "back": "\\(\\mu_{\\mathrm{annual,log}}=252\\mu_{\\mathrm{daily,log}}\\).",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-039",
+    "chapter": "6",
+    "front": "How is daily return standard deviation annualised in the notes?",
+    "back": "\\(\\sigma_{\\mathrm{annual}}=\\sqrt{252}\\,\\sigma_{\\mathrm{daily}}\\), under the square-root-of-time scaling assumption.",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-040",
+    "chapter": "6",
+    "front": "How is an annualised log return converted to a simple return?",
+    "back": "\\(R_{\\mathrm{annual}}=\\exp(252\\mu_{\\mathrm{daily,log}})-1\\).",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-041",
+    "chapter": "6",
+    "front": "What Sharpe convention does the L6 notebook use?",
+    "back": "Zero risk-free rate, with annual return converted from log returns: \\(\\mathrm{SR}=\\frac{\\exp(252\\mu_{\\mathrm{daily,log}})-1}{\\sqrt{252}\\,\\sigma_{\\mathrm{daily}}}\\). This is the notebook&#x27;s stated convention.",
+    "source": "L6 Systematic Trading Strategies and Systems > Notebook code snippets",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-042",
+    "chapter": "6",
+    "front": "What is drawdown?",
+    "back": "The fall in wealth or equity below its running historical peak.",
+    "source": "L6 Systematic Trading Strategies and Systems > Drawdown",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-043",
+    "chapter": "6",
+    "front": "What is the running-peak formula when initial wealth is 1?",
+    "back": "\\(M_t=\\max(1,W_1,\\ldots,W_t)\\), including the initial wealth in the peak.",
+    "source": "L6 Systematic Trading Strategies and Systems > Drawdown",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-044",
+    "chapter": "6",
+    "front": "What is the absolute drawdown formula used in the notebook?",
+    "back": "\\(D_t=M_t-W_t\\), in wealth units, where \\(M_t\\) is the running peak and \\(W_t\\) current wealth.",
+    "source": "L6 Systematic Trading Strategies and Systems > Drawdown",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-045",
+    "chapter": "6",
+    "front": "What is the percentage drawdown formula?",
+    "back": "\\(d_t=1-W_t/M_t\\). Multiply by 100 to express it as a percentage.",
+    "source": "L6 Systematic Trading Strategies and Systems > Drawdown",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-046",
+    "chapter": "6",
+    "front": "What is maximum drawdown?",
+    "back": "The largest drawdown during the evaluation period: \\(\\mathrm{MDD}=\\max_t D_t\\) for absolute drawdown, or \\(\\max_t d_t\\) for proportional drawdown.",
+    "source": "L6 Systematic Trading Strategies and Systems > Drawdown",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  },
+  {
+    "id": "is4226-l6-recall-047",
+    "chapter": "6",
+    "front": "What limitation does the notebook&#x27;s longest-drawdown calculation have?",
+    "back": "Using gaps between peak dates misses a drawdown that remains unrecovered at the end of the dataset.",
+    "source": "L6 Systematic Trading Strategies and Systems > Drawdown",
+    "tags": [
+      "is4226::l6",
+      "is4226::definitions_formulae"
+    ],
+    "type": "recall"
+  }
+]

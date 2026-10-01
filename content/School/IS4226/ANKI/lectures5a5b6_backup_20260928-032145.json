@@ -1,0 +1,928 @@
+{
+  "decks": [
+    {
+      "id": 1,
+      "mod": 0,
+      "name": "Default",
+      "usn": 0,
+      "lrnToday": [
+        0,
+        0
+      ],
+      "revToday": [
+        0,
+        0
+      ],
+      "newToday": [
+        0,
+        0
+      ],
+      "timeToday": [
+        0,
+        0
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 0,
+      "conf": 1,
+      "extendNew": 0,
+      "extendRev": 0,
+      "reviewLimit": null,
+      "newLimit": null,
+      "reviewLimitToday": null,
+      "newLimitToday": null,
+      "desiredRetention": null
+    },
+    {
+      "id": 1790240203281,
+      "mod": 1790240203,
+      "name": "LAF2201 Topics::Clothing and Shopping",
+      "usn": -1,
+      "lrnToday": [
+        0,
+        0
+      ],
+      "revToday": [
+        0,
+        0
+      ],
+      "newToday": [
+        0,
+        0
+      ],
+      "timeToday": [
+        0,
+        0
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": false,
+      "terms": [
+        [
+          "tag:fr::laf2201 tag:fr::laf2201::topic::clothing",
+          1000000,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 1,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1788172557820,
+      "mod": 1788851077,
+      "name": "IS4226 W2",
+      "usn": -1,
+      "lrnToday": [
+        18,
+        0
+      ],
+      "revToday": [
+        18,
+        49
+      ],
+      "newToday": [
+        18,
+        0
+      ],
+      "timeToday": [
+        18,
+        711197
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": true,
+      "terms": [
+        [
+          "tag:is4226::managed_v2 tag:is4226::w2",
+          100,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 0,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1787292759532,
+      "mod": 1787292759,
+      "name": "French::Vocab",
+      "usn": -1,
+      "lrnToday": [
+        0,
+        0
+      ],
+      "revToday": [
+        0,
+        0
+      ],
+      "newToday": [
+        0,
+        0
+      ],
+      "timeToday": [
+        0,
+        0
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 0,
+      "conf": 1,
+      "extendNew": 0,
+      "extendRev": 0,
+      "reviewLimit": null,
+      "newLimit": null,
+      "reviewLimitToday": null,
+      "newLimitToday": null,
+      "desiredRetention": null
+    },
+    {
+      "id": 1790240203292,
+      "mod": 1790522615,
+      "name": "LAF2201 Topics::Work and Education",
+      "usn": -1,
+      "lrnToday": [
+        37,
+        0
+      ],
+      "revToday": [
+        37,
+        125
+      ],
+      "newToday": [
+        37,
+        0
+      ],
+      "timeToday": [
+        37,
+        716898
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": false,
+      "terms": [
+        [
+          "tag:fr::laf2201 tag:fr::laf2201::topic::work",
+          1000000,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 1,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1790240203301,
+      "mod": 1790240203,
+      "name": "LAF2201 Topics::Music, Arts and Leisure",
+      "usn": -1,
+      "lrnToday": [
+        0,
+        0
+      ],
+      "revToday": [
+        0,
+        0
+      ],
+      "newToday": [
+        0,
+        0
+      ],
+      "timeToday": [
+        0,
+        0
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": false,
+      "terms": [
+        [
+          "tag:fr::laf2201 tag:fr::laf2201::topic::leisure",
+          1000000,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 1,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1788169293847,
+      "mod": 1789442495,
+      "name": "IS4226",
+      "usn": -1,
+      "lrnToday": [
+        25,
+        0
+      ],
+      "revToday": [
+        25,
+        2
+      ],
+      "newToday": [
+        25,
+        26
+      ],
+      "timeToday": [
+        25,
+        998594
+      ],
+      "collapsed": false,
+      "browserCollapsed": false,
+      "desc": "",
+      "dyn": 0,
+      "conf": 1,
+      "extendNew": 0,
+      "extendRev": 0,
+      "reviewLimit": null,
+      "newLimit": null,
+      "reviewLimitToday": null,
+      "newLimitToday": null,
+      "desiredRetention": null
+    },
+    {
+      "id": 1788172567350,
+      "mod": 1789446012,
+      "name": "IS4226 W3",
+      "usn": -1,
+      "lrnToday": [
+        25,
+        0
+      ],
+      "revToday": [
+        25,
+        37
+      ],
+      "newToday": [
+        25,
+        0
+      ],
+      "timeToday": [
+        25,
+        1035513
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": false,
+      "terms": [
+        [
+          "tag:is4226::managed_v2 tag:is4226::w3",
+          100,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 0,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1788855170189,
+      "mod": 1790154063,
+      "name": "LAF2201 Past Tenses",
+      "usn": -1,
+      "lrnToday": [
+        33,
+        0
+      ],
+      "revToday": [
+        33,
+        7
+      ],
+      "newToday": [
+        33,
+        0
+      ],
+      "timeToday": [
+        33,
+        14571
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": false,
+      "terms": [
+        [
+          "tag:fr::laf2201 (tag:fr::grammar::passe-compose OR tag:fr::grammar::past-participles OR tag:fr::grammar::imparfait OR tag:fr::grammar::tense-choice)",
+          9999,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 1,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1789442608686,
+      "mod": 1789442608,
+      "name": "Custom Study Session",
+      "usn": -1,
+      "lrnToday": [
+        0,
+        0
+      ],
+      "revToday": [
+        0,
+        0
+      ],
+      "newToday": [
+        0,
+        0
+      ],
+      "timeToday": [
+        0,
+        0
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": true,
+      "terms": [
+        [
+          "prop:due<=30 \"deck:IS4226::Week 4\"",
+          99999,
+          6
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 10,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1790240203309,
+      "mod": 1790240803,
+      "name": "LAF2201 Topics::Appointments and Communication",
+      "usn": -1,
+      "lrnToday": [
+        34,
+        0
+      ],
+      "revToday": [
+        34,
+        28
+      ],
+      "newToday": [
+        34,
+        0
+      ],
+      "timeToday": [
+        34,
+        121657
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": false,
+      "terms": [
+        [
+          "tag:fr::laf2201 tag:fr::laf2201::topic::communication",
+          1000000,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 1,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1790240203313,
+      "mod": 1790240203,
+      "name": "LAF2201 Topics::General Vocabulary",
+      "usn": -1,
+      "lrnToday": [
+        0,
+        0
+      ],
+      "revToday": [
+        0,
+        0
+      ],
+      "newToday": [
+        0,
+        0
+      ],
+      "timeToday": [
+        0,
+        0
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": false,
+      "terms": [
+        [
+          "tag:fr::laf2201 tag:fr::laf2201::topic::general",
+          1000000,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 1,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1787292759531,
+      "mod": 1787293187,
+      "name": "French",
+      "usn": -1,
+      "lrnToday": [
+        0,
+        0
+      ],
+      "revToday": [
+        0,
+        0
+      ],
+      "newToday": [
+        0,
+        0
+      ],
+      "timeToday": [
+        0,
+        0
+      ],
+      "collapsed": false,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 0,
+      "conf": 1,
+      "extendNew": 0,
+      "extendRev": 0,
+      "reviewLimit": null,
+      "newLimit": null,
+      "reviewLimitToday": null,
+      "newLimitToday": null,
+      "desiredRetention": null
+    },
+    {
+      "id": 1787579619543,
+      "mod": 1787580095,
+      "name": "LAF1201",
+      "usn": -1,
+      "lrnToday": [
+        3,
+        0
+      ],
+      "revToday": [
+        3,
+        0
+      ],
+      "newToday": [
+        3,
+        97
+      ],
+      "timeToday": [
+        3,
+        457063
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": true,
+      "terms": [
+        [
+          "deck:French::Vocab tag:fr::laf1201",
+          100,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 0,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1789370912347,
+      "mod": 1789442596,
+      "name": "IS4226::Week 4",
+      "usn": -1,
+      "lrnToday": [
+        25,
+        0
+      ],
+      "revToday": [
+        25,
+        -998
+      ],
+      "newToday": [
+        25,
+        -174
+      ],
+      "timeToday": [
+        25,
+        998594
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 0,
+      "conf": 1,
+      "extendNew": 100,
+      "extendRev": 1000,
+      "reviewLimit": null,
+      "newLimit": null,
+      "reviewLimitToday": null,
+      "newLimitToday": null,
+      "desiredRetention": null
+    },
+    {
+      "id": 1790240203280,
+      "mod": 1790522615,
+      "name": "LAF2201 Topics",
+      "usn": -1,
+      "lrnToday": [
+        37,
+        0
+      ],
+      "revToday": [
+        37,
+        125
+      ],
+      "newToday": [
+        37,
+        0
+      ],
+      "timeToday": [
+        37,
+        716898
+      ],
+      "collapsed": false,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 0,
+      "conf": 1,
+      "extendNew": 0,
+      "extendRev": 0,
+      "reviewLimit": null,
+      "newLimit": null,
+      "reviewLimitToday": null,
+      "newLimitToday": null,
+      "desiredRetention": null
+    },
+    {
+      "id": 1788172545275,
+      "mod": 1788849486,
+      "name": "IS4226 W1",
+      "usn": -1,
+      "lrnToday": [
+        18,
+        0
+      ],
+      "revToday": [
+        18,
+        59
+      ],
+      "newToday": [
+        18,
+        0
+      ],
+      "timeToday": [
+        18,
+        751009
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": true,
+      "terms": [
+        [
+          "tag:is4226::managed_v2 tag:is4226::w1",
+          100,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 0,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1790240203297,
+      "mod": 1790321018,
+      "name": "LAF2201 Topics::Daily Routines",
+      "usn": -1,
+      "lrnToday": [
+        35,
+        0
+      ],
+      "revToday": [
+        35,
+        40
+      ],
+      "newToday": [
+        35,
+        0
+      ],
+      "timeToday": [
+        35,
+        153674
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": false,
+      "terms": [
+        [
+          "tag:fr::laf2201 tag:fr::laf2201::topic::routine",
+          1000000,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 1,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1787579590649,
+      "mod": 1790156107,
+      "name": "LAF2201",
+      "usn": -1,
+      "lrnToday": [
+        33,
+        0
+      ],
+      "revToday": [
+        33,
+        19
+      ],
+      "newToday": [
+        33,
+        27
+      ],
+      "timeToday": [
+        33,
+        219717
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": true,
+      "terms": [
+        [
+          "tag:fr::laf2201",
+          9999,
+          6
+        ],
+        [
+          "tag:fr::laf2201 is:new",
+          160,
+          5
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 0,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1790240203286,
+      "mod": 1790321971,
+      "name": "LAF2201 Topics::People and Feelings",
+      "usn": -1,
+      "lrnToday": [
+        35,
+        0
+      ],
+      "revToday": [
+        35,
+        120
+      ],
+      "newToday": [
+        35,
+        0
+      ],
+      "timeToday": [
+        35,
+        760125
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": false,
+      "terms": [
+        [
+          "tag:fr::laf2201 tag:fr::laf2201::topic::people",
+          1000000,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 1,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1790240203318,
+      "mod": 1790240203,
+      "name": "LAF2201 Topics::Grammar - Past Tenses",
+      "usn": -1,
+      "lrnToday": [
+        0,
+        0
+      ],
+      "revToday": [
+        0,
+        0
+      ],
+      "newToday": [
+        0,
+        0
+      ],
+      "timeToday": [
+        0,
+        0
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": false,
+      "terms": [
+        [
+          "tag:fr::laf2201 tag:fr::laf2201::topic::past",
+          1000000,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 1,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1788169293848,
+      "mod": 1788169293,
+      "name": "IS4226::Quiz 1",
+      "usn": -1,
+      "lrnToday": [
+        0,
+        0
+      ],
+      "revToday": [
+        0,
+        0
+      ],
+      "newToday": [
+        0,
+        0
+      ],
+      "timeToday": [
+        0,
+        0
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 0,
+      "conf": 1,
+      "extendNew": 0,
+      "extendRev": 0,
+      "reviewLimit": null,
+      "newLimit": null,
+      "reviewLimitToday": null,
+      "newLimitToday": null,
+      "desiredRetention": null
+    },
+    {
+      "id": 1790240203322,
+      "mod": 1790240203,
+      "name": "LAF2201 Topics::Grammar - Other",
+      "usn": -1,
+      "lrnToday": [
+        0,
+        0
+      ],
+      "revToday": [
+        0,
+        0
+      ],
+      "newToday": [
+        0,
+        0
+      ],
+      "timeToday": [
+        0,
+        0
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": false,
+      "terms": [
+        [
+          "tag:fr::laf2201 tag:fr::laf2201::topic::grammar",
+          1000000,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 1,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    },
+    {
+      "id": 1790240203305,
+      "mod": 1790321203,
+      "name": "LAF2201 Topics::Time, Holidays and Numbers",
+      "usn": -1,
+      "lrnToday": [
+        35,
+        0
+      ],
+      "revToday": [
+        35,
+        42
+      ],
+      "newToday": [
+        35,
+        0
+      ],
+      "timeToday": [
+        35,
+        175988
+      ],
+      "collapsed": true,
+      "browserCollapsed": true,
+      "desc": "",
+      "dyn": 1,
+      "resched": false,
+      "terms": [
+        [
+          "tag:fr::laf2201 tag:fr::laf2201::topic::time",
+          1000000,
+          1
+        ]
+      ],
+      "separate": true,
+      "delays": null,
+      "previewDelay": 1,
+      "previewAgainSecs": 60,
+      "previewHardSecs": 600,
+      "previewGoodSecs": 0
+    }
+  ],
+  "managed_notes": []
+}

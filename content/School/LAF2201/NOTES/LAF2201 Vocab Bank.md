@@ -19,7 +19,7 @@ related:
   - "[[Imparfait]]"
 author:
 date: 2026-08-21
-updated: 2026-09-24
+updated: 2026-09-25
 aliases:
 ---
 Related: [[LAF1201 Vocab Bank]] · [[Time]] · [[Le Temps]] · [[ER Verbs]]
@@ -300,12 +300,12 @@ Sources: [[School/LAF2201/LEC/L3|L3]] · [[School/LAF2201/LEC/L5|L5]]
 # Personal qualities (Les qualités)
 Source: [[School/LAF2201/LEC/L5|L5]]
 
-| Masculine | Feminine | English |
-| --- | --- | --- |
-| curieux | curieuse | curious |
-| organisé | organisée | organised |
-| autonome | autonome | independent / able to work independently |
-| créatif | créative | creative |
+| Masculine | Feminine  | English                                  |
+| --------- | --------- | ---------------------------------------- |
+| curieux   | curieuse  | curious                                  |
+| organisé  | organisée | organised                                |
+| autonome  | autonome  | independent / able to work independently |
+| créatif   | créative  | creative                                 |
 
 - une qualité — quality / strength
 - la curiosité — curiosity
@@ -598,6 +598,46 @@ Sources: [[School/LAF2201/LEC/L3|L3]] · [[School/LAF2201/LEC/L5|L5]]
 - combien de — how many / how much (before a noun)
 
 # Verbes pronominaux — daily routines
+
+## Une journée type — daily routine in chronological order
+
+| When                     | Infinitive                 | With *je* (present tense)    | English                 |
+| ------------------------ | -------------------------- | ---------------------------- | ----------------------- |
+| Morning — wake up        | se réveiller               | je me réveille               | wake up                 |
+| Morning — get up         | se lever                   | je me lève                   | get up / get out of bed |
+| Morning — stretch        | s'étirer                   | je m'étire                   | stretch                 |
+| Morning — exercise       | faire du yoga              | je fais du yoga              | do yoga                 |
+| Morning — breakfast      | prendre son petit-déjeuner | je prends mon petit-déjeuner | have breakfast          |
+| Morning — wash           | se doucher / se laver      | je me douche / je me lave    | shower / wash oneself   |
+| Morning — teeth          | se brosser les dents       | je me brosse les dents       | brush one's teeth       |
+| Morning — shave          | se raser                   | je me rase                   | shave                   |
+| Morning — get dressed    | s'habiller                 | je m'habille                 | get dressed             |
+| Morning — hair           | se coiffer / se peigner    | je me coiffe / je me peigne  | do / comb one's hair    |
+| Morning — makeup         | se maquiller               | je me maquille               | put on makeup           |
+| Morning — perfume        | se parfumer                | je me parfume                | put on perfume          |
+| Daytime — work / study   | travailler / étudier       | je travaille / j'étudie      | work / study            |
+| Midday — lunch           | déjeuner                   | je déjeune                   | have lunch              |
+| Afternoon — break        | faire une pause            | je fais une pause            | take a break            |
+| Afternoon — training     | s'entraîner                | je m'entraîne                | train / practise        |
+| Afternoon — rehearsal    | répéter                    | je répète                    | rehearse                |
+| Late afternoon / evening | rentrer chez soi           | je rentre chez moi           | return home             |
+| Evening — cooking        | préparer le dîner          | je prépare le dîner          | prepare dinner          |
+| Evening — dinner         | dîner                      | je dîne                      | have dinner             |
+| Evening — walk           | se promener                | je me promène                | go for a walk           |
+| Evening — leisure        | regarder un film / lire    | je regarde un film / je lis  | watch a film / read     |
+| Bedtime — teeth          | se brosser les dents       | je me brosse les dents       | brush one's teeth       |
+| Bedtime — go to bed      | se coucher                 | je me couche                 | go to bed               |
+| Night — sleep            | dormir                     | je dors                      | sleep                   |
+
+> [!tip] Wake up ≠ get up; go to bed ≠ sleep
+> **Se réveiller** = stop sleeping; **se lever** = get out of bed.
+>
+> **Se coucher** = go to bed; **dormir** = sleep.
+>
+> Reflexive verbs use **me / m'** with *je*: *je me lève*. Other routine verbs do not: *je prends mon petit-déjeuner*, *je travaille*, *je dors*.
+
+
+### Related routine vocabulary
 Source: [[School/LAF2201/TUT/TUT 4|TUT 4]]
 
 - se raser — to shave
