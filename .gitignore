@@ -12,3 +12,14 @@ replit.nix
 content/templater
 howtouse.txt
 headphones.txt
+
+# Local AI work products and study tooling
+/output/
+/content/**/output/
+/content/**/ANKI/
+/content/**/.smart-env/
+/content/**/.claude/
+/content/**/.codex/
+/content/**/.agents/
+/content/**/__pycache__/
+/content/**/*.pyc

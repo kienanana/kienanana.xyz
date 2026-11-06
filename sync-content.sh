@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Sync notes from the Obsidian vault into Quartz's content/ folder.
-# Excludes the Private folder and Obsidian/git housekeeping files.
+# Excludes private notes, generated work files, and tool housekeeping.
 # Pass --dry-run to preview changes without writing anything.
 set -euo pipefail
 
@@ -9,6 +9,12 @@ CONTENT="$HOME/Documents/quartz/content"
 
 rsync -av --delete \
   --exclude 'Private' \
+  --exclude 'output' \
+  --exclude 'ANKI' \
+  --exclude '__pycache__' \
+  --exclude '*.pyc' \
+  --exclude '.codex' \
+  --exclude '.agents' \
   --exclude '.obsidian' \
   --exclude '.smart-env' \
   --exclude '.claude' \
