@@ -10,136 +10,90 @@ source: "[[School/BT3102/LEC/PDFs/Lecture2_2026.pdf]]"
 related:
   - "[[BT3102]]"
 date: 2026-09-11
-updated: 2026-09-16
+updated: 2026-10-02
 aliases:
   - BT3102 Lecture 2
 ---
-Source: [[School/BT3102/LEC/PDFs/Lecture2_2026.pdf|Annotated lecture PDF]]. Page references use PDF page numbers.
-
-## Overview
-- Positive definiteness describes the sign of quadratic forms.
-- Optimisation seeks good parameters; stationarity alone does not certify a minimum.
-- Least squares has a closed-form solution under a rank condition; logistic regression motivates iteration.
-- Gradient descent combines a direction, a step size and a stopping rule.
+Source: [[School/BT3102/LEC/PDFs/Lecture2_2026.pdf|Annotated lecture PDF]] · [[BT3102#Review roadmap — Lectures 1–7|Review roadmap]]
 
 ## Positive definite and positive semidefinite matrices
 
-For a real symmetric matrix $A$,
-
+For real symmetric $A$:
 $$
-A\succ0\iff x^TAx>0\quad\text{for every }x\ne0,
+A\succ0\iff x^TAx>0\ \text{for every }x\ne0,\qquad
+A\succeq0\iff x^TAx\ge0\ \text{for every }x.
 $$
-$$
-A\succeq0\iff x^TAx\ge0\quad\text{for every }x.
-$$
-
-This is a property of the **quadratic form**, not a requirement that every matrix entry be positive.
-
-![[Lecture2_2026.pdf#page=3]]
-
-**Key takeaway:** $x^TAx=x^T(Ax)$ is a dot product. For a positive definite matrix, $x$ and $Ax$ make an acute angle: this is the slide's “same side” intuition. In Taylor's quadratic term, the same expression describes curvature along a displacement.
-
-## Optimisation setup
-
-Unconstrained optimisation minimises $f(w)$ over $w\in\mathbb R^n$. Constrained optimisation restricts $w$ to a feasible region, for example using $c_i(w)=0$ and $c_i(w)\ge0$. The lecture assumes at least $f\in C^1$, sometimes $C^2$.
-
-For model training, **the decision variables are the model parameters**, while the training data are fixed. An example objective is average squared prediction error:
-
-$$
-f(w)=\frac1m\sum_{i=1}^m\left[y^{(i)}-g(w\mid x^{(i)})\right]^2.
-$$
-
-Source: [[Lecture2_2026.pdf#page=4|pp. 4–5]].
+Equivalently, eigenvalues are all positive / all nonnegative. This concerns a quadratic form, not the signs of individual entries. If $A\succ0$, its inverse exists and is positive definite.
 
 ## Stationary points and minima
 
-- **Local minimum:** $f(w^*)\le f(w)$ for all $w$ in some neighbourhood of $w^*$.
-- **Global minimum:** the inequality holds throughout the domain.
+Unconstrained optimisation: $\min_{w\in\mathbb R^n}f(w)$. Constraints restrict the feasible region. In model training, parameters are decision variables; training data are fixed.
+
+- **Local minimum:** $f(w^*)\le f(w)$ in a neighbourhood of $w^*$.
+- **Global minimum:** this holds throughout the domain.
 - **Stationary point:** $\nabla f(w^*)=0$.
 
-**First-order necessary condition:** an unconstrained local minimiser of a differentiable function satisfies $\nabla f(w^*)=0$. This condition alone also admits maxima and stationary points that are not extrema. Do not apply it blindly to constrained boundary minima.
+For a differentiable unconstrained local minimum, stationarity is **necessary**, not sufficient. For differentiable convex $f$ on $\mathbb R^n$, stationarity is sufficient for a global minimum.
 
-![[Lecture2_2026.pdf#page=7]]
+**HW1 supplement — second-order classification:** for $C^2$ functions, evaluate $Q=\nabla^2f(w^*)$ at a stationary point:
 
-**Key takeaway:** a zero slope cannot classify a point. The diagram groups several stationary behaviours; additional structure or curvature information is needed. For a differentiable convex objective on $\mathbb R^n$, a stationary point is a global minimiser.
+| Hessian | Conclusion |
+| --- | --- |
+| Positive definite | Strict local minimum |
+| Negative definite | Strict local maximum |
+| Indefinite (positive and negative eigenvalues) | Saddle point |
+| Semidefinite with zero eigenvalues | Test may be inconclusive |
 
-## Worked example: least squares
+A local minimum necessarily has a positive semidefinite Hessian. Local curvature alone does not establish global optimality.
 
-With training examples as rows of $X$ and targets in $y$,
+## Least squares
 
+Rows of $X$ are feature vectors; include a column of ones for an intercept.
 $$
 f(w)=\frac1m\|Xw-y\|_2^2,\qquad
-\nabla f(w)=\frac2mX^T(Xw-y).
+\nabla f(w)=\frac2mX^T(Xw-y),\qquad
+\nabla^2f(w)=\frac2mX^TX\succeq0.
 $$
-
-Setting the gradient to zero gives the **normal equations**:
-
+Normal equations and solution:
 $$
-X^TXw=X^Ty.
+X^TXw=X^Ty,\qquad w^*=(X^TX)^{-1}X^Ty.
 $$
-
-If $X$ has full column rank, $X^TX$ is invertible and
-
-$$
-w^*=(X^TX)^{-1}X^Ty.
-$$
-
-Include a column of ones in $X$ if fitting an intercept. The objective is convex because its Hessian is $2X^TX/m\succeq0$; full column rank makes it positive definite and the minimiser unique. If the rank condition fails, the inverse formula is unavailable and minimisers need not be unique.
-
-Source: [[Lecture2_2026.pdf#page=10|scalar derivation, p. 10]] and [[Lecture2_2026.pdf#page=11|matrix formulation, p. 11]]. Remember the normal equations and rank assumption rather than every expanded scalar term.
+The inverse formula and uniqueness require **full column rank**. Without it, the objective remains convex but minimisers need not be unique.
 
 ## Logistic regression: from likelihood to loss
 
-For binary targets $y_i\in\{0,1\}$, define
-
+For $y_i\in\{0,1\}$:
 $$
-p_i=\sigma(w^Tx_i),\qquad \sigma(z)=\frac1{1+e^{-z}}.
+p_i=\sigma(w^Tx_i),\qquad \sigma(z)=\frac1{1+e^{-z}},\qquad
+L(w)=\prod_i p_i^{y_i}(1-p_i)^{1-y_i}.
 $$
-
-The probability assigned to the observed label is $p_i^{y_i}(1-p_i)^{1-y_i}$. Under the lecture's independent-observation assumption, the likelihood is the product of these terms.
-
-![[Lecture2_2026.pdf#page=15]]
-
-**Key takeaway:** logarithms turn the product into a sum and preserve its maximiser because log is strictly increasing. Negating and averaging gives the **negative log-likelihood / binary cross-entropy**:
-
+Independent observations justify the product. Maximising $L$ is equivalent to maximising $\log L$ and minimising negative average log-likelihood:
 $$
-f(w)=-\frac1m\sum_{i=1}^m\left[y_i\log p_i+(1-y_i)\log(1-p_i)\right].
+f(w)=-\frac1m\sum_i[y_i\log p_i+(1-y_i)\log(1-p_i)],
 $$
-
-This avoids directly multiplying many tiny probabilities. Unlike least squares, the stationarity equations generally have no simple closed-form solution, so we optimise iteratively. The gradient simplifies to
-
 $$
-\nabla f(w)=\frac1m\sum_{i=1}^m(p_i-y_i)x_i=\frac1mX^T(p-y).
+\nabla f(w)=\frac1mX^T(p-y).
 $$
-
-This is an equivalent form of [[Lecture2_2026.pdf#page=22|the gradient on p. 22]]: each example contributes prediction error multiplied by its features.
+Log turns products into sums, avoiding multiplication of tiny probabilities. Unlike least squares, the stationarity equations generally need an iterative solution.
 
 ## Gradient descent
 
-A **descent direction** $d$ decreases $f(w+\alpha d)$ for every sufficiently small positive $\alpha$. For differentiable $f$, $\nabla f(w)^Td<0$ is sufficient.
-
-From [[L1 Course Introduction#Gradients and directional derivatives|the directional derivative]], the negative gradient is the Euclidean steepest descent direction. The standard update is
-
+A **descent direction** decreases the objective for every sufficiently small positive step. A sufficient condition is $\nabla f(w)^Tp<0$.
 $$
-w_{k+1}=w_k-\alpha_k\nabla f(w_k),\qquad \alpha_k>0.
+p_k=-\nabla f(w_k),\qquad w_{k+1}=w_k+\alpha_kp_k,\quad\alpha_k>0.
 $$
+With fixed $\alpha$, movement length is $\alpha\|\nabla f(w_k)\|_2$. A downhill direction still needs a suitable step size.
 
-Even with fixed learning rate $\alpha$, the actual movement has length $\alpha\|\nabla f(w_k)\|_2$. A downhill direction guarantees improvement only for sufficiently small steps: an excessive step can overshoot.
+Stop when $\|\nabla f(w_k)\|_2\le\varepsilon$ **or** a computation/iteration limit is reached. A small gradient indicates approximate stationarity. Initialisation matters for nonconvex problems; compare total runtime as well as iteration count.
 
-Stop using a criterion such as $\|\nabla f(w_k)\|_2\le\varepsilon$ **and a hard iteration/computation limit**. A small gradient signals approximate stationarity, not proof of a global minimum. Initialisation can affect the outcome for nonconvex problems.
+- **Line search:** choose direction, then distance.
+- **Trust region:** choose a radius, then optimise a local model within it.
 
-## Choosing the next iterate
+## Connections
 
-[[Lecture2_2026.pdf#page=26|Line search versus trust region, p. 26]]:
+- **[[L1 Course Introduction#Taylor approximations and the Hessian|L1]]** supplies slope and curvature for optimisation.
+- **[[L3 Line Search and Momentum|L3]]** chooses the step size and adds history to GD.
+- **[[L4 Stochastic Gradient Descent and Newton Methods|L4]]** replaces full gradients with noisy estimates or uses Hessian information.
+- **[[L6 Potential Outcomes and Causal Effects|L6]]: prediction versus causation:** fitting a predictive relationship does not establish an intervention effect.
 
-- **Line search:** choose a direction first, then choose how far to move along it.
-- **Trust region:** set a radius, then optimise a local model within that radius to choose the step.
-
-The lecturer's practical emphasis on [[Lecture2_2026.pdf#page=24|pp. 24–25]] is to compare total computational cost. Fewer iterations may require more expensive information per iteration. The practical goal is a sufficiently good point within the available budget.
-
-## Important results
-
-- $\nabla f(w^*)=0$ is necessary for an unconstrained differentiable minimum, but generally insufficient.
-- Least squares: $X^TXw=X^Ty$; the inverse formula requires full column rank.
-- Logistic loss gradient: $X^T(p-y)/m$.
-- Gradient descent: $w_{k+1}=w_k-\alpha_k\nabla f(w_k)$.
+For examples: [[Lecture2_2026.pdf#page=7|stationary points, pp. 7–8]] · [[Lecture2_2026.pdf#page=9|regression, pp. 9–15]] · [[Lecture2_2026.pdf#page=17|GD and frameworks, pp. 17–26]].

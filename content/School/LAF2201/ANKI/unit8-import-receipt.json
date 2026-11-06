@@ -1,0 +1,62 @@
+{
+  "entries": 171,
+  "new_notes": 0,
+  "reused_notes": 171,
+  "topics": [
+    {
+      "name": "LAF2201 Topics::Unité 8 - Situation 1 - Health and Wellbeing",
+      "unit8_entries": 66,
+      "new_notes": 0,
+      "reused_notes": 66
+    },
+    {
+      "name": "LAF2201 Topics::Unité 8 - Situations 2-3 - Technology and Communication",
+      "unit8_entries": 82,
+      "new_notes": 0,
+      "reused_notes": 82
+    },
+    {
+      "name": "LAF2201 Topics::Work and Education",
+      "unit8_entries": 10,
+      "new_notes": 0,
+      "reused_notes": 10
+    },
+    {
+      "name": "LAF2201 Topics::General Vocabulary",
+      "unit8_entries": 13,
+      "new_notes": 0,
+      "reused_notes": 13
+    }
+  ],
+  "added_note_ids": [],
+  "updated_note_ids": [],
+  "decks": [
+    {
+      "name": "LAF2201 Topics::Unité 8 - Situation 1 - Health and Wellbeing",
+      "created": false,
+      "total_topic_cards": 66,
+      "loaded": 66
+    },
+    {
+      "name": "LAF2201 Topics::Unité 8 - Situations 2-3 - Technology and Communication",
+      "created": false,
+      "total_topic_cards": 82,
+      "loaded": 82
+    },
+    {
+      "name": "LAF2201 Topics::Work and Education",
+      "created": false,
+      "total_topic_cards": 134,
+      "loaded": 134
+    },
+    {
+      "name": "LAF2201 Topics::General Vocabulary",
+      "created": false,
+      "total_topic_cards": 166,
+      "loaded": 166
+    }
+  ],
+  "backup": "/Users/kienanana/Documents/VAULT/School/LAF2201/ANKI/backups/unit8-20261103-163935-031717.json",
+  "rescheduling": false,
+  "ankiweb_sync": false
+}

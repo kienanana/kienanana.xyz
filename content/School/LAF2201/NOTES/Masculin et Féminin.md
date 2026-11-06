@@ -154,6 +154,8 @@ The bank includes *travailleur → travailleuse* (hardworking) and *menteur → 
 
 ### Beau, nouveau, vieux: special masculine forms
 
+For adjective placement before or after the noun, see [[La Place des Adjectifs]].
+
 Before a **masculine singular noun beginning with a vowel or silent h**, use **bel, nouvel, vieil**.
 
 | Usual masculine  | Before a vowel / silent h | Feminine          |

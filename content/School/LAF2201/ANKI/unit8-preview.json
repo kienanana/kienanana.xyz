@@ -1,0 +1,891 @@
+{
+  "source": "AnkiConnect read-only snapshot, 2026-11-03",
+  "entries": 171,
+  "add": 158,
+  "reuse": 13,
+  "topics": {
+    "health": {
+      "entries": 66,
+      "add": 60,
+      "reuse": 6
+    },
+    "technology": {
+      "entries": 82,
+      "add": 76,
+      "reuse": 6
+    },
+    "education": {
+      "entries": 10,
+      "add": 9,
+      "reuse": 1
+    },
+    "general": {
+      "entries": 13,
+      "add": 13,
+      "reuse": 0
+    }
+  },
+  "matches": [
+    {
+      "french": "le bras",
+      "existing_note_id": 1790151399267,
+      "existing_front": "un bras"
+    },
+    {
+      "french": "la tête",
+      "existing_note_id": 1790151399317,
+      "existing_front": "une tête"
+    },
+    {
+      "french": "le cou",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "la gorge",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "la jambe",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "l'œil (m.), les yeux (pl.)",
+      "existing_note_id": 1790151395041,
+      "existing_front": "les yeux"
+    },
+    {
+      "french": "la main",
+      "existing_note_id": 1790151399242,
+      "existing_front": "une main"
+    },
+    {
+      "french": "la bouche",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le ventre",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le doigt",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "la dent",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un orteil / les orteils",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le front",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le menton",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "la joue / les joues",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le genou / les genoux",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le coude",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "l'épaule (f.) / les épaules",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le cil / les cils",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le sourcil / les sourcils",
+      "existing_note_id": 1790247760806,
+      "existing_front": "un sourcil"
+    },
+    {
+      "french": "une maladie",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une grippe",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un rhume",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "la toux",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une ordonnance",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une carte Vitale",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un médicament",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "avoir mal à la tête",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "tousser / avoir de la toux",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "avoir de la fièvre",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "avoir mal à la gorge",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un objet",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "connecté / connectée",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une liseuse",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une montre",
+      "existing_note_id": 1787292760251,
+      "existing_front": "une montre"
+    },
+    {
+      "french": "un bracelet",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un porte-clés",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une brosse à dents",
+      "existing_note_id": 1787292760241,
+      "existing_front": "une brosse à dent"
+    },
+    {
+      "french": "un thermomètre",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un cadeau",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "pratique",
+      "existing_note_id": 1787292760614,
+      "existing_front": "pratique"
+    },
+    {
+      "french": "utile",
+      "existing_note_id": 1787292760617,
+      "existing_front": "utile"
+    },
+    {
+      "french": "efficace",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une utilisation",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un utilisateur / une utilisatrice",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "perdu / perdue",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le sommeil",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le nombre de",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "regarder l'heure",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une vitrine",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une paire de lunettes",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "garder",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un portefeuille",
+      "existing_note_id": 1787292760219,
+      "existing_front": "un portefeuille"
+    },
+    {
+      "french": "une carte bancaire",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "les papiers de la voiture",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un ordinateur portable",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "des écouteurs",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un message",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "oublier",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "sur le chemin de",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "aider à + infinitive",
+      "existing_note_id": 1788725982647,
+      "existing_front": "aider"
+    },
+    {
+      "french": "donner son opinion",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "Je pense que…",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "Je trouve que…",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "À mon avis,…",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "sembler + adjective",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "formidable",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un robot",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une machine",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "les nouvelles technologies",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "l'intelligence artificielle (f.)",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un créateur / une créatrice",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un / une scientifique",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le visage",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une émotion",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "être capable de + infinitive",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "marcher",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "lentement",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "par soi-même",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "suffisant / suffisante",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "naturel / naturelle",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "inquiétant / inquiétante",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "détruire",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un humain / une humaine",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un projet",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une réponse",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une astuce",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "conseiller quelqu'un",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un repas",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un souci",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "éviter",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un écran",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "avant de + infinitive",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "penser à",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "masser",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "éteindre",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "Ça marche ?",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un médecin / un docteur",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un patient / une patiente",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "avoir mal à la / au / à l' / aux + partie du corps",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "Qu'est-ce qui vous arrive ?",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "se reposer",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "proposer",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "avoir du succès",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "faire le ménage",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "coûter cher",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un mail / un e-mail",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "chaud / chaude",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "la santé",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une habitude",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une activité physique",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le stress",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "gras / grasse",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "méditer",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le jardinage",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le pied",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une pharmacie",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un dentiste / une dentiste",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le paracétamol",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "l'aspirine (f.)",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un massage",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "s'inquiéter",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "rester concentré / concentrée",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "mémoriser",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "prendre du poids / perdre du poids",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "grave",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "le miel",
+      "existing_note_id": 1787292760503,
+      "existing_front": "le miel"
+    },
+    {
+      "french": "une pastille",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "faire une sieste",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un modèle",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "indiquer",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une distance",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "léger / légère",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une autonomie",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "dangereux / dangereuse",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "ça dépend de",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "conduire",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "en même temps",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une invention",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un aspirateur",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "aspirer",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "faire du bruit",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "soigner",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "faciliter",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "voler",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une forme",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "modifier",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un réseau social / les réseaux sociaux",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un internaute / une internaute",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une messagerie",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "tchatter",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "publier",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "partager",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un commentaire",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "s'inscrire",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un forum de discussion",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une page Internet",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "déchargé / déchargée",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un forfait",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "un appel",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "illimité / illimitée",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une facture",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une langue étrangère",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "la prononciation",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "une immersion",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "progresser",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "la motivation",
+      "existing_note_id": 1789463310352,
+      "existing_front": "une motivation"
+    },
+    {
+      "french": "un dictionnaire",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "expliquer",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "être d'accord / ne pas être d'accord",
+      "existing_note_id": null,
+      "existing_front": null
+    },
+    {
+      "french": "avoir raison",
+      "existing_note_id": null,
+      "existing_front": null
+    }
+  ],
+  "deck_names": {
+    "health": "LAF2201 Topics::Unité 8 - Situation 1 - Health and Wellbeing",
+    "technology": "LAF2201 Topics::Unité 8 - Situations 2-3 - Technology and Communication",
+    "education": "LAF2201 Topics::Work and Education",
+    "general": "LAF2201 Topics::General Vocabulary"
+  }
+}

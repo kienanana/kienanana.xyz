@@ -4,6 +4,10 @@ tags:
   - y4s1
   - finance/trading
   - finance/metrics
+  - finance/backtesting
+  - finance/risk
+  - finance/returns
+  - finance/technical-analysis
 source:
 related:
 author:

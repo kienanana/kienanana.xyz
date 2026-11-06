@@ -14,7 +14,7 @@ aliases:
 The french word for weather is *le temps* and the primary verb used to talk about the weather is *faire* (il fait). The french equivalent of "How's the weather?" is literally "What weather is it doing ?" 
 - **Quel temps fait-il ?**
 
-The weather report and forecast is called [[L8#La météo]]
+The weather report and forecast is called [[School/LAF1201/LEC/L8#La météo]]
 
 ## il fait ... 
 (faire) 

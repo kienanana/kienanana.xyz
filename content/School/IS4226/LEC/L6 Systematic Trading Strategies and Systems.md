@@ -1,7 +1,12 @@
 ---
 class: note
 tags:
+  - y4s1
   - finance/trading
+  - finance/backtesting
+  - finance/metrics
+  - finance/risk
+  - finance/returns
 source:
 related:
 author:

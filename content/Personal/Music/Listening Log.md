@@ -113,6 +113,24 @@ aliases:
 - 🟢 Alex G - House of Sugar
 - 🟢 Carly Rae Jepsen - Day and Night
 - ⭐ [[Tinashe - Popstar (2026)]]
+- 🟡 DJ_Dave - Hardcore Software
+- 🟢 Elliot Smith - Self-Titled 
+- 🟡 Troye Sivan - She's the Best
+- 🟢 Deafheaven - At Work In The Fields Of The Bomb EP
+- 🟢 ISOxo - HARDCORE DIVA
+- ⭐ Cameron Winter - Live at Carnegie Hall
+- 🟢 B0YG1RL - EXIT 2B
+- 🟢 Mojave 3 - Excuses for Travellers 
+- 🟢 Mazzy Star - Among My Swan
+- 🟢 B0YG1RL - Self-Titled
+- 🔵 Hellogoodbye - Zombies! Aliens! Vampires! Dinosaurs! 
+- 🔵 Emperor x - Western Teleport 
+- 🔵 M83 - I Wrote You A Letter
+- 🟢 Jamie xx - In Colour 
+- 🟢 NERO - Welcome Reality 
+- 🟡 Thaiboy Digital, swedm - Paradise 
+- 🔵 kimj - KOREAN AMERICAN
+- 🟢 The Avalanches - No Bad Memories 
 
 ### Relistens:
 - Lil Ugly Mane - volcanic bird enemy and the voiced concern
@@ -166,6 +184,7 @@ aliases:
 - Daft Punk - Alive 2007
 - glaive - May It Never Falter
 - Alex G - Headlights
+- ⭐ Mazzy Star - So Tonight That I Might See
 
 ### Artists:
 - Fcukers

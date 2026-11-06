@@ -2,6 +2,8 @@
 class: note
 tags:
   - y4s1
+  - finance/trading
+  - finance/technical-analysis
 source:
 related:
 author:

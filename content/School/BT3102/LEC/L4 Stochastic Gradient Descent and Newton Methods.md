@@ -13,188 +13,106 @@ related:
   - "[[BT3102]]"
   - "[[L3 Line Search and Momentum]]"
 date: 2026-09-16
-updated: 2026-09-16
+updated: 2026-10-02
 aliases:
   - BT3102 Lecture 4
 ---
-Source: [[School/BT3102/LEC/PDFs/Lecture4_2026_extended.pdf|Lecture PDF]]. Page references use PDF page numbers.
+Source: [[School/BT3102/LEC/PDFs/Lecture4_2026_extended.pdf|Lecture PDF]] · [[BT3102#Review roadmap — Lectures 1–7|Review roadmap]]
 
-## Overview
-- Stochastic gradient descent (SGD) trades exact gradients for cheaper, noisy updates.
-- Newton's method uses curvature to choose a step, with fast local convergence but greater cost and weaker guarantees far from a minimum.
-- Quasi-Newton methods and coordinate rescaling aim to improve the geometry without computing an exact inverse Hessian each iteration.
-
-The opening recap builds on [[L3 Line Search and Momentum]]. On [[Lecture4_2026_extended.pdf#page=5|p. 5]], **random restarts** change the starting point of independent runs; **momentum** uses history within a run. Accumulated velocity may carry a trajectory through flat regions or shallow minima, but escape is not guaranteed. [[Lecture4_2026_extended.pdf#page=6|p. 6]] motivates looking beyond local minima to saddle points in high-dimensional landscapes.
-
-## Why full gradients become expensive
-
-Many training objectives average losses over $m$ examples:
-
-$$
-f(w)=\frac1m\sum_{i=1}^m h_i(w),\qquad
-\nabla f(w)=\frac1m\sum_{i=1}^m\nabla h_i(w).
-$$
-
-Every full-gradient update requires all $m$ component gradients. When $m$ is large, this can dominate the cost. See [[Lecture4_2026_extended.pdf#page=9|p. 9]].
-
-### Logistic regression: the label convention changes
-
-Unlike [[L2 Optimisation and Gradient Descent#Logistic regression: from likelihood to loss|L2's binary labels]], L4 uses $y_i\in\{-1,+1\}$:
-
-$$
-h_i(w)=\log\left(1+e^{-y_iw^Tx_i}\right),\qquad
-\nabla h_i(w)=-\frac{y_ix_i}{1+e^{y_iw^Tx_i}}.
-$$
-
-The margin $y_iw^Tx_i$ is positive when the score agrees with the label; increasing it reduces the loss. This is the same binary logistic loss after recoding $y_{\pm}=2y_{01}-1$. Source: [[Lecture4_2026_extended.pdf#page=7|loss, p. 7]] and [[Lecture4_2026_extended.pdf#page=8|gradient, p. 8]].
+Notation: $g_k=\nabla f(w_k)$, $Q_k=\nabla^2f(w_k)$.
 
 ## Stochastic and mini-batch gradient descent
 
-At iteration $k$, sample a uniform random index $i_k$, or a random mini-batch $B_k$:
-
+For an average loss over $m$ examples:
+$$
+f(w)=\frac1m\sum_i h_i(w),\qquad \nabla f(w)=\frac1m\sum_i\nabla h_i(w).
+$$
+Full GD evaluates all $m$ component gradients per update. SGD uses one example or a mini-batch $B_k$:
 $$
 \widehat g_k=\nabla h_{i_k}(w_k)
 \quad\text{or}\quad
 \widehat g_k=\frac1{|B_k|}\sum_{i\in B_k}\nabla h_i(w_k),
-\qquad
-w_{k+1}=w_k-\alpha_k\widehat g_k.
+\qquad w_{k+1}=w_k-\alpha_k\widehat g_k.
 $$
-
-For uniform sampling from the fixed dataset, conditional on the current iterate,
-
+With fresh uniform sampling from the full fixed dataset, conditional on the current iterate/history:
 $$
-\mathbb E[\widehat g_k\mid w_k]=\nabla f(w_k).
+\mathbb E[\widehat g_k\mid\text{history}]=\nabla f(w_k).
 $$
+Thus the estimate is full gradient + zero-mean noise. This per-step statement does not generally apply unchanged to shuffling through the remaining examples without replacement.
 
-Thus $\widehat g_k=\nabla f(w_k)+\xi_k$, with zero-mean sampling noise. The equality is exact for this sampling scheme; the lecture also discusses the population intuition of independent training examples. An individual sampled direction need not decrease the full objective. Source: [[Lecture4_2026_extended.pdf#page=12|mini-batches, p. 12]] and [[Lecture4_2026_extended.pdf#page=13|average-direction intuition, p. 13]].
+**Tradeoff:** cheaper updates, often more iterations and a noisier trajectory. A sampled step need not decrease the full objective. Larger batches generally reduce sampling noise but cost more per update. Learning-rate schedules can avoid full-objective line search.
 
-![[Lecture4_2026_extended.pdf#page=14]]
+**Stopping:** one tiny mini-batch gradient is unreliable. Use a larger gradient estimate, sustained lack of progress and an iteration/computation cap. Tiny parameter updates may simply reflect a tiny learning rate.
 
-**Key takeaway:** the noisy path may need more iterations, but each costs much less. Randomness can help move through some difficult regions, and a chosen learning-rate schedule avoids an expensive full-objective line search at every update. Compare total computation, not iteration counts alone.
+## Logistic regression: label convention
 
-### Stopping with noisy gradients
-
-A tiny gradient from one small batch does not reliably establish stationarity. [[Lecture4_2026_extended.pdf#page=15|p. 15]] suggests estimating the gradient using a much larger sample and considering changes in parameters or objective values:
-
+L4 uses $y_i\in\{-1,+1\}$:
 $$
-\left\|\frac1R\sum_{i\in S_R}\nabla h_i(w_k)\right\|\le\varepsilon,
-\qquad
-\|w_{k+1}-w_k\|\le\varepsilon,
-\qquad
-|f(w_{k+1})-f(w_k)|\le\varepsilon.
+h_i(w)=\log(1+e^{-y_iw^Tx_i}),\qquad
+\nabla h_i(w)=-\frac{y_ix_i}{1+e^{y_iw^Tx_i}}.
 $$
+The margin $y_iw^Tx_i$ measures agreement between score and label. This equals [[L2 Optimisation and Gradient Descent#Logistic regression: from likelihood to loss|L2's logistic loss]] after recoding $y_{\pm}=2y_{01}-1$.
 
-These are diagnostics rather than interchangeable guarantees: tiny learning rates also produce tiny updates, and evaluating the full loss can be costly. Combine sustained evidence of little progress with a computational limit.
+## Newton root finding
 
-## Newton's method: root finding versus optimisation
-
-For a scalar equation $r(w)=0$, replace $r$ by its tangent line and solve that line for its root:
-
+For scalar equation $r(w)=0$:
 $$
-0\approx r(w_k)+r'(w_k)(w_{k+1}-w_k)
-\quad\Longrightarrow\quad
 w_{k+1}=w_k-\frac{r(w_k)}{r'(w_k)}.
 $$
+Each step finds the root of the tangent approximation. Requires a nonzero derivative. Root finding for $f=0$ is different from minimising $f$; optimisation applies root finding to $f'=0$.
 
-![[Lecture4_2026_extended.pdf#page=19]]
+## Newton optimisation
 
-**Key takeaway:** the tangent's horizontal-axis intercept becomes the next iterate. To optimise $f$, apply root finding to **$r=f'$**, giving $w_{k+1}=w_k-f'(w_k)/f''(w_k)$. Solving $f(w)=0$ and minimising $f(w)$ are different tasks.
-
-### Worked example: computing $\sqrt3$
-
-For the example introduced on [[Lecture4_2026_extended.pdf#page=17|p. 17]], set $r(w)=w^2-3$. Then
-
-$$
-w_{k+1}=\frac12\left(w_k+\frac3{w_k}\right).
-$$
-
-Starting from $w_0=2$ gives $w_1=1.75$ and $w_2\approx1.732143$. Each step solves a local linear approximation to $r$, without needing a symbolic square-root formula.
-
-## Newton optimisation: minimise a local quadratic model
-
-Let $g_k=\nabla f(w_k)$ and $Q_k=\nabla^2f(w_k)$. Taylor's approximation gives
-
+Minimise the local quadratic Taylor model:
 $$
 q_k(p)=f(w_k)+g_k^Tp+\frac12p^TQ_kp.
 $$
-
-Setting its gradient to zero yields
-
+Its stationarity equation gives
 $$
-Q_kp_k=-g_k,\qquad
-p_k=-Q_k^{-1}g_k,\qquad
-w_{k+1}=w_k+p_k.
+Q_kp_k=-g_k,\qquad p_k=-Q_k^{-1}g_k,\qquad w_{k+1}=w_k+p_k.
 $$
+Pure Newton uses step size $\alpha_k=1$. In computation, solve the linear system rather than explicitly forming the inverse. For scalar $f$, the update is $w_{k+1}=w_k-f'(w_k)/f''(w_k)$.
 
-When $Q_k\succ0$, this stationary point is the quadratic model's unique minimiser. The **pure Newton step uses $\alpha_k=1$** along $p_k$. In computation, solve the linear system rather than explicitly forming the inverse.
-
-![[Lecture4_2026_extended.pdf#page=22]]
-
-**Key takeaway:** the Hessian adjusts movement for curvature in different directions. Newton minimises a local quadratic model, which need not match the true function well far from the current point. This extends [[L1 Course Introduction#Taylor approximations and the Hessian|L1's Taylor approximation]].
-
-### Fast convergence is local
-
-Near a minimiser $w^*$ with positive definite Hessian, Newton can converge **quadratically** under suitable smoothness assumptions (including a locally Lipschitz Hessian) and a sufficiently close starting point:
-
-$$
-\|w_{k+1}-w^*\|\le C\|w_k-w^*\|^2.
-$$
-
-This describes how quickly a small error shrinks; it is not a guarantee of reaching a minimum from any initial point.
-
-## Why Newton can fail
-
-- **Cost:** a dense $n\times n$ Hessian requires $O(n^2)$ storage; a general dense factorisation/solve costs $O(n^3)$. See [[Lecture4_2026_extended.pdf#page=24|p. 24]].
-- **Undefined step:** the required second derivatives may not exist, or the Hessian may be singular.
-- **Wrong direction:** an indefinite Hessian can produce an ascent direction.
-- **Poor initialisation:** the local model may give unhelpful steps or cycling.
-
-![[Lecture4_2026_extended.pdf#page=25]]
-
-**Key takeaway:** the left example concerns root finding for $r(w)=w^3-2w+2$. Starting at $0$, Newton cycles $0\to1\to0$. The right diagram shows an optimisation step following an unsuitable quadratic model. Both illustrate why fast local behaviour does not imply global convergence.
-
-### When is Newton's direction descent?
-
-For $g_k\ne0$ and $Q_k\succ0$,
-
+If $Q_k\succ0$, the quadratic model has a unique minimiser and, for $g_k\ne0$,
 $$
 g_k^Tp_k=-g_k^TQ_k^{-1}g_k<0.
 $$
+Newton's direction is then descent; the full step still need not decrease the true objective far from the solution.
 
-Positive definiteness makes the inverse positive definite too. Without it, the sign is not assured. Source: [[Lecture4_2026_extended.pdf#page=26|p. 26]].
+**Local quadratic convergence:** with a sufficiently close start, positive definite Hessian at the minimiser and suitable smoothness (e.g. locally Lipschitz Hessian),
+$$
+\|w_{k+1}-w^*\|\le C\|w_k-w^*\|^2.
+$$
+This is a local rate, not a global convergence guarantee.
 
-**Qualification to the slide:** a twice-differentiable local minimum need only have a positive **semidefinite** Hessian. Positive definiteness is an additional condition, not automatic; $f(w)=w^4$ at $0$ is a simple counterexample.
+**Limitations:** singular Hessian → undefined standard step; indefinite Hessian → possible ascent; poor starting point → bad steps/cycling. General dense Hessian storage is $O(n^2)$ and factorisation costs $O(n^3)$; structure can reduce costs.
+
+A $C^2$ local minimum only requires a **semidefinite** Hessian. Positive definiteness is an extra assumption: $f(w)=w^4$ has $f''(0)=0$ at its minimum.
 
 ## Quasi-Newton methods and rescaling
 
-[[Lecture4_2026_extended.pdf#page=28|p. 28]] motivates an intermediate update:
-
+Quasi-Newton uses an inverse-Hessian approximation $H_k$:
 $$
-w_{k+1}=w_k-\alpha_kH_kg_k.
+p_k=-H_kg_k,\qquad w_{k+1}=w_k+\alpha_kp_k.
 $$
+If $H_k\succ0$ and $g_k\ne0$, the direction is descent. L5 develops BFGS and L-BFGS to learn curvature without computing the exact Hessian each iteration.
 
-Here $H_k$ approximates the **inverse Hessian**. The goal is a more useful direction than $-g_k$ at lower cost than an exact Newton step. If $H_k\succ0$ and $g_k\ne0$, then $-H_kg_k$ is descent. This lecture introduces the motivation; it does not yet derive a quasi-Newton update rule.
-
-![[Lecture4_2026_extended.pdf#page=29]]
-
-**Key takeaway:** elongated contours can make steepest descent zigzag. Rescaling coordinates can make the contours rounder and the optimisation easier, even though the underlying minimum is unchanged.
-
-On [[Lecture4_2026_extended.pdf#page=30|p. 30]], set $w=Au$ with invertible $A$ and define $g(u)=f(Au)$. Then $w^*=Au^*$ and $g(u^*)=f(w^*)$.
-
-**Short derivation of the connection:** the chain rule gives $\nabla_u g(u)=A^T\nabla_w f(w)$. A gradient step in $u$, converted back to $w$, becomes
-
+For invertible coordinate change $w=Au$, define $\widetilde f(u)=f(Au)$:
 $$
-u_{k+1}=u_k-\alpha A^T\nabla f(w_k)
-\quad\Longrightarrow\quad
+\nabla_u\widetilde f(u)=A^T\nabla_w f(w).
+$$
+GD in $u$, mapped back to $w$, becomes
+$$
 w_{k+1}=w_k-\alpha AA^T\nabla f(w_k).
 $$
+Rescaling changes GD trajectories and can improve conditioning. The underlying objective and corresponding minimisers remain equivalent.
 
-So rescaling induces a matrix-scaled gradient step. Equivalent optimisation problems can have very different steepest-descent trajectories.
+## Connections
 
-## Important results
+- **[[L1 Course Introduction#Taylor approximations and the Hessian|L1]] → Newton:** second-order Taylor supplies the local model; bases explain rescaling.
+- **[[L2 Optimisation and Gradient Descent#Stationary points and minima|L2]] → interpretation:** a small gradient alone does not establish a minimum.
+- **[[L3 Line Search and Momentum|L3]] → step selection:** separate the Newton/quasi-Newton direction from its step size.
+- **[[L5 Rescaling and Quasi-Newton Methods|L5]]:** BFGS approximates curvature; L-BFGS limits storage. SGD reduces data-evaluation cost, while these methods address curvature computation/storage.
+- **TUT4:** apply full/mini/single-sample updates to the same logistic loss and compare total computation.
 
-- Uniformly sampled component/mini-batch gradients are unbiased estimates of the full empirical gradient.
-- SGD makes each update cheaper; a noisy gradient changes how we assess convergence.
-- Newton root finding uses $r/r'$; Newton optimisation uses $f'/f''$ or solves $Q_kp_k=-g_k$.
-- Positive definite curvature ensures Newton's direction is descent; quadratic convergence needs local assumptions.
-- Quasi-Newton methods seek useful curvature scaling at lower cost; rescaling explains why the geometry matters.
+For examples: [[Lecture4_2026_extended.pdf#page=12|SGD, pp. 12–15]] · [[Lecture4_2026_extended.pdf#page=17|Newton, pp. 17–27]] · [[Lecture4_2026_extended.pdf#page=28|quasi-Newton/rescaling, pp. 28–30]].

@@ -110,28 +110,28 @@ I have found that trying to blast through the list in order has not proven very 
 63. Word Search II
 
 #### 9. Heap / Priority Queue
-64. Kth Largest Element in a Stream
-65. Last Stone Weight
-66. K Closest Points to Origin
-67. Kth Largest Element in an Array
-68. Task Scheduler
+64. [[Kth Largest Element in a Stream]]
+65. [[Last Stone Weight]]
+66. [[K Closest Points to Origin]]
+67. [[Kth Largest Element in an Array]]
+68. [[Task Scheduler]]
 69. Design Twitter
 70. Find Median from Data Stream
 
 #### 10. Backtracking
-71. Subsets
-72. Combination Sum
-73. Permutations
-74. Subsets II
-75. Combination Sum II
-76. Word Search
+71. [[Subsets]]
+72. [[Combination Sum]]
+73. [[Permutations]]
+74. [[Subsets II]]
+75. [[Combination Sum II]]
+76. [[Word Search]]
 77. Palindrome Partitioning
 78. Letter Combinations of a Phone Number
 79. N-Queens
 
 #### 11. Graphs
-80. Number of Islands
-81. Clone Graph
+80. [[Number of Islands]]
+81. [[Clone Graph]]
 82. Max Area of Island
 83. Pacific Atlantic Water Flow
 84. Surrounded Regions
@@ -142,8 +142,6 @@ I have found that trying to blast through the list in order has not proven very 
 89. Graph Valid Tree
 90. Number of Connected Components in an Undirected Graph
 91. Redundant Connection
-92. Word Ladder
-
 #### 12. Advanced Graphs
 93. Reconstruct Itinerary
 94. Min Cost to Connect All Points
@@ -161,7 +159,7 @@ I have found that trying to blast through the list in order has not proven very 
 104. Palindromic Substrings
 105. Decode Ways
 106. Coin Change
-107. Maximum Product Subarray
+107. Maximum Product Subarray (tiktok)
 108. Word Break
 109. Longest Increasing Subsequence
 110. Partition Equal Subset Sum
@@ -215,3 +213,10 @@ I have found that trying to blast through the list in order has not proven very 
 148. Missing Number
 149. Sum of Two Integers
 150. [[Reverse Integer]]
+
+
+### Outisde of Neetcode List
+1. [[Max Consecutive Ones]]
+2. Max Consecutive Ones III
+
+

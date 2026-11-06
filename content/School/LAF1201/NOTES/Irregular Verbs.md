@@ -397,6 +397,37 @@ Example:
 
 
 
+# LIRE (to read)
+⚠️ Irregular **-RE verb**
+## Conjugation (Présent)
+
+| Pronoun        | LIRE   |
+| -------------- | ------ |
+| je             | lis    |
+| tu             | lis    |
+| il / elle / on | lit    |
+| nous           | lisons |
+| vous           | lisez  |
+| ils / elles    | lisent |
+
+⚠️ Stem changes:
+- **li-** → je, tu, il / elle / on
+- **lis-** → nous, vous, ils / elles
+- **lis** and **lit** sound the same; the final **s / t** is silent.
+- In **lisent**, **-ent** is silent, but the **s** is pronounced /z/.
+
+## Uses of LIRE
+#### 1. Reading Something
+- Je lis un livre. (I am reading a book.)
+- Nous lisons le journal. (We read the newspaper.)
+#### 2. Reading in a Language
+- Elle lit en français. (She reads in French.)
+
+## Passé Composé
+Uses **avoir** + the irregular past participle **lu**: see [[Passé Composé]].
+- J’ai lu un livre. (I read / have read a book.)
+
+
 # Boire (To Drink)
 ⚠️ Irregular **-RE verb**
 ## Conjugation
@@ -492,3 +523,439 @@ Example sentences:
 - Je dois finir mes devoirs.
 - Nous devons aller à l’université.
 - Ils doivent prendre le bus.
+
+
+# SAVOIR (to know facts / to know how to)
+⚠️ Irregular **-OIR verb**
+## Conjugation (Présent)
+
+| Pronoun | SAVOIR |
+| --- | --- |
+| je | sais |
+| tu | sais |
+| il / elle / on | sait |
+| nous | savons |
+| vous | savez |
+| ils / elles | savent |
+
+Use **savoir + infinitive** for knowing how to do something; use **connaître** for familiarity with people, places, or things.
+
+## Example
+- Je sais parler français. (I know how to speak French.)
+
+## Passé Composé
+- **avoir + su**.
+
+
+# VOIR (to see)
+⚠️ Irregular **-OIR verb**
+## Conjugation (Présent)
+
+| Pronoun | VOIR |
+| --- | --- |
+| je | vois |
+| tu | vois |
+| il / elle / on | voit |
+| nous | voyons |
+| vous | voyez |
+| ils / elles | voient |
+
+Notice **voy-** in the nous / vous forms.
+
+## Example
+- Nous voyons un film. (We are watching a film.)
+
+## Passé Composé
+- **avoir + vu**.
+
+
+# DIRE (to say / to tell)
+⚠️ Irregular **-RE verb**
+## Conjugation (Présent)
+
+| Pronoun | DIRE |
+| --- | --- |
+| je | dis |
+| tu | dis |
+| il / elle / on | dit |
+| nous | disons |
+| vous | dites |
+| ils / elles | disent |
+
+Remember **vous dites**, with no **-isez**.
+
+## Example
+- On dit mardi à quinze heures ? (Shall we say Tuesday at three p.m.?)
+
+## Passé Composé
+- **avoir + dit**.
+
+
+# ÉCRIRE (to write)
+⚠️ Irregular **-RE verb**
+## Conjugation (Présent)
+
+| Pronoun | ÉCRIRE |
+| --- | --- |
+| je | écris |
+| tu | écris |
+| il / elle / on | écrit |
+| nous | écrivons |
+| vous | écrivez |
+| ils / elles | écrivent |
+
+The plural forms use **écriv-**.
+
+## Example
+- J’écris un message. (I am writing a message.)
+
+## Passé Composé
+- **avoir + écrit**.
+
+
+# METTRE (to put / to put on)
+⚠️ Irregular **-RE verb**
+## Conjugation (Présent)
+
+| Pronoun | METTRE |
+| --- | --- |
+| je | mets |
+| tu | mets |
+| il / elle / on | met |
+| nous | mettons |
+| vous | mettez |
+| ils / elles | mettent |
+
+Singular forms use **met-**; plural forms use **mett-**.
+
+## Example
+- Je mets une veste. (I am putting on a jacket.)
+
+## Passé Composé
+- **avoir + mis**.
+
+
+# DORMIR (to sleep)
+⚠️ Irregular **-IR verb**
+## Conjugation (Présent)
+
+| Pronoun | DORMIR |
+| --- | --- |
+| je | dors |
+| tu | dors |
+| il / elle / on | dort |
+| nous | dormons |
+| vous | dormez |
+| ils / elles | dorment |
+
+Drops the **m** in the singular. Its past participle **dormi** has a regular **-i** ending.
+
+## Example
+- Je dors huit heures par nuit. (I sleep eight hours a night.)
+
+## Passé Composé
+- **avoir + dormi**.
+
+
+# SORTIR (to go out / to take out)
+⚠️ Irregular **-IR verb**
+## Conjugation (Présent)
+
+| Pronoun | SORTIR |
+| --- | --- |
+| je | sors |
+| tu | sors |
+| il / elle / on | sort |
+| nous | sortons |
+| vous | sortez |
+| ils / elles | sortent |
+
+Like **partir**, drops the final stem consonant in the singular. Use **être** for going out, **avoir** when taking something out: **Je suis sorti(e)** / **J’ai sorti les clés**.
+
+## Example
+- Nous sortons ce soir. (We are going out tonight.)
+
+## Passé Composé
+- **être / avoir + sorti**.
+
+
+# OFFRIR (to give as a present / to offer)
+⚠️ Irregular **-IR verb**
+## Conjugation (Présent)
+
+| Pronoun | OFFRIR |
+| --- | --- |
+| je | offre |
+| tu | offres |
+| il / elle / on | offre |
+| nous | offrons |
+| vous | offrez |
+| ils / elles | offrent |
+
+An **-IR** verb that takes regular **-ER present-tense endings**: -e, -es, -e, -ons, -ez, -ent.
+
+## Example
+- J’offre un cadeau à mon ami. (I am giving my friend a present.)
+
+## Passé Composé
+- **avoir + offert**.
+
+
+# RIRE (to laugh)
+⚠️ Irregular **-RE verb**
+## Conjugation (Présent)
+
+| Pronoun | RIRE |
+| --- | --- |
+| je | ris |
+| tu | ris |
+| il / elle / on | rit |
+| nous | rions |
+| vous | riez |
+| ils / elles | rient |
+
+Keep **ri-** throughout the present tense, including **nous rions** and **vous riez**.
+
+## Example
+- Nous rions beaucoup. (We laugh a lot.)
+
+## Passé Composé
+- **avoir + ri**.
+
+
+# TENIR (to hold)
+⚠️ Irregular **-IR verb**
+## Conjugation (Présent)
+
+| Pronoun | TENIR |
+| --- | --- |
+| je | tiens |
+| tu | tiens |
+| il / elle / on | tient |
+| nous | tenons |
+| vous | tenez |
+| ils / elles | tiennent |
+
+Follows the same present-tense pattern as **venir**: **tien- / ten- / tienn-**.
+
+## Example
+- Elle tient un chien dans ses bras. (She is holding a dog in her arms.)
+
+## Passé Composé
+- **avoir + tenu**.
+
+
+# VIVRE (to live)
+⚠️ Irregular **-RE verb**
+## Conjugation (Présent)
+
+| Pronoun | VIVRE |
+| --- | --- |
+| je | vis |
+| tu | vis |
+| il / elle / on | vit |
+| nous | vivons |
+| vous | vivez |
+| ils / elles | vivent |
+
+Singular forms use **vi-**; plural forms use **viv-**.
+
+## Example
+- Je vis à Singapour. (I live in Singapore.)
+
+## Passé Composé
+- **avoir + vécu**.
+
+
+# CONDUIRE (to drive)
+⚠️ Irregular **-RE verb**
+## Conjugation (Présent)
+
+| Pronoun | CONDUIRE |
+| --- | --- |
+| je | conduis |
+| tu | conduis |
+| il / elle / on | conduit |
+| nous | conduisons |
+| vous | conduisez |
+| ils / elles | conduisent |
+
+The plural forms use **conduis-**; the **s** is pronounced /z/.
+
+## Example
+- Je conduis une voiture. (I drive a car.)
+
+## Passé Composé
+- **avoir + conduit**.
+
+
+# S’ASSEOIR (to sit down)
+⚠️ Irregular **-OIR verb** — reflexive; uses [[Reflexive Pronouns]].
+## Conjugation (Présent)
+
+| Pronoun | S’ASSEOIR |
+| --- | --- |
+| je | m’assieds |
+| tu | t’assieds |
+| il / elle / on | s’assied |
+| nous | nous asseyons |
+| vous | vous asseyez |
+| ils / elles | s’asseyent |
+
+Two standard present-tense patterns exist. The other pattern is **je m’assois, tu t’assois, il s’assoit, nous nous assoyons, vous vous assoyez, ils s’assoient**. Both patterns appear in your materials. Commands include **Assieds-toi ! / Assois-toi !** and **Asseyez-vous ! / Assoyez-vous !**.
+
+## Example
+- Je m’assois pour regarder la télé. (I sit down to watch TV.)
+
+## Passé Composé
+- **être + assis**; the past participle agrees with the subject.
+
+
+# FALLOIR (to be necessary / to have to)
+⚠️ Irregular **-OIR verb** — impersonal: only used with **il**.
+## Conjugation (Présent)
+
+| Pronoun | FALLOIR |
+| --- | --- |
+| il | faut |
+
+## Structure and Examples
+**Il faut + infinitive** expresses necessity or obligation.
+- Il faut travailler. (You have to work.)
+- Il faut boire de l’eau. (You need to drink water.)
+- Il ne faut pas fumer. (You must not smoke.)
+
+## Passé Composé
+- **Il a fallu** — it was necessary / someone had to.
+
+
+# APPRENDRE (to learn)
+⚠️ Irregular **-RE verb**
+## Conjugation (Présent)
+
+| Pronoun | APPRENDRE |
+| --- | --- |
+| je | apprends |
+| tu | apprends |
+| il / elle / on | apprend |
+| nous | apprenons |
+| vous | apprenez |
+| ils / elles | apprennent |
+
+Follows **prendre**: **apprend- / appren- / apprenn-**. Use **apprendre à + infinitive** for learning to do something.
+
+## Example
+- J’apprends à conduire. (I am learning to drive.)
+
+## Passé Composé
+- **avoir + appris**.
+
+
+# COMPRENDRE (to understand)
+⚠️ Irregular **-RE verb**
+## Conjugation (Présent)
+
+| Pronoun | COMPRENDRE |
+| --- | --- |
+| je | comprends |
+| tu | comprends |
+| il / elle / on | comprend |
+| nous | comprenons |
+| vous | comprenez |
+| ils / elles | comprennent |
+
+Follows **prendre**: **comprend- / compren- / comprenn-**.
+
+## Example
+- Nous comprenons la question. (We understand the question.)
+
+## Passé Composé
+- **avoir + compris**.
+
+
+# DEVENIR (to become)
+⚠️ Irregular **-IR verb**
+## Conjugation (Présent)
+
+| Pronoun | DEVENIR |
+| --- | --- |
+| je | deviens |
+| tu | deviens |
+| il / elle / on | devient |
+| nous | devenons |
+| vous | devenez |
+| ils / elles | deviennent |
+
+Follows **venir**: **devien- / deven- / devienn-**.
+
+## Example
+- Elle devient médecin. (She is becoming a doctor.)
+
+## Passé Composé
+- **être + devenu**; the past participle agrees with the subject.
+
+
+# REVENIR (to come back)
+⚠️ Irregular **-IR verb**
+## Conjugation (Présent)
+
+| Pronoun | REVENIR |
+| --- | --- |
+| je | reviens |
+| tu | reviens |
+| il / elle / on | revient |
+| nous | revenons |
+| vous | revenez |
+| ils / elles | reviennent |
+
+Follows **venir**: **revien- / reven- / revienn-**.
+
+## Example
+- Je reviens demain. (I am coming back tomorrow.)
+
+## Passé Composé
+- **être + revenu**; the past participle agrees with the subject.
+
+
+# NAÎTRE (to be born)
+⚠️ Irregular **-RE verb**
+## Conjugation (Présent)
+
+| Pronoun | NAÎTRE |
+| --- | --- |
+| je | nais |
+| tu | nais |
+| il / elle / on | naît |
+| nous | naissons |
+| vous | naissez |
+| ils / elles | naissent |
+
+Notice **il naît** and **naiss-** in the plural. In LAF2201, this is mainly encountered in the passé composé: **Je suis né(e)**.
+
+## Example
+- Je suis né(e) à Singapour. (I was born in Singapore.)
+
+## Passé Composé
+- **être + né**; the past participle agrees with the subject.
+
+
+# MOURIR (to die)
+⚠️ Irregular **-IR verb**
+## Conjugation (Présent)
+
+| Pronoun | MOURIR |
+| --- | --- |
+| je | meurs |
+| tu | meurs |
+| il / elle / on | meurt |
+| nous | mourons |
+| vous | mourez |
+| ils / elles | meurent |
+
+Stem changes: **meur- / mour- / meur-**. In LAF2201, this is mainly encountered in the passé composé: **Il est mort / Elle est morte**.
+
+## Example
+- La plante meurt. (The plant is dying.)
+
+## Passé Composé
+- **être + mort**; the past participle agrees with the subject.

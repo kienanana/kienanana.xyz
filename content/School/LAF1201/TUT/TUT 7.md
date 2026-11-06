@@ -13,7 +13,7 @@ aliases:
 ## Preposition Revision 
 https://french.withdrchan.com/prepositions
 
-:LiLightbulb: Refer to [[L8]] for weather vocab. 
+:LiLightbulb: Refer to [[School/LAF1201/LEC/L8]] for weather vocab. 
 
 ![[Screenshot 2026-03-23 at 5.47.23 PM.png]]
 

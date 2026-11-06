@@ -7,6 +7,7 @@ tags:
 source:
   - "[[School/LAF2201/LEC/L2|LAF2201 LEC 2]]"
   - "[[School/LAF2201/TUT/TUT 1|LAF2201 TUT 1]]"
+  - "[[School/LAF2201/TUT/TUT 6|LAF2201 TUT 6]]"
 related:
   - "[[Imparfait]]"
   - "[[Irregular Verbs]]"
@@ -15,7 +16,7 @@ related:
   - "[[RE Verbs]]"
 author:
 date: 2026-08-27
-updated: 2026-09-23
+updated: 2026-10-08
 aliases:
   - Le passé composé
   - Passe Compose
@@ -87,6 +88,17 @@ Some verbs, especially verbs of movement or change of state, or reflexive verbs 
 Reflexive verbs also form the passé composé with **être**:
 - Je **me suis habillé(e)**.
 - Elle **s'est levée** tôt.
+
+Examples from [[School/LAF2201/TUT/TUT 6|TUT 6]]:
+
+| Le verbe | Le verbe au passé composé |
+| --- | --- |
+| se laver | je me suis lavé(e) |
+| se blesser | je me suis blessé(e) |
+| se maquiller | je me suis maquillé(e) |
+| se coucher | je me suis couché(e) |
+
+The reflexive pronoun comes **before être**. **(e)** marks feminine agreement in these examples; see [[#Accord du participe passé|agreement exceptions]].
 
 ### Verbs that can also take *avoir*
 Some verbs in the list—especially **monter, descendre, sortir, rentrer, retourner**, and **passer**—use **avoir** when they take a direct object. Compare:

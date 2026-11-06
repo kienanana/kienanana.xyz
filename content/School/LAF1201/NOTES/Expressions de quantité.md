@@ -38,7 +38,7 @@ Expressions of how much or how many of a given noun.
 	- un kilo de 
 	- un mètre de 
 
-# [[L11#Les quantités]]
+# [[School/LAF1201/LEC/L11#Les quantités]]
 - un peu de - a bit
 - beaucoup de - a lot 
 - une tablette - a bar 

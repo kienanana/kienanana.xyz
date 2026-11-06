@@ -4,6 +4,7 @@ tags:
   - y4s1
   - finance/markets
   - finance/trading
+  - finance/risk
 source:
 related:
 author:

@@ -1,5 +1,15 @@
 # LAF2201 Anki
 
+## Important Unité 7 vocabulary — manual import
+
+Run [add_unit7_vocab_in_anki.py](add_unit7_vocab_in_anki.py) in Anki's debug console:
+
+```python
+import runpy; runpy.run_path('/Users/kienanana/Documents/VAULT/School/LAF2201/ANKI/add_unit7_vocab_in_anki.py', run_name='__main__')
+```
+
+The curated [manifest](new-vocab-20261013.json) contains 201 important entries from L7 and TUT 5–6: 81 housing, 50 life changes, 32 family, seven film genres, and 31 frequency/general expressions. The preview on 2026-10-13 found 189 new notes and 12 existing matches. The script creates **LAF2201 Topics::Housing** and **LAF2201 Topics::Life Changes**, refreshes the four relevant existing topic decks, and retains normal home decks and review history. Practice decks have rescheduling disabled, as with the existing topics. It saves a backup before changes and a verification receipt afterward; reruns reuse existing notes. It does not sync to AnkiWeb. The manual import has not yet been run.
+
 Vocabulary comes from [[LAF2201 Vocab Bank]]. Grammar prompts, answers and source paths are maintained in [grammar.json](grammar.json). The importer is `/Users/kienanana/Documents/obsidian-scripts/french.py`.
 
 Preview changes:
@@ -51,3 +61,90 @@ Filtered-deck behavior: [Anki manual](https://docs.ankiweb.net/filtered-decks.ht
 - Seven offline importer checks and `git diff --check` passed.
 - Backup: [20260923-161633-591144.json](backups/20260923-161633-591144.json); [receipt](backups/20260923-161633-591144.receipt.json).
 - Imported into local Anki; no AnkiWeb sync requested. Rebuild the LAF2201 filtered deck to refresh its study batch.
+
+## Missing vocabulary prepared on 2026-10-20
+
+Live AnkiConnect audit: 1,333 French notes, including 998 tagged LAF2201.
+Of 1,153 unique vocabulary entries in the current bank, 909 matched existing
+notes and 244 were missing. Grammar was excluded from this vocabulary audit.
+The parser copy `french_vocab_20261020.py` also handles the chronological routine
+and housing abbreviation tables, and excludes the English “also dear” annotation
+from French fronts.
+
+Prepared, **not imported**: [manifest](new-vocab-20261020.json),
+[audit](vocab-audit-20261020.json), and
+[manual importer](add_missing_vocab_20261020_in_anki.py).
+
+In Anki, open the debug console (Mac: Cmd+Shift+;) and run:
+
+```python
+import runpy; runpy.run_path('/Users/kienanana/Documents/VAULT/School/LAF2201/ANKI/add_missing_vocab_20261020_in_anki.py', run_name='__main__')
+```
+
+This creates nine filtered practice decks under **LAF2201 New Vocab 2026-10-20**:
+Housing and Furniture (83), Family and Relationships (20), Life Changes and
+Moving (23), Films and Stories (17), Everyday Expressions (21), Moving Abroad
+(15), Telephone Calls (41), Address Changes and Correspondence (19), and Daily
+Routines (5). New cards live in French::Vocab. Practice rescheduling is disabled.
+The importer rechecks for existing matches, leaves reused note fields untouched,
+saves a local audit backup, verifies content and existing review counters, and
+writes `vocab-20261020-manual-receipt.json`. It can be rerun and does not sync
+to AnkiWeb. Counts may shrink if other imports happen before running it.
+
+## Unité 8 — prepared on 2026-11-03
+
+Read-only AnkiConnect inspection found 1,577 `French Vocab` notes. The curated
+[manifest](unit8-vocab.json) contains 171 unique entries from the Unité 8 lesson
+banks and the activity-book audit: **158 new notes and 13 existing matches** at
+preview time. This covers the previously unimported body/health and L10 vocabulary
+as well as the later activity-book additions. Examples stay on the back of their
+headword card; they are not separately imported. Grammar is excluded.
+
+Run [add_unit8_vocab_in_anki.py](add_unit8_vocab_in_anki.py) inside Anki's debug
+console (Mac: Cmd+Shift+;), then execute with Cmd+Return:
+
+```python
+import runpy; runpy.run_path('/Users/kienanana/Documents/VAULT/School/LAF2201/ANKI/add_unit8_vocab_in_anki.py', run_name='__main__')
+```
+
+| Topic deck | Action | Unit 8 entries | New at preview | Reused |
+| --- | --- | ---: | ---: | ---: |
+| Unité 8 - Situation 1 - Health and Wellbeing | Create under LAF2201 Topics | 66 | 60 | 6 |
+| Unité 8 - Situations 2-3 - Technology and Communication | Create under LAF2201 Topics | 82 | 76 | 6 |
+| Work and Education | Extend existing deck | 10 | 9 | 1 |
+| General Vocabulary | Extend existing deck | 13 | 13 | 0 |
+
+AnkiConnect is used for the preparatory inspection. The script runs through Anki's
+collection API inside its console; calling the AnkiConnect HTTP server from its own
+UI thread could deadlock. The script rechecks current notes before writing. New
+notes live in **French::Vocab**, and topic decks are filtered practice decks with
+rescheduling disabled. Selected existing cards are returned from any other
+filtered deck before loading the target topic. The two reused topic searches keep
+previous entries, except Unit 8 cards assigned to another of these four topics.
+No decks or notes are deleted, and no AnkiWeb sync is performed.
+
+Existing content and tags are preserved, with three explicit exceptions: the old
+`une brosse à dent` spelling becomes `une brosse à dents`; the reused `les yeux`
+card gains the singular `l'œil` in Notes; and the reused `aider` card gains its
+`aider quelqu'un à + infinitive` construction in Notes. Keys and note IDs remain
+unchanged. Existing home decks, home due values, review counters and the review log
+are verified after import.
+
+A timestamped backup of the plan, reused notes, affected card states and deck
+settings is saved in `backups/` before writes. The script creates
+`unit8-import-receipt.json` after verification and can be rerun without adding
+duplicate notes. The current [preview](unit8-preview.json) is not an import receipt.
+The script has been prepared and tested offline; it has **not** been run against
+the collection.
+
+Offline checks (seven tests: examples, aliases, content, reruns, ambiguous matches,
+existing deck searches, and legacy deck-name handling):
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 python3 School/LAF2201/ANKI/test_unit8_import.py
+```
+
+The two new decks include the unit and situation in their names. The shared Work
+and Education and General Vocabulary decks retain their existing names. If the
+script was already run with the original two names, rerunning renames those decks
+in place rather than creating duplicates.

@@ -429,7 +429,7 @@ See [[Expressions de quantité]] for containers and approximations
 - dixième — 10th
 
 # Transport
-See [[L9]] for preposition rules (en vs à)
+See [[School/LAF1201/LEC/L9]] for preposition rules (en vs à)
 
 ### en (sheltered / enclosed)
 - le bus — bus

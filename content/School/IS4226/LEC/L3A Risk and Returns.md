@@ -4,6 +4,7 @@ tags:
   - y4s1
   - finance/risk
   - finance/returns
+  - finance/metrics
 source:
 related:
 author:

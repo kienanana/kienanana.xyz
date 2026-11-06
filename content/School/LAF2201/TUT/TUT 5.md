@@ -12,7 +12,7 @@ aliases:
 ---
 # Unite 7 
 # Situation 1: Parler de sa famille
-> insert image here
+![[Screenshot 2026-10-06 at 6.08.14 PM.png]]
 
 ![[Screenshot 2026-10-01 at 6.07.05 PM.png|385]]
 
