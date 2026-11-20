@@ -132,7 +132,7 @@ I have found that trying to blast through the list in order has not proven very 
 #### 11. Graphs
 80. [[Number of Islands]]
 81. [[Clone Graph]]
-82. Max Area of Island
+82. [[Max Area of Island]]
 83. Pacific Atlantic Water Flow
 84. Surrounded Regions
 85. Rotting Oranges
